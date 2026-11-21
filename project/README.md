@@ -43,8 +43,19 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 | 06 | Low-fidelity wireframes | Initial Figma screens created |
 | 07 | Interactive prototype | Basic screen navigation created; forms remain static |
 | 08 | Usability testing and UI guideline | Three-person navigation walkthrough reported; full task not yet tested |
-| 09 | Design revisions, components, handoff | Three revisions planned; implementation and verification pending |
+| 09 | Design revisions, components, handoff | Three revisions implemented, 15 Figma variants and handoff created; user re-test pending |
 | 10 | Final presentation and reflection | Not started |
+
+## Homework 09 — Design Iterations Implemented
+
+After preserving the grayscale and first yellow/white prototypes, a separate Figma row now contains revised screen designs. Three refinements were implemented: **I-01 clearer required fields/error guidance**, **I-02 minimum photo count and recommended views**, and **I-03 review/edit and truthful prototype completion**.
+
+- [Revised listing flow](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2)
+- [Figma reusable component sets](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-2) — 15 variants across button, input, alert and photo tile
+- [Developer handoff notes](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-55)
+- [Homework 09 before/after evidence](../homework/09/README.md)
+
+**Outstanding:** User follow-up evaluation of changed screens, end-to-end realistic task testing and final human visual/accessibility QA. The three refinements have been built, **not proven to improve performance**.
 
 ## Initial Usability Walkthrough Results (Owner-Reported, 2026-11-21)
 
