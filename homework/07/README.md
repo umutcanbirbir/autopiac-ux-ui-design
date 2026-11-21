@@ -1,7 +1,8 @@
 # Homework 07 — Interactive Figma Prototype
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Interaction specification; clickable prototype and peer feedback pending.
+**Status:** Basic clickable frame navigation implemented; actual feedback and data-aware interactions pending.
+**Figma file:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm
 
 ## Primary Interaction Path
 Start → Vehicle Details → Photo Upload → Price & Description → Review → Publish → Success.
@@ -30,8 +31,8 @@ Ask at least one real student to try the flow and note a minimum of three specif
 | Not yet tested | — | — | — |
 
 ## Completion Checklist
-- [ ] Figma prototype share link.
-- [ ] Connected main task path.
-- [ ] Success and exceptional states.
+- [x] Figma prototype share link.
+- [x] Connected frame-to-frame main task path (not dynamic forms).
+- [x] Success screen and photo error branch; missing-field state pending.
 - [ ] At least one actual peer walkthrough.
 - [ ] Three recorded concrete observations.
