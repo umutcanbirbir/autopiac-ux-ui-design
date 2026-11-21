@@ -72,6 +72,6 @@ The later interview and follow-up helped me identify missing vehicle details and
 
 The next steps are to collect additional feedback on the new equipment/condition screen, document the terminology test, check remaining accessibility details and prepare the final presentation. The current Figma file is a clickable design demonstration, not a functioning listing application.
 
-The [GitHub Projects workspace](https://github.com/users/umutcanbirbir/projects/1/views/1) has been created. Its Board view and issue cards still need configuration. The [repository task overview](KANBAN.md) and [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) show the current work.
+The [AutoPiac GitHub Projects Board](https://github.com/users/umutcanbirbir/projects/1/views/1) now displays all eight repository issues in Todo / In Progress / Done columns. The [repository task overview](KANBAN.md) and [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) provide the detailed work list.
 
 [Design QA notes](docs/design-qa-2026-11-21.md) · [Color guideline](docs/color-guideline.md) · [Design decision log](docs/decision-log.md)
