@@ -1,51 +1,43 @@
-# AutoPiac — Yellow & White UI Color Guideline
+# AutoPiac — Color and UI Guidelines
 
 **Student:** Umut Can Birbir (DUJ3ZD)  
-**Design file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC  
-**Date:** 2026-11-21  
-**Status:** Visual palette applied to copied UI screens; final accessibility and visual QA pending.
+**Figma:** [AutoPiac design](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)
 
-## Rationale
-The AutoPiac interface uses a warm yellow-and-white automotive-classifieds visual direction, inspired by a familiar Hungarian/Turkish online marketplace pattern rather than copying any competitor's logo or trade dress. The low-fidelity monochrome wireframes are preserved as evidence of process; the color exploration is a separate row of frames in the same Figma design document.
+## Visual Direction
 
-## Color Tokens
+I chose a yellow-and-white design for AutoPiac to give the car-listing flow a familiar marketplace appearance. Yellow highlights important actions and progress; white keeps the form areas clear and readable.
 
-| Token | Hex | Usage |
+The Figma file also contains the original grayscale wireframes so the visual development can be compared.
+
+## Color Palette
+
+| Color | Hex | Use |
 | --- | --- | --- |
-| Brand / Primary | `#FFD400` | Main buttons, step progress, actions |
-| Brand / Yellow Pale | `#FFF7D8` | Helpful information cards and guidance |
-| Brand / Yellow Soft | `#FFF0A8` | Success / special emphasis surfaces |
-| Brand / Gold Border | `#E7CA63` | Highlighted cards and accents |
-| Brand / Gold Text | `#775700` | Colored status and progress labels |
-| Surface / White | `#FFFFFF` | Main form screens, inputs, cards |
-| Surface / Warm | `#FFFDF8` | Optional page backgrounds |
-| Text / Primary | `#1F1F1F` | Headings, labels and yellow CTA text |
-| Text / Secondary | `#6D675C` | Descriptions and placeholders |
-| Border / Neutral | `#D5D0C4` | Text field outlines and secondary buttons |
-| Border / Error | `#B42331` | Invalid fields and error messages |
-| Progress / Upcoming | `#E8E5DF` | Incomplete steps |
+| Primary Yellow | `#FFD400` | Main buttons and progress |
+| Pale Yellow | `#FFF7D8` | Information panels |
+| Soft Yellow | `#FFF0A8` | Highlighted surfaces |
+| Gold Border | `#E7CA63` | Selected options and special cards |
+| Gold Text | `#775700` | Status labels on light yellow |
+| White | `#FFFFFF` | Cards and form fields |
+| Primary Text | `#1F1F1F` | Titles and main labels |
+| Secondary Text | `#6D675C` | Explanations |
+| Neutral Border | `#D5D0C4` | Input outlines |
+| Error | `#B42331` | Validation messages |
+| Inactive Step | `#E8E5DF` | Upcoming progress steps |
 
-## UI Usage Rules
+## Design Rules
 
-- **Primary action:** yellow background with dark text. Avoid white text on yellow due to insufficient contrast.
-- **Secondary action:** white background with neutral border and dark text.
-- **Progress:** yellow completed stages and neutral upcoming stages.
-- **Information boxes:** light yellow surface, warm border, dark content.
-- **Inputs:** white fields, neutral border and visible labels.
-- **Validation:** dark red text and border, supported by explicit field-level instructions.
-- **White space:** keep most screen area white; use yellow for decisions, progress and highlights.
+- Use dark text on yellow primary buttons for legibility.
+- Use white with a visible border for secondary actions.
+- Keep labels visible instead of relying only on placeholder text.
+- Explain validation errors with words as well as color.
+- Use consistent spacing and clear step indicators.
+- Keep enough space between fields and buttons on mobile.
 
-## Figma Layers
+## Components
 
-**Original low-fidelity section:** 9 initial grayscale wireframe frames.  
-**Color exploration section:** 9 cloned frames prefixed `COLOR /`, starting with node `9:2` and vehicle details `9:20`.
+The [Figma mini design system](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-2) contains button, input, alert and photo-tile variants.
 
-The colored frame set has buttons linked to corresponding colored screens. There are demonstration-specific links for photo requirements and missing-field error states. Like the monochrome prototype, inputs are illustrative Figma layers — not HTML inputs.
+I checked several main text/color combinations during the [design QA](design-qa-2026-11-21.md). Further keyboard, screen-reader and full accessibility testing is still needed.
 
-## Remaining Checks
-
-- [ ] Final human visual inspection of all nine screens.
-- [ ] Evaluate text and UI-component contrast ratios in final design.
-- [ ] Confirm focus, hover and disabled states when building reusable components.
-- [ ] Conduct actual user tests and document observed issues.
-- [ ] Compare before/after screens in the final course presentation.
+The current Figma inputs and choices demonstrate the visual design and screen navigation; they do not save form values.
