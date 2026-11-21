@@ -47,6 +47,19 @@ autopiac-ux-ui-design/
 5. Clickable Figma prototype.
 6. Usability tests, revisions, UI guidelines, and final presentation.
 
+## Interactive Browser Demo (Data Entry and Photo Upload)
+
+The [standalone interactive prototype](docs/index.html) is a pure HTML/CSS/JavaScript simulation that can be used directly in a browser. Unlike the Figma wireframes, it supports:
+
+- Vehicle brand/model selection, year, mileage, fuel, and transmission inputs.
+- Uploading 5–30 local photographs (max 8 MB each), previewing, reordering, and removing them.
+- Price, title, condition, and description fields.
+- Required-field validation, review, editing and successful task completion.
+
+**Privacy:** Images and form values remain inside the user's browser; no backend, database, authentication or real listing publication exists. The success screen confirms completion of the **prototype task only**.
+
+**How to publish on GitHub Pages:** Repository → Settings → Pages → Build and deployment → Deploy from a branch → main → /docs → Save. The expected site address is `https://umutcanbirbir.github.io/autopiac-ux-ui-design/`, **after GitHub Pages finishes publication**.
+
 ## Figma Wireframes and Prototype
 
 - [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)
