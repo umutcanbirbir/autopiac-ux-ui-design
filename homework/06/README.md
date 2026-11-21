@@ -2,7 +2,7 @@
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
 **Status:** Initial editable wireframes created in Figma on 2026-11-21; detailed QA pending.
-**Figma file:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm
+**Figma file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC
 
 ## Scope
 Design the seller's primary listing task with 5–6 connected grayscale wireframes. Keep visual decoration minimal; emphasize structure, hierarchy, form requirements, and screen states.
