@@ -73,7 +73,7 @@ Each variant has clickable alternatives that change the whole control to the sel
 
 **Checked in Figma:** 20 valid between-state click reactions; all five variants display exactly one selected option and the correct label. The initial state is **Replaced**. The 390 × 844 px vertically scrolling viewport and Continue to Photos action remain unchanged.
 
-**Next test:** The change has **not yet been verified by a participant in Present mode**. The current screen demonstrates **one body panel**; a complete interactive condition diagram covering all vehicle panels would require further work. Selected values are not stored as listing data or transferred to Review.
+**Follow-up check:** The student reported that the updated damage-status controls work in Present mode, and the design was described as simple and practical. Individual participant results and timings were not recorded. The current screen demonstrates **one body panel**; a complete interactive condition diagram covering all vehicle panels would require further work. Selected values are not stored as listing data or transferred to Review.
 
 [Body panel component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34) · [Updated equipment & condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
 
@@ -98,6 +98,6 @@ I also reviewed the latest screens and corrected issues with back navigation, ph
 
 ## What Remains to Be Tested
 
-The scrolling blocker has been reported resolved. The interactive equipment toggles have received positive reported feedback. The newly interactive front-left fender condition, error-state comprehension and Review editing still need participant confirmation and individual documented results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
+The scrolling blocker has been reported resolved. The interactive equipment toggles have received positive reported feedback. The front-left fender interaction has received positive informal follow-up feedback. Error-state comprehension and Review editing still need individual documented results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
 
 [Next testing instructions](../../project/docs/usability-test-instructions.md)
