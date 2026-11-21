@@ -37,14 +37,22 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 | --- | --- | --- |
 | 01 | Problem framing and FigJam | Initial draft |
 | 02 | User research | Initial R01 interview, two evidence-based content gaps, persona and journey documented; more validation needed |
-| 03 | Competitor and accessibility audit | Not started |
-| 04 | Prioritization and project brief | Not started |
+| 03 | Competitor and accessibility audit | Official-source desk comparison complete; live interface/accessibility inspection pending |
+| 04 | Prioritization and project brief | Four-quadrant matrix added to FigJam and revised from R01 feedback |
 | 05 | Sitemap and task flow | Not started |
 | 06 | Low-fidelity wireframes | Initial Figma screens created |
 | 07 | Interactive prototype | Basic screen navigation created; forms remain static |
 | 08 | Usability testing and UI guideline | Three-person navigation walkthrough reported; full task not yet tested |
 | 09 | Design revisions, components, handoff | Three revisions implemented, 15 Figma variants and handoff created; user re-test pending |
 | 10 | Final presentation and reflection | Not started |
+
+## Competitor Audit, FigJam and Next Usability Test
+
+- [Homework 03 — official-source Használtautó and mobile.de comparison](../homework/03/README.md) with six UX risk cases and two conditional accessibility checks.
+- [Homework 04 — impact/feasibility matrix and updated ideation](../homework/04/README.md) in FigJam.
+- [R01 informal follow-up](docs/r01-follow-up-2026-11-21.md): revised mockup liked but equipment list still requested improvement.
+- [16-option categorized equipment design in Figma](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2), **not yet independently tested**.
+- [Three-participant test instructions and blank results form](docs/usability-test-instructions.md).
 
 ## Complete Figma QA Review
 
