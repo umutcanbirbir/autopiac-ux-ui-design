@@ -46,6 +46,10 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 | 09 | Design revisions, components, handoff | Three revisions implemented, 15 Figma variants and handoff created; user re-test pending |
 | 10 | Final presentation and reflection | Not started |
 
+## Complete Figma QA Review
+
+All current mobile screens and the desktop reference plus mini-design-system variants were inspected. Corrections included photo thumbnail concepts, coherent back-navigation, shorter validation copy, a better-balanced desktop layout and damage-status selection chips. The main revised mobile flow has connected buttons and no identified top-level content overflow. See [Figma QA Report](docs/design-qa-2026-11-21.md) for verified checks and remaining limitations.
+
 ## Homework 09 — Design Iterations Implemented
 
 After preserving the grayscale and first yellow/white prototypes, a separate Figma row now contains revised screen designs. Three refinements were implemented: **I-01 clearer required fields/error guidance**, **I-02 minimum photo count and recommended views**, and **I-03 review/edit and truthful prototype completion**.
