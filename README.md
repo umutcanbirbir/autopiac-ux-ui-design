@@ -46,6 +46,6 @@ The interface uses yellow (`#FFD400`), white and dark text. The Figma file also 
 
 ## Prototype Scope and Remaining Work
 
-Figma demonstrates the intended screens and navigation. Its checkboxes, search field, photo tiles and form fields are visual examples: they do not accept or save values. A separate [HTML interaction demo](docs/index.html) supports some form entry and local photo selection but is not a published marketplace.
+Figma demonstrates the intended screens and navigation. The latest Equipment & Condition screen now contains **16 independently toggleable equipment checkboxes** using interactive component variants. The earlier nonfunctional search visual was removed. Other fields, damage-state choices and photo tiles remain examples; equipment selections are not saved or automatically reflected on Review. A separate [HTML interaction demo](docs/index.html) supports some form entry and local photo selection but is not a published marketplace.
 
 The next steps are to collect feedback from three additional users on the revised design, record any terminology or equipment-discovery problems, complete outstanding accessibility checks, and prepare the final presentation. Refer to the [Kanban](project/KANBAN.md) for the current task list.
