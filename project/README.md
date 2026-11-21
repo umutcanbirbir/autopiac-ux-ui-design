@@ -47,7 +47,7 @@ The [Figma file](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) contains t
 
 Three participants tried the initial clickable screen flow. All three reached the final screen, and the general feedback was positive about the interface's simplicity. These were navigation walkthroughs: the Figma inputs were not editable, and individual task times were not recorded.
 
-The later interview and follow-up helped me identify missing vehicle details and expand the equipment sample. The latest 16-feature design still needs an independent user test.
+The later interview and follow-up helped me identify missing vehicle details and expand the equipment sample. After further feedback that the original checkboxes could not be changed, I implemented 16 individual **checked/unchecked interactive component instances**. The new component interactions still need a participant retest; selections are not saved as real listing data.
 
 - [Initial navigation test](../homework/08/README.md)
 - [Design iterations](../homework/09/README.md)
