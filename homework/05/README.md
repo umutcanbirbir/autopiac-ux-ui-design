@@ -64,7 +64,7 @@ The planned AutoPiac product allows only one active private-seller listing, coun
 
 A first-time prospective seller (R01, 18, researcher's sibling) reportedly understood the existing terminology and navigated the prototype independently. They explicitly identified missing **equipment selection** and **damage/replacement history** entry. See [research interview](../../project/docs/interview-r01.md).
 
-These are **new content requirements under consideration**, not features already present in the Figma prototype. The preferred navigation layout has not been tested yet.
+These content areas have now been incorporated into a [new static Figma Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2), with a linked path between Vehicle Details and Photos. Actual editable choices, persistence and preferred layout have **not** been tested.
 
 ## Label Validation Plan
 Ask **three actual participants** how they interpret terms such as "Vehicle Details", "Equipment", "Review", "Publish", and "Draft". Record the date, task, and anonymized observations.
