@@ -2,7 +2,7 @@
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
 **Status:** Research plan and illustrative models only — empirical research pending.  
-**Discovery board:** https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2
+**Discovery board:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB
 
 ## Research Question
 How do individual vehicle sellers in Hungary prepare, create, review, and publish vehicle listings? Which steps lead to avoidable errors or uncertainty?
