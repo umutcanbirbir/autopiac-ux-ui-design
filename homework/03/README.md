@@ -80,6 +80,10 @@ The following are **potential risk scenarios** informed by features described in
 4. **P1 — Optional commercial add-on clarity:** Plan premium decision as optional and clear before the publish step.
 5. **P2 — Advanced suggestions:** Make/model/year-based prefill after vehicle catalog integration and real testing.
 
+## FigJam Research Summary
+
+[Open the official-source competitor comparison cards](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-214) on the AutoPiac discovery board. They distinguish actual documented features from proposed AutoPiac design responses. The [Homework 04 impact/feasibility matrix](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-182) uses those ideas and R01's actual feedback.
+
 ## 6. Evidence / Scope and Submission Limitations
 
 - [x] Two source-backed competitor/platform reviews with primary citations.
