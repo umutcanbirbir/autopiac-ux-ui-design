@@ -5,7 +5,7 @@
 **Figma file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC
 
 ## Primary Interaction Path
-Start → Vehicle Details → Photo Upload → Price & Description → Review → Publish → Success.
+Start → Vehicle Details → **Equipment & Condition (new R01-driven static subsection)** → Photo Upload → Price & Description → Review → Publish → Success.
 
 ## Navigation Behaviors
 - **Next:** Validate mandatory information, keep existing entries, move to the next stage.
@@ -40,7 +40,7 @@ The project owner reported an interview plus Figma navigation walkthrough with t
 ## Remaining Prototype Validation
 
 - The walkthrough confirms **navigation only**, not accurate form entry or user ability to recover from real validation errors.
-- Equipment and damage sections are **new proposals from actual feedback**, not yet tested improvements.
+- [Equipment and damage design screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) has been added from this feedback, but the controls are static and no follow-up participant result exists.
 - A subsequent user/peer test should evaluate the changed prototype after implementation.
 - The three-person first navigation walkthrough in Homework 08 is reported separately. Do not add this relative as a fourth unique test participant unless the identities are confirmed to differ.
 
@@ -50,4 +50,5 @@ The project owner reported an interview plus Figma navigation walkthrough with t
 - [x] Success screen, photo error branch and missing-vehicle-field error frame created. The required-field branch needs wiring into a complete data-aware interaction model.
 - [x] One reported first-time-user walkthrough documented (R01, researcher's sibling).
 - [x] Three concrete feedback observations captured (one positive + two missing features).
-- [ ] Retest equipment/damage additions after implementation.
+- [x] Implement equipment/damage mockup and connect its flow to Review.
+- [ ] Retest this specific change with a participant.
