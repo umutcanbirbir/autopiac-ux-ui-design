@@ -41,7 +41,7 @@ Afterward, I also discussed the prototype with a first-time prospective seller. 
 
 Further feedback on the grouped Equipment & Condition screen was positive about the **visibility and meaning of the features and labels**. However, participants could not change the preselected equipment choices, and the long screen prevented them from reaching the **Continue to photos** action. They were able to go back from later screens they viewed.
 
-The initial problem was traced to a 1360 px Figma frame with no scrolling. I reduced the viewport to 390 × 844 px and enabled vertical scrolling, preserving the existing Photos navigation link. **After the change, follow-up feedback indicated the navigation worked without further reported problems.** The participant count and individual outcomes for this confirmation were not recorded. Feature checkboxes and search are still non-functional mockup elements.
+The initial problem was traced to a 1360 px Figma frame with no scrolling. I reduced the viewport to 390 × 844 px and enabled vertical scrolling, preserving the existing Photos navigation link. **After the change, follow-up feedback indicated the navigation worked without further reported problems.** The participant count and individual outcomes for this confirmation were not recorded. At the time of that feedback, equipment choices and search were visual examples. A later iteration replaced the 16 equipment boxes with clickable checked/unchecked components and removed the nonfunctional search visual; this new behavior is awaiting a participant retest.
 
 The participant count, individual timing and independence data for this later feedback were not supplied. It should not be added to the earlier 3/3 result as a new measured sample. [Follow-up test notes](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
 
@@ -62,7 +62,7 @@ Selected text-color pairs were checked during the later [design QA](../../projec
 
 ## Next Test
 
-The corrected Equipment & Condition navigation has now received positive follow-up confirmation. A further structured test should collect individual outcomes for equipment lookup, damage-status interpretation and Review editing. I will record whether they needed help, what they could not find, and their feedback.
+The corrected Equipment & Condition navigation has now received positive follow-up confirmation. A further structured test should confirm that individual equipment choices can be switched on and off, and collect outcomes for damage-status interpretation and Review editing. I will record whether they needed help, what they could not find, and their feedback.
 
 [Participant instructions and results template](../../project/docs/usability-test-instructions.md) · [Design changes](../09/README.md)
 
