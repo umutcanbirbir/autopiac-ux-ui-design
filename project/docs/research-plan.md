@@ -1,68 +1,55 @@
-# AutoPiac — Research and Usability Testing Plan
+# AutoPiac — Research and Testing Plan
 
-**Status:** Initial three-participant navigation walkthrough and one real exploratory interview/walkthrough with an 18-year-old first-time prospective seller have been reported. The interviewee has never posted a car listing. No real editable-field task test yet. See [Homework 08](../../homework/08/README.md) and [R01 Interview](interview-r01.md).
+**Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)
 
-## Research Objectives
-Explore what private vehicle sellers find difficult about creating an online car advertisement in Hungary, with particular attention to vehicle fields, photo upload, validation, and confidence before submission.
+## Research Questions
 
-## Participants
-Recruit at least one actual participant for initial research, preferably someone who has recently advertised a car. For later usability testing, recruit at least three relevant participants. Use anonymous IDs such as P01–P03; never publish identifiable personal or vehicle data.
+I want to understand what private sellers need when creating a car listing: which vehicle details they expect, which terms might be confusing, and how they know when an advertisement is complete.
 
-## Suggested Interview Questions
-1. Have you ever published a vehicle advertisement online? On which site?
-2. What information did you need to prepare?
-3. Which steps or labels were hard to understand, if any?
-4. How did you choose and upload photos?
-5. Did you make mistakes or have to go back?
-6. What would help you know the advertisement is complete?
-7. What would you change about that experience?
+## Initial Research
 
-These are planned questions, **not purported interview responses**.
+I spoke with my 18-year-old brother, who had never posted a vehicle advertisement. He found the initial Figma flow easy to follow but pointed out the lack of equipment selection and damage/replaced-parts details. The first revised screen was received positively, although he wanted a more detailed equipment list.
 
-## Synthesis Plan
-- Collect anonymized observations and quotations with consent.
-- Group themes using FigJam affinity mapping.
-- Produce at least two findings supported by evidence.
-- Prepare a persona and a user journey derived from recorded observations.
-- Update the project problem statement and assumptions.
+[Interview and findings](interview-r01.md) · [Follow-up](r01-follow-up-2026-11-21.md) · [Persona and journey](../../homework/02/README.md)
 
-## Prototype Task
-"You want to sell your own car. Using the AutoPiac prototype, create an advertisement, provide the requested information, upload photographs, review your entries, fix any identified problem, and submit."
+## Initial Navigation Test
 
-## Usability Testing Plan
-- Recruit at least three participants.
-- Avoid helping while they perform the primary task.
-- Record task completion, errors, duration, and confusion.
-- Identify severity, prioritize changes, and document before/after iterations.
+Three participants used the earlier clickable Figma flow and all reached the final screen. The feedback was generally positive about the simple interface. No individual task times were recorded.
 
-## Preliminary Test Evidence (Owner-Reported)
+Because Figma did not allow data entry, this measured navigation rather than actual listing completion. [Homework 08 results](../../homework/08/README.md)
 
-- P01: reached last Figma screen; no specific difficulty or suggestion reported.
-- P02: reached last Figma screen; no specific difficulty or suggestion reported.
-- P03: reached last Figma screen; no specific difficulty or suggestion reported.
-- Aggregate feedback: simplicity of the interface was liked.
-- Limitation: static Figma form inputs meant actual listing creation could not be tested.
-- Timings, independent completion and participant backgrounds: not recorded.
+## Additional Participants
 
-These results are documented in [Homework 08](../../homework/08/README.md). They do **not** validate the full task or replace initial discovery research.
+I plan to ask three more people to test the latest design. Ideally one participant will have previous experience placing a vehicle advertisement. I will identify them only as T01, T02 and T03 in the report.
 
-## First Exploratory Interview (R01, Owner-Reported)
+### Interview Questions
 
-- Relationship: project owner's sibling; convenience participant, potential familiarity bias.
-- Age: 18; previous vehicle listing experience: none.
-- Navigated the available Figma prototype independently; understood the displayed UI.
-- Positive reaction: simple interface, limited complexity.
-- Two omissions identified: no equipment/features selector, and no damage/replaced-parts disclosure section.
-- No exact session duration or original quotations available.
-- This interview is recorded separately and must not automatically be counted as a fourth independent user in the earlier three-person walkthrough.
+1. Have you posted a car advertisement online before?
+2. Which vehicle details would you expect to provide?
+3. Can you find the specified equipment options?
+4. What do Repainted, Replaced, Damaged and Unknown mean to you?
+5. Which part of the listing flow is unclear?
+6. Can you return from Review to the section you want to edit?
+7. What would you improve?
 
-[Full R01 research notes, affinity synthesis, persona-style snapshot and journey](interview-r01.md).
+## Tasks
 
-## Follow-Up Full Task Template (not yet completed)
-| Participant | Date | Completed? | Time | Errors / confusion | Observations |
-| --- | --- | --- | --- | --- | --- |
-| P01 | Pending | Not tested | — | — | — |
-| P02 | Pending | Not tested | — | — | — |
-| P03 | Pending | Not tested | — | — | — |
+Participants will be asked to navigate from Start Listing to Review, locate several specified equipment items, explain the body-panel statuses, identify the photo minimum and use an Edit link.
 
-**The table below remains blank because a full editable-field task test has not been conducted. Never fill it with invented results.**
+I will record task success, help given, approximate duration when measured and feedback. The Figma version has static inputs, so actual photo uploading and saved selections are outside this test.
+
+[Detailed test script and recording sheet](usability-test-instructions.md)
+
+## Blank Results Table
+
+| Participant | Date | Reached Review without help? | Equipment lookup | Terms understood? | Time | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| T01 | — | — | — | — | — | — |
+| T02 | — | — | — | — | — | — |
+| T03 | — | — | — | — | — | — |
+
+This table will be completed after the new sessions.
+
+## Next Steps
+
+I will compare the feedback with the earlier design decisions, make any necessary changes and document before/after screens in Homework 09. A separate functional prototype test would be needed to assess actual form entry and validation.
