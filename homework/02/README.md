@@ -2,7 +2,7 @@
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
 **Status:** One real interview and prototype walkthrough **reported by the project owner**; initial synthesis documented. Further participants and validation remain advisable.  
-**FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB  
+**FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB (R01 affinity themes diagram added)  
 **Detailed primary record:** [Research Interview R01](../../project/docs/interview-r01.md)
 
 ## Research Question
@@ -72,6 +72,10 @@ The themes above are intentionally limited to what this participant actually rep
 | Price and description | **No specific finding** | No criticism reported | Preserve concise labels |
 | Review and finish | **Navigation only** | Reached the end; no real listing submitted | Include equipment/damage summary and editing |
 
+## Design Revision from R01 Feedback
+
+A first Figma redesign now shows vehicle-equipment sample choices and a damage/replacement-history panel in the existing listing flow. [View the added Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2). The Review screen links back to this new section. These are illustrative, static Figma controls and are **not** real interactive feature selectors. **Effectiveness has not been re-tested.**
+
 ## Design Direction
 
 Add the missing structured sections **without turning the simple flow into an intimidating long form**. Use optional disclosure panels with concise explanations and a summary on Review. Test whether a combined "Equipment & Condition" screen or two short subsections is easier to understand; do not assume the preferred layout.
@@ -84,7 +88,8 @@ Add the missing structured sections **without turning the simple flow into an in
 - [x] Evidence-informed persona snapshot and user journey.
 - [ ] More interviews/observations for stronger evidence and more diverse perspectives.
 - [ ] Verify the exact session date and permission for academic use, if required.
-- [ ] Add new Figma screens and conduct a follow-up test after the changes.
+- [x] Add an equipment-and-condition design screen in Figma.
+- [ ] Conduct a follow-up user test after the changes.
 - [ ] Record task time, actual data entry and error recovery on a prototype supporting those interactions.
 
 **Research integrity:** No invented participant quotations, precise durations, demographic details or additional interview subjects.
