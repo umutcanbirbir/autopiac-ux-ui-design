@@ -46,6 +46,10 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 | 09 | Design revisions, components, handoff | Not started |
 | 10 | Final presentation and reflection | Not started |
 
+## UI Color Exploration
+
+A yellow/white visual version of the original wireframes has been created in Figma while retaining the grayscale originals. See [the colored screens](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2) and [the documented palette](docs/color-guideline.md). Screen interactions remain illustrative; no real Figma text input is implemented.
+
 ## Design Artifacts — Created 2026-11-21
 
 **[Figma — Low-Fidelity Wireframes and Basic Click-Through](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)**
