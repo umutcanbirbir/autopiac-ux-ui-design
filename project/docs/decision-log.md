@@ -13,6 +13,12 @@ This log separates design proposals from research-backed decisions.
 | D-006 | 2026-11-21 | Prioritize explicit validation and minimum photo guidance in the next design iteration | Figma fields were static; form entry and error recovery were not tested | Known prototype limitation, not participant complaint | Implement I-01 and I-02, then conduct task tests |
 | D-007 | 2026-11-21 | Improve review/edit and confirmation information without increasing complexity | No tested evidence yet that users understand or correct entered data | Design proposal | Implement I-03 and verify with participants |
 
+| D-008 | 2026-11-21 report | Propose a dedicated optional equipment/features selection section | R01 explicitly noted that equipment could not be selected in AutoPiac | [R01 Interview](interview-r01.md); single participant | Prototype grouped equipment choices and test with users |
+| D-009 | 2026-11-21 report | Propose structured vehicle damage/replacement disclosure | R01 explicitly noted missing damage/replaced-parts entry | [R01 Interview](interview-r01.md); single participant | Prototype understandable body-panel states/notes and test with users |
+| D-010 | 2026-11-21 report | Preserve simple core progression while adding needed content | R01 liked the interface's simplicity and navigated independently | [R01 Interview](interview-r01.md); single participant | Check whether optional subsections overload the task |
+
+**Caution:** D-008 to D-010 are user-informed design proposals, not completed or re-tested revisions.
+
 **Caution:** D-005 reflects a limited owner-reported walkthrough, not a causal or population-wide finding. D-006 and D-007 are planned hypotheses, not completed or verified iterations.
 
 After subsequent usability testing, add actual participant evidence sources, implementation links, and re-test outcomes.
