@@ -2,7 +2,7 @@
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
 **Status:** Iterations **planned, not implemented or verified**. Existing yellow/white visual treatment was designed **before** this participant walkthrough.  
-**Figma screens:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2  
+**Figma screens:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC  
 **Color guideline:** [Yellow & White](../../project/docs/color-guideline.md)  
 **Test evidence:** [Homework 08](../08/README.md)
 
