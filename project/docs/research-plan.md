@@ -1,6 +1,6 @@
 # AutoPiac — Research and Usability Testing Plan
 
-**Status:** Initial three-participant **navigation walkthrough** reported on 2026-11-21; no documented seller interviews or end-to-end data-entry tests. See [Homework 08](../../homework/08/README.md).
+**Status:** Initial three-participant navigation walkthrough and one real exploratory interview/walkthrough with an 18-year-old first-time prospective seller have been reported. The interviewee has never posted a car listing. No real editable-field task test yet. See [Homework 08](../../homework/08/README.md) and [R01 Interview](interview-r01.md).
 
 ## Research Objectives
 Explore what private vehicle sellers find difficult about creating an online car advertisement in Hungary, with particular attention to vehicle fields, photo upload, validation, and confidence before submission.
@@ -45,6 +45,18 @@ These are planned questions, **not purported interview responses**.
 - Timings, independent completion and participant backgrounds: not recorded.
 
 These results are documented in [Homework 08](../../homework/08/README.md). They do **not** validate the full task or replace initial discovery research.
+
+## First Exploratory Interview (R01, Owner-Reported)
+
+- Relationship: project owner's sibling; convenience participant, potential familiarity bias.
+- Age: 18; previous vehicle listing experience: none.
+- Navigated the available Figma prototype independently; understood the displayed UI.
+- Positive reaction: simple interface, limited complexity.
+- Two omissions identified: no equipment/features selector, and no damage/replaced-parts disclosure section.
+- No exact session duration or original quotations available.
+- This interview is recorded separately and must not automatically be counted as a fourth independent user in the earlier three-person walkthrough.
+
+[Full R01 research notes, affinity synthesis, persona-style snapshot and journey](interview-r01.md).
 
 ## Follow-Up Full Task Template (not yet completed)
 | Participant | Date | Completed? | Time | Errors / confusion | Observations |
