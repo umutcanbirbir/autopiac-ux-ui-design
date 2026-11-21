@@ -60,6 +60,13 @@ The [standalone interactive prototype](docs/index.html) is a pure HTML/CSS/JavaS
 
 **How to publish on GitHub Pages:** Repository → Settings → Pages → Build and deployment → Deploy from a branch → main → /docs → Save. The expected site address is `https://umutcanbirbir.github.io/autopiac-ux-ui-design/`, **after GitHub Pages finishes publication**.
 
+## Yellow & White UI Direction
+
+- [Open the recolored AutoPiac screen set in Figma](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2)
+- [Yellow & White Color Guideline](project/docs/color-guideline.md)
+- Nine colorized frame copies sit below the preserved grayscale wireframes. Primary buttons, information panels, photo placeholders and progress elements use yellow accents. Basic navigation links point among the colored frames.
+- Visual QA and user testing are still pending; Figma controls are not real editable data-entry inputs.
+
 ## Figma Wireframes and Prototype
 
 - [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)
