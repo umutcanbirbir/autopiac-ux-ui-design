@@ -50,7 +50,7 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 
 **[Figma — Low-Fidelity Wireframes and Basic Click-Through](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)**
 
-Created: seven mobile frames (start, vehicle details, photos, price/description, review, success, photos error), plus a desktop vehicle details layout. Basic click navigation connects the main path and error branch. Input controls are currently visual and must not be described as working data entry. Research, participant tests and final polish remain pending.
+Created: eight mobile frames (start, vehicle details, photos, price/description, review, success, photos error, required vehicle field error), plus a desktop vehicle details layout. Basic click navigation connects the main path and error branch. Input controls are currently visual and must not be described as working data entry. Research, participant tests and final polish remain pending.
 
 **[FigJam — Planned Seller User Flow](https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2)**
 
