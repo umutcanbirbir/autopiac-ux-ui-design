@@ -1,51 +1,90 @@
 # Homework 02 — User Research, Persona & Journey Map
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Research plan and illustrative models only — empirical research pending.  
-**Discovery board:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB
+**Status:** One real interview and prototype walkthrough **reported by the project owner**; initial synthesis documented. Further participants and validation remain advisable.  
+**FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB  
+**Detailed primary record:** [Research Interview R01](../../project/docs/interview-r01.md)
 
 ## Research Question
-How do individual vehicle sellers in Hungary prepare, create, review, and publish vehicle listings? Which steps lead to avoidable errors or uncertainty?
 
-## Proposed Method
-Use at least one genuine semi-structured interview or observation. Interview participants anonymously, with consent. The [research plan](../../project/docs/research-plan.md) contains seven prompts and a blank results sheet.
+How do private vehicle sellers, particularly first-time users, understand AutoPiac's listing creation process? Which vehicle attributes and disclosures do they expect to be able to enter?
 
-## Proposed Affinity Map Categories
-1. **Preparing vehicle information** — finding year, engine, version, mileage, and records.
-2. **Understanding form labels** — determining required vs optional information.
-3. **Photograph preparation** — selecting angles and documenting imperfections.
-4. **Checking the listing** — recognizing omissions and validating information.
-5. **Confidence and trust** — knowing the advertisement is accurate and complete.
+## Research Method
 
-These are research **codes to use**, not observed themes or interview findings.
+- **Method:** Informal interview + navigation-only walk-through of the existing AutoPiac Figma prototype.
+- **Participant:** R01, 18 years old, no previous experience placing a vehicle advertisement.
+- **Recruitment:** The project owner's sibling (convenience sampling; potential familiarity bias).
+- **Reported performance:** Navigated the prototype independently and understood the interface shown.
+- **Interview session date / duration:** Not recorded; this written report was prepared on 2026-11-21.
+- **Protocol limit:** Prototype inputs are static. Actual feature selection, condition entry, uploads and real publishing could not be performed.
+- **Evidence:** Owner's paraphrased account, not direct quotes or independent researcher's observations.
 
-## Provisional Persona — Hypothetical, Not Interview-Based
-**Name:** Márk (fictional)  
-**Situation:** An adult private seller in Hungary listing a car for the first time.  
-**Context:** Primarily uses a phone; has vehicle registration documents but does not know every technical specification.  
-**Goal:** Publish a trustworthy listing without guessing details.  
-**Possible pain points:** Technical labels, photo requirements, and uncertainty about whether the submission is complete.  
-**Accessibility needs to test:** Clear language, readable input labels, keyboard/screen-reader support, sufficiently large touch targets.  
+## Results — Actual Participant Feedback
 
-**Do not present this as a participant profile.** It is a provisional assumption-based design aid to be revised from research.
+**Positive:** R01 liked AutoPiac's simplicity and limited visual/selection complexity, reported understanding the interface and navigating it without assistance.
 
-## Provisional User Journey (Hypothesis)
-| Phase | User action | Possible question / friction | Design opportunity |
+**Two explicitly mentioned deficiencies:**
+1. No dedicated way to select the car's **equipment and features**.
+2. No dedicated section for **vehicle damage or replaced/repaired body parts**.
+
+No other criticism or confusion was reported. The absence of reported difficulty is **not** proof that every interaction is usable.
+
+## Initial Evidence-Backed Insights
+
+| ID | Real reported evidence | Insight / design implication |
+| --- | --- | --- |
+| INS-01 | The participant described the interface as simple and could navigate it without help | Preserve the guided linear flow and avoid overloading the primary steps |
+| INS-02 | The participant noticed they could not select equipment | Add an organized equipment selector with sensible categories and optional choices |
+| INS-03 | The participant noticed no damage/replaced-parts section | Add structured condition/history disclosure with understandable terms |
+
+These are **findings from one person**, not population-level conclusions.
+
+## Preliminary Affinity Map — Three Authentic Themes
+
+| Theme | Authentic paraphrased note | Candidate action |
+| --- | --- | --- |
+| Simple navigation | Understood the interface and finished available navigation unaided | Keep the core step-by-step flow |
+| Listing completeness | Wanted selectable equipment/features | Add a feature selection section |
+| Condition transparency | Wanted to disclose damage and replaced parts | Add body-panel/damage information |
+
+The themes above are intentionally limited to what this participant actually reported. [Full synthesis](../../project/docs/interview-r01.md).
+
+## Evidence-Based Persona Snapshot (Limited-Sample)
+
+**Label:** First-Time Prospective Seller — R01-informed snapshot  
+**Age:** 18  
+**Experience:** Has never published a vehicle listing  
+**Reported behavior:** Completed Figma screen navigation without assistance and understood the existing interface  
+**Preferences:** A straightforward, not overloaded process  
+**Expressed unmet needs:** Select vehicle equipment and disclose damaged/replaced parts  
+**Not known:** Car ownership, device preference, location, listing task time, level of vehicle expertise, accessibility needs
+
+**Caution:** This is a small research-based persona snapshot, **not** an independently validated representative archetype. The older hypothetical "Márk" profile was an initial design aid and is superseded for this submission.
+
+## User Journey — Evidence-Labeled
+
+| Phase | Directly reported? | Participant perspective | Proposed improvement |
 | --- | --- | --- | --- |
-| Preparation | Collect documents and photos | Which information is needed? | Pre-listing checklist |
-| Identification | Select make, model, year, trim | Which version is mine? | Helpful terminology and examples |
-| Photos | Upload and arrange images | Have I uploaded enough? | Counter, previews, order controls |
-| Details | Enter condition, price, description | What details should I disclose? | Contextual help and examples |
-| Review | Check listing | How do I fix a missing field? | Summary with links to errors |
-| Submission | Confirm publication | Did it work? | Clear success message |
+| Start and navigate | **Yes** | The flow was understandable and simple | Keep guided steps |
+| Specify the vehicle | **Gap reported** | Could not select equipment | Add equipment categories / checkboxes |
+| Describe condition | **Gap reported** | No damage / repaired or replaced panels section | Add condition history and body-panel state selection |
+| Add photos | **No specific finding** | Not tested as a real upload | Revisit during functional testing |
+| Price and description | **No specific finding** | No criticism reported | Preserve concise labels |
+| Review and finish | **Navigation only** | Reached the end; no real listing submitted | Include equipment/damage summary and editing |
 
-## Required Evidence to Finish
-- [ ] At least one real interview, observation, or questionnaire.
-- [ ] Research notes, with participants anonymized and consent respected.
-- [ ] An affinity map of **actual** observations.
-- [ ] At least two evidence-supported insights.
-- [ ] Persona revised from genuine data.
-- [ ] Journey map revised with research evidence.
+## Design Direction
 
-## Next Action
-Record authentic participant input, then replace the hypothetical notes with evidence-backed findings. Do not invent quotations, participant counts, or test results.
+Add the missing structured sections **without turning the simple flow into an intimidating long form**. Use optional disclosure panels with concise explanations and a summary on Review. Test whether a combined "Equipment & Condition" screen or two short subsections is easier to understand; do not assume the preferred layout.
+
+## Remaining Work
+
+- [x] At least one genuine interview/walkthrough documented using an anonymous participant ID.
+- [x] Two specific user-raised content gaps recorded.
+- [x] Initial affinity themes based only on real reported feedback.
+- [x] Evidence-informed persona snapshot and user journey.
+- [ ] More interviews/observations for stronger evidence and more diverse perspectives.
+- [ ] Verify the exact session date and permission for academic use, if required.
+- [ ] Add new Figma screens and conduct a follow-up test after the changes.
+- [ ] Record task time, actual data entry and error recovery on a prototype supporting those interactions.
+
+**Research integrity:** No invented participant quotations, precise durations, demographic details or additional interview subjects.
