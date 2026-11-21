@@ -81,6 +81,12 @@ Preserve the simple step-by-step flow that this participant liked. Verify the te
 
 No additional participant test has assessed this revision yet. Do not call it a proven usability improvement.
 
+## Final Design QA and Corrections
+
+A further screen-by-screen Figma review corrected missing back-navigation from Photos, introduced five thumbnail placeholders, improved desktop sidebar spacing, aligned component button variants to 48 px high, fixed a clipped validation message, refined user-facing labels and added a body-panel condition selector. [Detailed QA log](../../project/docs/design-qa-2026-11-21.md).
+
+**Status:** Internal visual and structural QA completed for the main revised Figma flow. Independent participant re-testing and full accessibility review remain open.
+
 ## Follow-Up Validation — Remaining
 
 To evaluate whether these changes helped users in practice, ask participants to complete a **realistic interactive listing task** using the HTML demonstration or a prototype capable of actual input. Capture time, independent completion, field errors, where correction was needed, and real participant remarks. Retest at least one improved Figma state or compare versions. **No such follow-up results are claimed here.**
@@ -92,7 +98,8 @@ To evaluate whether these changes helped users in practice, ask participants to 
 - [x] Four reusable Figma component sets and 15 variants.
 - [x] Developer handoff panel with field, spacing, error and breakpoint notes.
 - [x] Cross-links to evidence, palette and source frames.
-- [ ] Independent human visual and accessibility QA of final screens.
+- [x] Internal screenshot/layout, link-destination, and selected color-contrast checks.
+- [ ] Independent human review and full accessibility verification of final screens.
 - [ ] At least one real user/peer follow-up evaluation of a design improvement.
 - [x] Add two R01-requested content areas as a static Figma mockup (equipment + damage/replaced panels).
 - [ ] Actual end-to-end editable-field completion test (not possible using static Figma forms alone).
