@@ -1,7 +1,7 @@
 # Homework 09 — Iteration, Mini Design System & Developer Handoff
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Three designed improvements implemented in Figma; reusable variants and handoff created. **No post-change participant retest yet.**  
+**Status:** Three designed improvements implemented in Figma; reusable variants and handoff created. **One informal follow-up reaction on an earlier revision reported; newest 16-feature screen and full tasks remain untested.**  
 **Date:** 2026-11-21  
 **Primary Figma file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC  
 **Before (Yellow/White):** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-20  
@@ -66,7 +66,7 @@ A separate exploratory interview with an 18-year-old first-time prospective sell
 
 | ID | Directly reported participant concern | Proposed next Figma revision | Status |
 | --- | --- | --- | --- |
-| **I-04 — Vehicle Equipment** | "Users cannot choose the car's equipment/features" (paraphrase) | Add an optional, searchable or grouped multi-select for common equipment and show selected items in Review | **Static Figma design implemented; not user-tested** |
+| **I-04 — Vehicle Equipment** | "Users cannot choose the car's equipment/features" (paraphrase) | Add an optional, searchable or grouped multi-select for common equipment and show selected items in Review | **Static Figma redesign implemented; initial four-option version received informal R01 feedback; newest grouped version not tested** |
 | **I-05 — Damage & Replaced Parts** | "There is no section for damage/replaced parts" (paraphrase) | Add structured vehicle-condition/damage disclosure, allowing users to identify repaired/repainted/replaced body panels and add notes; include summary in Review | **Planned, not built or tested** |
 
 Preserve the simple step-by-step flow that this participant liked. Verify the terminology and controls with additional participants rather than assuming that extra fields automatically improve usability.
@@ -87,6 +87,16 @@ A further screen-by-screen Figma review corrected missing back-navigation from P
 
 **Status:** Internal visual and structural QA completed for the main revised Figma flow. Independent participant re-testing and full accessibility review remain open.
 
+## Follow-Up R01 Feedback and Equipment List Expansion
+
+The same R01 participant liked the first equipment/damage design but explicitly felt the **equipment list needed more development**. This was an informal positive/critical reaction (owner-reported), not a timed independent task. [Follow-up record](../../project/docs/r01-follow-up-2026-11-21.md).
+
+Following that feedback and the [official-source competitor review](../03/README.md), the static equipment sample was expanded from **4 options into 16 options grouped under four headings**, with an illustrative search field and Other equipment hint. The damage/replaced-panel choices remain. [Current Figma screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
+
+**Important:** R01 has **not yet tested the current 16-option version**. The checkboxes/search are still non-functional Figma representations.
+
+[Next participant test script and data form](../../project/docs/usability-test-instructions.md).
+
 ## Follow-Up Validation — Remaining
 
 To evaluate whether these changes helped users in practice, ask participants to complete a **realistic interactive listing task** using the HTML demonstration or a prototype capable of actual input. Capture time, independent completion, field errors, where correction was needed, and real participant remarks. Retest at least one improved Figma state or compare versions. **No such follow-up results are claimed here.**
@@ -100,6 +110,7 @@ To evaluate whether these changes helped users in practice, ask participants to 
 - [x] Cross-links to evidence, palette and source frames.
 - [x] Internal screenshot/layout, link-destination, and selected color-contrast checks.
 - [ ] Independent human review and full accessibility verification of final screens.
-- [ ] At least one real user/peer follow-up evaluation of a design improvement.
+- [x] Owner-reported informal R01 reaction to first revised screen collected (liked it, equipment list still too limited).
+- [ ] Structured post-change usability test on the latest grouped 16-option design.
 - [x] Add two R01-requested content areas as a static Figma mockup (equipment + damage/replaced panels).
 - [ ] Actual end-to-end editable-field completion test (not possible using static Figma forms alone).
