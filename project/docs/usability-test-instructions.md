@@ -4,7 +4,7 @@
 **Purpose:** Test the updated listing flow and gather feedback for Homework 05, 08 and 09.  
 **Figma starting screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2  
 **Equipment and condition screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2  
-The Figma file is a clickable design prototype. Participants can navigate the screens and describe how they would use the fields, but they cannot save entries or upload photos.
+The Figma file is a clickable design prototype. All 16 equipment checkboxes on the current screen can be toggled individually. Other text fields and damage states remain visual examples; participants cannot save vehicle details or upload actual photos.
 
 ## Participants
 
@@ -12,18 +12,18 @@ Aim for **three** additional participants who did not design the project and wer
 
 ## Script to Read or Send (English)
 
-> I'm testing a UX/UI concept for a car-advertisement site called AutoPiac. Please open the Figma link and select the first mobile screen, then click Present (▶). This is a clickable design mockup, not a real application: you cannot enter or save values, choose equipment by clicking its checkboxes, or upload actual photos. Please navigate without asking me for directions and tell me what you expect each screen or button to do.
+> I'm testing a UX/UI concept for a car-advertisement site called AutoPiac. Please open the Figma link and select the first mobile screen, then click Present (▶). This is a clickable design mockup, not a real application: you can click the equipment choices to select or deselect them, but you cannot enter and save vehicle data or upload actual photos. Please navigate without asking me for directions and tell me what you expect each screen or button to do.
 
 ## Most Important Retest
 
-An earlier participant reported that the expanded Equipment & Condition page could not be scrolled to its Continue button. Scrolling has now been enabled. **First ask the next participant to scroll through the equipment and damage information and tap “Continue to photos” unaided.** Record whether it works. The visual checkbox selections do not change when clicked.
+An earlier participant reported that the expanded Equipment & Condition page could not be scrolled to its Continue button. Scrolling has now been enabled and the follow-up report confirmed navigation. The 16 equipment choices have also been made clickable. **Ask the next participant to select Apple CarPlay and Heated seats, deselect ABS, then check that the other items keep their previous states.** Have them scroll to “Continue to photos” afterward. Record the outcome.
 
 [Details of the reported issue and fix](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
 
 ## Tasks (Use This Order)
 
 1. **Navigation:** Start a car listing and reach the final Review screen. Record whether they found the next steps **without help**. 
-2. **Equipment lookup:** On Equipment & Condition, locate **Adaptive cruise**, **Heated seats**, **Apple CarPlay**, and **Rear camera**; ask which group each is in. The checkboxes are visual examples.
+2. **Equipment lookup:** On Equipment & Condition, locate **Adaptive cruise**, **Heated seats**, **Apple CarPlay**, and **Rear camera**; ask which group each is in. Ask them to click each feature to toggle it, then click again to restore its starting state.
 3. **Damage comprehension:** Point to how you would indicate a **replaced front fender**. Ask what "Repainted", "Replaced", "Damaged" and "Unknown" mean. Let them explain without hints.
 4. **Photos and recovery:** Identify the minimum number of photos and the cover photo. If useful, click **Remove 3 photos** to view the error-example branch, then find the route back to the photo step.
 5. **Review edit:** From Review, click **Equipment & condition · Edit** and see whether they understand where it leads.
@@ -49,7 +49,7 @@ An earlier participant reported that the expanded Equipment & Condition page cou
 **Assistance provided?** None / Yes (record where)  
 **Navigation to Review completed?** Yes / No  
 **Time to Review (if actually measured):**  
-**Equipment lookup outcome for 4 specified features:**  
+**Equipment lookup and actual on/off toggling outcome for 4 specified features:**  
 **Damage terms explained correctly?** Record individual answers  
 **Photo minimum / cover comprehension:**  
 **Review edit found?** Yes / No  
