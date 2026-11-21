@@ -1,7 +1,7 @@
 # AutoPiac — Yellow & White UI Color Guideline
 
 **Student:** Umut Can Birbir (DUJ3ZD)  
-**Design file:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2  
+**Design file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC  
 **Date:** 2026-11-21  
 **Status:** Visual palette applied to copied UI screens; final accessibility and visual QA pending.
 
