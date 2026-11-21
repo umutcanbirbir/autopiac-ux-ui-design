@@ -17,11 +17,11 @@ My aim is to keep the main process simple without leaving out important informat
 | Current clickable prototype | [Figma — AutoPiac](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2) |
 | Research, user flow and idea prioritization | [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) |
 | Homework 01–10 | [Homework folders](homework/) |
-| Tasks and progress | [Kanban board](project/KANBAN.md) · [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) |
+| Tasks and progress | [GitHub Projects](https://github.com/users/umutcanbirbir/projects/1/views/1) · [Kanban task overview](project/KANBAN.md) · [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) |
 | Detailed project notes | [Project overview](project/README.md) |
 | Presentation preparation | [Presentation folder](presentation/01-01/) |
 
-The Kanban is a Markdown board in this repository. A separate native GitHub Projects board has not been created.
+A GitHub Projects workspace has been created and linked. It still needs a project title, a Board view and the existing Issues added. The repository Kanban remains a summary of the current tasks.
 
 ## Design Process
 
