@@ -2,7 +2,7 @@
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
 **Status:** Basic clickable frame navigation implemented; actual feedback and data-aware interactions pending.
-**Figma file:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm
+**Figma file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC
 
 ## Primary Interaction Path
 Start → Vehicle Details → Photo Upload → Price & Description → Review → Publish → Success.
