@@ -36,7 +36,7 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 | Stage | Activity | Status |
 | --- | --- | --- |
 | 01 | Problem framing and FigJam | Initial draft |
-| 02 | User research | Not started |
+| 02 | User research | Initial R01 interview, two evidence-based content gaps, persona and journey documented; more validation needed |
 | 03 | Competitor and accessibility audit | Not started |
 | 04 | Prioritization and project brief | Not started |
 | 05 | Sitemap and task flow | Not started |
@@ -56,6 +56,16 @@ After preserving the grayscale and first yellow/white prototypes, a separate Fig
 - [Homework 09 before/after evidence](../homework/09/README.md)
 
 **Outstanding:** User follow-up evaluation of changed screens, end-to-end realistic task testing and final human visual/accessibility QA. The three refinements have been built, **not proven to improve performance**.
+
+## Research Interview — First-Time Prospective Seller
+
+A separate owner-reported exploratory interview with an 18-year-old first-time prospective seller (the researcher's sibling) identified two clear content gaps: **equipment/features selection** and **damage/replaced-parts disclosure**. The participant understood the current interface and navigated its static prototype independently; no actual form data was entered. The report explicitly discloses convenient-family recruitment and missing session metadata.
+
+- [R01 Interview Evidence](docs/interview-r01.md)
+- [Homework 02 — Interview, Insights, Persona Snapshot and Journey](../homework/02/README.md)
+- [Homework 09 — Two New Planned Improvements](../homework/09/README.md)
+
+These new improvements have **not yet been added to Figma** or evaluated by a subsequent user. The original three-person navigation walkthrough is documented separately in Homework 08; avoid counting R01 as an additional distinct participant without confirmation.
 
 ## Initial Usability Walkthrough Results (Owner-Reported, 2026-11-21)
 
