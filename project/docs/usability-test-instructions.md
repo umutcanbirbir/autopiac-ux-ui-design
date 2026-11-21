@@ -14,6 +14,12 @@ Aim for **three** additional participants who did not design the project and wer
 
 > I'm testing a UX/UI concept for a car-advertisement site called AutoPiac. Please open the Figma link and select the first mobile screen, then click Present (▶). This is a clickable design mockup, not a real application: you cannot enter or save values, choose equipment by clicking its checkboxes, or upload actual photos. Please navigate without asking me for directions and tell me what you expect each screen or button to do.
 
+## Most Important Retest
+
+An earlier participant reported that the expanded Equipment & Condition page could not be scrolled to its Continue button. Scrolling has now been enabled. **First ask the next participant to scroll through the equipment and damage information and tap “Continue to photos” unaided.** Record whether it works. The visual checkbox selections do not change when clicked.
+
+[Details of the reported issue and fix](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
+
 ## Tasks (Use This Order)
 
 1. **Navigation:** Start a car listing and reach the final Review screen. Record whether they found the next steps **without help**. 
