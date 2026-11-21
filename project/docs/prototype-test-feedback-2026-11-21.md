@@ -30,12 +30,21 @@ Participants generally understood the content they saw. **The number of people r
 
 **Follow-up confirmation:** After the scrolling change, the student reported that the people who tried the revised prototype found the navigation working and did not report further problems. This supports closing the specific **unreachable Continue to photos** navigation issue. No individual participant count, time or device information was provided for this confirmation. Equipment checkboxes and search remain visual Figma elements; this confirmation does not establish functional form editing.
 
+## Subsequent Update — Interactive Equipment Choices (22 November 2026)
+
+I built a reusable Figma Equipment Toggle component with two On/Off variants and bidirectional click interactions, and converted all **16 equipment choices** into independent interactive instances. The checkboxes now have changeable prototype states, while their labels remain intact. I removed the nonfunctional equipment search placeholder and added a prompt to tap options to select or deselect them.
+
+The variant switch and label preservation were checked programmatically in Figma. The **interactive click behavior still needs a separate participant check in Figma Present mode**. Choices do not persist to listing data or synchronize the Review example.
+
+[Interactive options](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2040-9).
+
 ## Next Check
 
 - [x] Follow-up feedback received: the revised prototype's navigation works and no further issue was reported; individual task details were not recorded.
 - [x] No further scrolling or access problem reported after the fix; specific component visibility was not recorded separately.
 - [ ] Check whether **Save as draft** would be clearer than **Draft**.
-- [ ] If selection behavior is required for the task, test it in an interactive prototype with changeable controls.
+- [x] Add on/off interactions to all 16 equipment options using a Figma component.
+- [ ] Confirm participants can actually toggle multiple options in Present mode without disrupting the others.
 - [ ] Record the actual number of participants, individual outcomes and any measured times before drawing quantitative conclusions.
 
 [Homework 05 — Information Architecture](../../homework/05/README.md) · [Homework 08 — Usability Test](../../homework/08/README.md) · [Homework 09 — Design Iterations](../../homework/09/README.md)
