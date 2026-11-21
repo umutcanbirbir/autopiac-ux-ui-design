@@ -2,7 +2,7 @@
 
 **Course:** UX/UI Design — PTE MIK  
 **Project:** AutoPiac — A User-Friendly Car Listing Experience  
-**FigJam:** https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2  
+**FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB  
 **Status:** Initial framing; user research not yet conducted.
 
 ## 1. Problem
