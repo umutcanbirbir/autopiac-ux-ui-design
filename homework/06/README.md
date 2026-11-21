@@ -34,6 +34,6 @@ Create one primary screen for mobile (e.g., 390 px content width) and a larger s
 ## Completion Checklist
 - [x] Low-fidelity Figma file linked here.
 - [x] Seven mobile wireframe states and one desktop variant created.
-- [ ] Dedicated missing-field state still needed; photo-count error state created.
+- [x] Two critical states created: insufficient photos and missing required vehicle data (static frame states).
 - [x] Mobile and larger-screen layout for vehicle details.
 - [x] Auto Layout used across primary structures; final visual QA pending.
