@@ -50,9 +50,13 @@ autopiac-ux-ui-design/
 ## Figma Wireframes and Prototype
 
 - [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)
-- Seven mobile screen states and one desktop variation have been drafted.
+- Eight mobile screen states and one desktop variation have been drafted.
 - Basic screen-to-screen click navigation has been added. Form inputs are **visual placeholders**, not functional data-entry widgets.
 - Real participant tests, validation-dependent interactions and final high-fidelity UI are still pending.
+
+## Actionable Task Tracking
+
+Seven course project tasks are tracked in [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues). These issues are not a substitute for the lecturer's requested Kanban board.
 
 ## GitHub Project Board
 
