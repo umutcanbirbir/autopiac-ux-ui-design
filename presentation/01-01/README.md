@@ -1,6 +1,6 @@
 # AutoPiac — Presentation Planning
 
-**Status:** Placeholder; no final presentation has been prepared.
+**Status:** Presentation plan ready; final slides and rehearsed speaking notes still to be prepared.
 
 ## Intended 5–10 Minute Structure
 1. Problem, context, and project objective.
@@ -13,4 +13,4 @@
 
 Add the presentation link, final Figma prototype, and speaking notes when available.
 
-Never describe planned interviews or simulated testing as completed work.
+The slides should distinguish the first navigation walkthrough from the later equipment-screen feedback and the planned additional tests.
