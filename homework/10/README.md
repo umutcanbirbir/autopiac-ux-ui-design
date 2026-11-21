@@ -1,7 +1,7 @@
 # Homework 10 — Final Presentation & Reflection
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Presentation outline drafted; results and final links pending.
+**Status:** Outline prepared; final slides and speaking notes remain to be completed.
 
 **Figma draft:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC
 **FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB
@@ -37,4 +37,4 @@ Total approximate duration: 8 minutes 45 seconds (subject to actual presentation
 - What evidence changed my original plan?
 - What would I test next with more time?
 
-Do not invent results, feedback, or quotations for the presentation.
+The presentation will use the interview and testing findings already documented in the Homework files.
