@@ -17,6 +17,8 @@ This log separates design proposals from research-backed decisions.
 | D-009 | 2026-11-21 report | Propose structured vehicle damage/replacement disclosure | R01 explicitly noted missing damage/replaced-parts entry | [R01 Interview](interview-r01.md); single participant | Static Figma panel status example added; full panel model and re-test pending |
 | D-010 | 2026-11-21 report | Preserve simple core progression while adding needed content | R01 liked the interface's simplicity and navigated independently | [R01 Interview](interview-r01.md); single participant | Check whether optional subsections overload the task |
 
+| D-011 | 2026-11-21 report | Expand the short vehicle-equipment sample into discoverable categories | Same R01 liked the first revision but requested a more developed equipment list; official seller sources also emphasize a complete equipment list | [R01 follow-up](r01-follow-up-2026-11-21.md), [competitor audit](../../homework/03/README.md) | Four static groups with 16 options implemented; confirm with independent users |
+
 **Update:** The initial illustrative Figma screen for D-008/D-009 is implemented: [Equipment & Condition](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2). It is a static mockup; no verified usability effect. D-010 (preserving simplicity) remains a design direction to test.
 
 **Caution:** D-005 reflects a limited owner-reported walkthrough, not a causal or population-wide finding. D-006 and D-007 are planned hypotheses, not completed or verified iterations.
