@@ -45,7 +45,7 @@ I organized the ideas in a [2×2 FigJam matrix](https://www.figma.com/board/FRea
 | High impact, easier to implement | Guided steps, progress indicator, clear errors, photo counter, review links, grouped equipment |
 | High impact, harder to implement | Persistent drafts, complete body-panel map, model-based suggestions |
 | Lower impact, easier to implement | Completion message, optional premium explanation |
-| Lower impact, harder to implement | AI-based photo checking and advanced price suggestions |
+| Lower impact, harder to implement | Automatic photo quality checks and advanced price suggestions |
 
 ## Selected Direction
 
