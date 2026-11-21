@@ -38,6 +38,15 @@ autopiac-ux-ui-design/
         └── README.md
 ```
 
+## Homework 09 — Implemented Figma Revisions and Mini Design System
+
+- [Revised AutoPiac prototype — Student Figma account](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2): an independent row of nine yellow/white screens with field guidance, photograph count and angles, clickable review-section corrections, and honest prototype completion wording.
+- [Figma Mini Design System](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-2): four real component sets with 15 variants.
+- [Developer Handoff](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-55): responsive, validation, color and photo limits.
+- [Homework 09 documentation](homework/09/README.md) records before/after links, implementation and the remaining unverified participant re-test.
+
+**Research integrity:** These improvements were designed based on known prototype limitations, not on unreported user complaints. Their effectiveness has not yet been re-tested.
+
 ## Initial Test Evidence
 
 - **[Homework 08 — Three-person Navigation Walkthrough Report](homework/08/README.md)**: 3/3 reportedly navigated the static Figma flow successfully; simplicity received positive aggregate feedback. This was **not** an end-to-end test using editable forms.
