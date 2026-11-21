@@ -1,7 +1,7 @@
 # AutoPiac — UX/UI Design Semester Project
 
 **Course:** UX/UI Design, University of Pécs (PTE MIK)  
-**Student:** Umut — insert official full name and Neptun code before submitting.  
+**Student:** Umut Can Birbir — Neptun: DUJ3ZD  
 **Progress:** Discovery phase.  
 **FigJam board:** https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2
 
