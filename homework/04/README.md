@@ -30,6 +30,14 @@ As a private car owner who does not know all technical specifications, I want a 
 9. Optional premium upgrade explained in plain language.
 10. A friendly confirmation screen with next actions.
 
+## FigJam Deliverables
+
+- [Actual 2 × 2 Impact vs Feasibility Matrix](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-182) (four separate, labeled quadrants with initial designer priorities)
+- [Competitor comparison cards in FigJam](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-214)
+- [R01 actual interview insight / affinity diagram](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)
+
+The priority rankings are hypotheses and a *designer-led planning exercise*, not quantitative participant votes or scored impact measures. R01's two requested content gaps (equipment breadth and replaced-parts disclosure) influenced the latest priority review.
+
 ## Preliminary Impact / Feasibility Matrix
 | Quadrant | Ideas |
 | --- | --- |
@@ -38,12 +46,13 @@ As a private car owner who does not know all technical specifications, I want a 
 | Lower impact / high feasibility | 10 confirmation improvements, 9 optional premium explanation |
 | Lower impact / lower feasibility | 6 sophisticated drag/drop + keyboard behavior |
 
-This is an **initial team-of-one prioritization**, not a validated stakeholder workshop result. Refine after user research.
+This is a **team-of-one prioritization**, not a measured usability score or stakeholder workshop. It has been updated after one real exploratory interview, but requires broader validation.
 
 ## Selected Concept
 A responsive, guided car-listing wizard with transparent requirements and recoverable errors.
 
 ## Open Tasks
-- [ ] Place the idea set and 2×2 matrix in FigJam.
-- [ ] Update priorities after research.
-- [ ] Link the chosen solution to actual observed user needs.
+- [x] Place the ideas and four-quadrant impact/feasibility matrix in FigJam.
+- [x] Update priority candidates using R01's actual equipment/damage feedback, while marking priority judgments as provisional.
+- [x] Cross-link competitor-source observations and R01 findings to selected design concepts.
+- [ ] Test prioritization and completeness with a broader set of sellers.
