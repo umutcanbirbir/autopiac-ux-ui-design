@@ -3,8 +3,8 @@
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
 **Status:** Presentation outline drafted; results and final links pending.
 
-**Figma draft:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm
-**FigJam:** https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2
+**Figma draft:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC
+**FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB
 
 ## 5–10 Minute Presentation Outline
 | Slide | Subject | Speaking time (approx.) |
