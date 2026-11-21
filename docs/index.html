@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#11263f">
+<title>AutoPiac — Interactive UX/UI Prototype</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#16253a;background:#f3f6fa;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}
+button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #85b8ef;outline-offset:2px}
+header{background:#10283f;color:#fff;padding:20px max(20px,calc((100% - 1120px)/2));display:flex;justify-content:space-between;align-items:center;gap:15px}
+.logo{font-size:25px;font-weight:850;letter-spacing:-.8px}.logo em{color:#77b9e7;font-style:normal}
+header small{color:#b6cadd;font-size:12px;text-align:right}
+main{max-width:1120px;margin:38px auto 70px;padding:0 18px}
+.layout{display:grid;grid-template-columns:minmax(0,730px) 300px;gap:25px;align-items:start}
+.panel,.side{background:#fff;border-radius:18px;box-shadow:0 8px 32px rgba(21,45,72,.08);border:1px solid #dde5ec}
+.panel{padding:30px 35px 34px}.side{padding:26px;position:sticky;top:18px}
+h1{font-size:32px;letter-spacing:-.85px;margin:9px 0 8px}h2{font-size:19px;letter-spacing:-.2px;margin:0 0 16px}
+p{line-height:1.55}p.sub{margin:0 0 24px;color:#66778b;font-size:14px}
+.eyebrow{color:#2371b3;font-size:12px;font-weight:750;letter-spacing:.08em;text-transform:uppercase}
+.stepper{display:flex;gap:6px;margin:24px 0 28px}.stepper span{height:6px;flex:1;border-radius:30px;background:#e7ecf2}.stepper span.active{background:#1f6fb3}
+.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-weight:680;font-size:13px}
+.field input,.field select,.field textarea{width:100%;padding:13px 12px;border:1px solid #b6c4d0;border-radius:9px;background:#fff;color:#172c44;min-height:48px}
+.field textarea{min-height:135px;resize:vertical}
+.hint{font-size:12px;color:#66778b}
+.err{font-size:12px;font-weight:600;color:#b52a3a;min-height:0}.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#b52a3a;background:#fff9f9}
+.actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:32px;flex-wrap:wrap}
+.btn{border:0;border-radius:10px;padding:13px 20px;font-weight:760;min-height:46px}
+.primary{background:#166da9;color:white}.primary:hover{background:#125987}.secondary{background:#ebf1f6;color:#25384b}
+.ghost{background:none;color:#12699d;padding:8px;font-size:13px;border:0;font-weight:700}
+.notice{background:#eef5fa;border:1px solid #d8e9f5;padding:15px 17px;border-radius:11px;color:#375977;font-size:13px;line-height:1.55;margin:18px 0}
+.notice.error{background:#fff1f1;border-color:#f0c4c4;color:#a12c3a}
+.notice.success{background:#eaf8ef;border-color:#b9e6c8;color:#176539}
+.side ol{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:16px}
+.side li{display:flex;gap:11px;align-items:center;color:#7b8894;font-size:14px}
+.side li .bubble{width:29px;height:29px;border-radius:50%;display:grid;place-items:center;background:#eaf0f6;color:#5c7387;font-weight:800;font-size:12px;flex:none}
+.side li.current{color:#163d60;font-weight:750}.side li.current .bubble{background:#1f6fb3;color:#fff}
+.side li.done .bubble{background:#d8f1e1;color:#1a7745}
+hr{border:0;border-top:1px solid #e5eaf0;margin:25px 0}
+.upload{border:2px dashed #a6c2db;background:#f7fbff;padding:28px 14px;border-radius:14px;text-align:center}
+.upload input{width:100%;max-width:290px}
+.upload p{color:#5e7690;font-size:13px;margin:6px 0 17px}.upload strong{display:block;margin:0 0 5px}
+.photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+.photo{border:1px solid #d4e0eb;border-radius:12px;overflow:hidden;background:#fff}
+.photo img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#e7edf3}
+.photocontrol{display:flex;flex-wrap:wrap;justify-content:center;padding:8px;gap:5px}
+.photocontrol button{border:1px solid #d2dfeb;background:#f6f9fc;border-radius:5px;font-size:11px;padding:5px 8px}
+.photocontrol small{font-size:10px;color:#557387;padding:3px}
+.review{display:grid;gap:14px}.review section{border:1px solid #dce5ee;border-radius:12px;padding:17px}
+.review section>div{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:7px}
+.review h3{font-size:15px;margin:0}.review p{font-size:13px;color:#506276;margin:4px 0;overflow-wrap:anywhere}
+footer{text-align:center;color:#738397;font-size:12px;padding:0 20px 25px}
+[hidden]{display:none!important}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.side{display:none}.panel{padding:23px 19px}main{margin-top:20px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.photos{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:26px}header{padding:17px 20px}}
+</style>
+</head>
+<body>
+<header><div class="logo">Auto<em>Piac</em></div><small>UX/UI coursework prototype<br>No data is sent to a server</small></header>
+<main><div class="layout">
+<section class="panel" aria-label="Interactive listing form">
+<div class="eyebrow" id="stepLabel"></div>
+<h1 id="stepTitle"></h1>
+<p class="sub" id="stepDesc"></p>
+<div class="stepper" id="stepper" aria-label="Progress"></div>
+<div id="message" class="notice" role="alert" hidden></div>
+
+<div id="step1">
+<div class="formgrid">
+<div class="field"><label for="make">Make *</label><select id="make"><option value="">Select make</option><option>Mercedes-Benz</option><option>BMW</option><option>Audi</option><option>Volkswagen</option><option>Toyota</option><option>Opel</option><option>Ford</option><option>Skoda</option><option>Other</option></select><span class="err" id="makeErr"></span></div>
+<div class="field"><label for="model">Model *</label><select id="model"><option value="">Select make first</option></select><span class="err" id="modelErr"></span></div>
+<div class="field"><label for="year">Year *</label><input id="year" type="number" min="1950" max="2027" placeholder="e.g. 2020"><span class="err" id="yearErr"></span></div>
+<div class="field"><label for="mileage">Mileage (km) *</label><input id="mileage" type="number" min="0" max="3000000" placeholder="e.g. 98000"><span class="err" id="mileageErr"></span></div>
+<div class="field"><label for="fuel">Fuel type *</label><select id="fuel"><option value="">Select fuel</option><option>Petrol</option><option>Diesel</option><option>Hybrid</option><option>Plug-in hybrid</option><option>Electric</option><option>Other</option></select><span class="err" id="fuelErr"></span></div>
+<div class="field"><label for="gear">Transmission *</label><select id="gear"><option value="">Select transmission</option><option>Automatic</option><option>Manual</option></select><span class="err" id="gearErr"></span></div>
+</div><div class="notice">Tip: Refer to your vehicle registration document to check exact specifications. Fields marked * are required.</div>
+</div>
+
+<div id="step2" hidden>
+<div class="upload">
+<strong>Upload photographs</strong>
+<p>Choose 5–30 JPG, PNG or WebP photos, up to 8 MB each. Your photos stay in your browser.</p>
+<input type="file" id="photoInput" multiple accept="image/jpeg,image/png,image/webp" aria-label="Select vehicle photographs">
+</div>
+<p class="hint" id="photoStatus">0 photos added — 5 required</p>
+<div class="photos" id="photos"></div>
+<div class="notice">Tip: Include front, rear, side, interior and dashboard photos. Use the arrow buttons to adjust the cover-photo order.</div>
+</div>
+
+<div id="step3" hidden>
+<div class="formgrid">
+<div class="field full"><label for="title">Listing title *</label><input id="title" maxlength="110" placeholder="e.g. Mercedes-Benz C300e 4MATIC Avantgarde"><span class="err" id="titleErr"></span></div>
+<div class="field"><label for="price">Asking price (HUF) *</label><input id="price" type="number" min="1" placeholder="e.g. 8950000"><span class="err" id="priceErr"></span></div>
+<div class="field"><label for="condition">Vehicle condition *</label><select id="condition"><option value="">Select condition</option><option>Excellent</option><option>Good</option><option>Fair</option><option>Needs repair</option></select><span class="err" id="conditionErr"></span></div>
+<div class="field full"><label for="description">Description *</label><textarea id="description" minlength="20" placeholder="Describe equipment, service history and any known issues..."></textarea><div class="hint">At least 20 characters</div><span class="err" id="descriptionErr"></span></div>
+</div>
+</div>
+
+<div id="step4" hidden><div class="review" id="review"></div><div class="notice">Review carefully before submitting. This demonstration will not publish a real vehicle advertisement.</div></div>
+
+<div id="step5" hidden><div class="notice success"><strong>Prototype task completed!</strong><p>You successfully followed the car listing flow. No real advertisement was published and no information was uploaded.</p></div><button class="btn secondary" id="restart">Start another test</button></div>
+<div class="actions" id="actions"><button class="btn secondary" id="back" type="button">Back</button><button class="btn primary" id="next" type="button">Continue</button></div>
+</section>
+<aside class="side"><span class="eyebrow">Your listing</span><h2>Four simple steps</h2><ol id="sideSteps"></ol><hr><p class="hint">You can interact with the fields, upload sample photos, trigger validation errors, and review the result. This is a local, browser-only UX test.</p></aside>
+</div></main><footer>AutoPiac UX/UI design prototype · For educational usability testing only</footer>
+<script>
+(function(){
+'use strict';
+var step=1;
+var titles=['','Vehicle details','Vehicle photos','Price & description','Review listing','Test complete'];
+var descs=['','Start with your car information.','Add at least 5 vehicle images and choose their order.','Tell buyers the condition and asking price.','Check the information before you finish the demonstration.','Thank you for testing AutoPiac.'];
+var models={
+'Mercedes-Benz':['C-Class','E-Class','A-Class','GLC','GLE','Other'],
+'BMW':['1 Series','3 Series','5 Series','X3','X5','Other'],
+'Audi':['A3','A4','A5','A6','Q3','Q5','Other'],
+'Volkswagen':['Golf','Passat','Polo','Tiguan','T-Roc','Other'],
+'Toyota':['Corolla','Yaris','RAV4','C-HR','Other'],
+'Opel':['Astra','Corsa','Insignia','Mokka','Other'],
+'Ford':['Focus','Fiesta','Mondeo','Kuga','Other'],
+'Skoda':['Octavia','Superb','Fabia','Kodiaq','Other'],
+'Other':['Other / not listed']
+};
+var images=[];
+var byId=function(id){return document.getElementById(id)};
+var fields=['make','model','year','mileage','fuel','gear','title','price','condition','description'];
+var sections=[null,['make','model','year','mileage','fuel','gear'],[],['title','price','condition','description']];
+var get=function(id){return byId(id).value.trim()};
+var msg=function(m,isError){var el=byId('message');el.hidden=!m;el.textContent=m||'';el.className='notice'+(isError?' error':'')};
+byId('make').addEventListener('change',function(){var val=get('make');var el=byId('model');el.innerHTML='';var first=document.createElement('option');first.value='';first.textContent='Select model';el.appendChild(first);(models[val]||[]).forEach(function(m){var o=document.createElement('option');o.textContent=m;el.appendChild(o)});clearErr('make');clearErr('model')});
+fields.forEach(function(id){byId(id).addEventListener('input',function(){clearErr(id)});byId(id).addEventListener('change',function(){clearErr(id)})});
+function clearErr(id){var el=byId(id);var parent=el.closest('.field');if(parent)parent.classList.remove('invalid');var t=byId(id+'Err');if(t)t.textContent=''}
+function error(id,message){var el=byId(id),parent=el.closest('.field');if(parent)parent.classList.add('invalid');var t=byId(id+'Err');if(t)t.textContent=message}
+function valid(s){
+ var missing=[],n=0;
+ function required(id,text){if(!get(id)){error(id,text||'This field is required.');missing.push(id)}}
+ if(s===1){
+  ['make','model','year','mileage','fuel','gear'].forEach(function(id){required(id)});
+  if(get('year')&&(Number(get('year'))<1950||Number(get('year'))>2027)){error('year','Enter a valid production year.');missing.push('year')}
+  if(get('mileage')&&(Number(get('mileage'))<0||Number(get('mileage'))>3000000)){error('mileage','Enter valid mileage.');missing.push('mileage')}
+ }
+ if(s===2&&images.length<5){msg('At least 5 photos are required. You have added '+images.length+'.',true);byId('photoInput').focus();return false}
+ if(s===3){
+  ['title','price','condition','description'].forEach(function(id){required(id)});
+  if(get('price')&&Number(get('price'))<=0){error('price','Enter a positive price.');missing.push('price')}
+  if(get('description')&&get('description').length<20){error('description','Write at least 20 characters.');missing.push('description')}
+ }
+ if(missing.length){msg('Please correct the highlighted fields before continuing.',true);byId(missing[0]).focus();return false}
+ return true;
+}
+function render(){
+ for(var i=1;i<=5;i++)byId('step'+i).hidden=i!==step;
+ byId('actions').hidden=step===5;
+ byId('back').hidden=step===1;
+ byId('next').textContent=step===4?'Complete prototype':'Continue';
+ byId('stepLabel').textContent=step===5?'COMPLETE':'STEP '+step+' OF 4';
+ byId('stepTitle').textContent=titles[step];
+ byId('stepDesc').textContent=descs[step];
+ byId('stepper').innerHTML=[1,2,3,4].map(function(i){return '<span class="'+(i<=step?'active':'')+'"></span>'}).join('');
+ byId('sideSteps').innerHTML=['Vehicle details','Photographs','Price and description','Review'].map(function(t,i){var num=i+1;return '<li class="'+(num===step?'current':num<step?'done':'')+'"><span class="bubble">'+(num<step?'✓':num)+'</span>'+t+'</li>'}).join('');
+ if(step===4)renderReview();
+ msg('');
+}
+byId('next').addEventListener('click',function(){if(step<4&&!valid(step))return;if(step===4&&!allValid())return;step++;render();window.scrollTo({top:0,behavior:'smooth'})});
+byId('back').addEventListener('click',function(){if(step>1){step--;render();window.scrollTo({top:0,behavior:'smooth'})}});
+byId('restart').addEventListener('click',function(){window.location.reload()});
+function allValid(){for(var i=1;i<=3;i++){if(i===2&&images.length<5){step=2;render();msg('Add at least 5 photos before completing the task.',true);return false}if(i!==2){var saved=step;step=i;if(!valid(i)){render();msg('Please complete the missing information.',true);return false}step=saved}}return true}
+byId('photoInput').addEventListener('change',function(evt){
+ var chosen=Array.from(evt.target.files);
+ var failed=[];
+ chosen.forEach(function(file){
+  if(images.length>=30){failed.push('Maximum 30 photos.');return}
+  if(!['image/jpeg','image/png','image/webp'].includes(file.type)){failed.push(file.name+': unsupported format.');return}
+  if(file.size>8*1024*1024){failed.push(file.name+': exceeds 8 MB.');return}
+  images.push({name:file.name,url:URL.createObjectURL(file)});
+ });
+ evt.target.value='';
+ renderPhotos();
+ if(failed.length)msg(failed.slice(0,3).join(' '),true);else msg('');
+});
+function renderPhotos(){
+ var root=byId('photos');root.innerHTML='';
+ images.forEach(function(photo,i){
+  var card=document.createElement('div');card.className='photo';
+  var im=document.createElement('img');im.src=photo.url;im.alt='Vehicle photo '+(i+1);card.appendChild(im);
+  var controls=document.createElement('div');controls.className='photocontrol';
+  var small=document.createElement('small');small.textContent=i===0?'Cover photo':'Photo '+(i+1);controls.appendChild(small);
+  [['↑','up'],['↓','down'],['Remove','remove']].forEach(function(x){
+   var b=document.createElement('button');b.type='button';b.textContent=x[0];b.setAttribute('aria-label',x[1]+' photo '+(i+1));b.disabled=x[1]==='up'&&i===0||x[1]==='down'&&i===images.length-1;
+   b.addEventListener('click',function(){
+    if(x[1]==='remove'){URL.revokeObjectURL(images[i].url);images.splice(i,1)}
+    else {var j=i+(x[1]==='up'?-1:1);var temp=images[i];images[i]=images[j];images[j]=temp}
+    renderPhotos();
+   });controls.appendChild(b);
+  });
+  card.appendChild(controls);root.appendChild(card);
+ });
+ byId('photoStatus').textContent=images.length+' photos added — '+(images.length>=5?'minimum met':'add '+(5-images.length)+' more');
+}
+function formatNumber(v){return Number(v).toLocaleString('hu-HU')}
+function addReview(container,title,rows,go){
+ var section=document.createElement('section'),heading=document.createElement('div'),h=document.createElement('h3'),b=document.createElement('button');
+ h.textContent=title;b.className='ghost';b.textContent='Edit';b.type='button';
+ b.addEventListener('click',function(){step=go;render()});heading.append(h,b);section.appendChild(heading);
+ rows.forEach(function(r){var p=document.createElement('p');p.textContent=r;section.appendChild(p)});
+ container.appendChild(section)
+}
+function renderReview(){
+ var container=byId('review');container.innerHTML='';
+ addReview(container,'Vehicle details',[get('make')+' '+get('model')+' · '+get('year'),formatNumber(get('mileage'))+' km · '+get('fuel')+' · '+get('gear')],1);
+ addReview(container,'Photographs',[images.length+' photos included · '+(images[0]?images[0].name+' is cover photo':'No cover')],2);
+ addReview(container,'Price and description',[get('title'),formatNumber(get('price'))+' HUF · '+get('condition'),get('description')],3);
+}
+render();
+})();
+</script></body>
+</html>
