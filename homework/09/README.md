@@ -41,7 +41,17 @@ When I showed the first version to the same participant, he liked it but wanted 
 - Infotainment & Connectivity
 - Exterior & Parking
 
-These revisions have not yet been evaluated with a new group of users. See [Homework 02](../02/README.md) and the [follow-up notes](../../project/docs/r01-follow-up-2026-11-21.md).
+An informal follow-up on the expanded screen found that participants could read the equipment categories, but could not change the visual selections or reach the next-step button. The exact participant count and individual outcomes are not available. See [Homework 02](../02/README.md), [first follow-up](../../project/docs/r01-follow-up-2026-11-21.md), and [later prototype feedback](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
+
+## Iteration 05 — Fixing the Long-Screen Navigation Blocker
+
+**Issue found:** In the expanded Equipment & Condition prototype, the **Continue to photos** button appeared below the visible screen and could not be reached. The original Figma frame was 1360 px tall with scrolling disabled.
+
+**Correction:** I changed the frame to a fixed **390 × 844 px** mobile viewport with **vertical scrolling**, so the damage section and continuation button can be reached by scrolling. Its links to Photos and Vehicle Details remain intact.
+
+**Status:** The Figma property fix has been applied and visually checked, but participants have **not yet confirmed it works in their Present-mode session**. The equipment checkboxes still display example states without storing changes.
+
+[Revised Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Observed feedback](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
 
 ## Mini Design System
 
@@ -64,6 +74,6 @@ I also reviewed the latest screens and corrected issues with back navigation, ph
 
 ## What Remains to Be Tested
 
-The latest equipment list, error-state comprehension and Review editing paths need feedback from additional users. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
+The new scrolling behavior, equipment selection expectations, error-state comprehension and Review editing paths need a further check with participants. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
 
 [Next testing instructions](../../project/docs/usability-test-instructions.md)
