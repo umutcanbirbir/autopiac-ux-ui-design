@@ -60,6 +60,19 @@ Note: These are reusable component variant definitions in Figma, but the existin
 5. Button colors, interactive states and WCAG 2.2 AA target.
 6. Clear distinction between Figma simulation and functional browser demonstration.
 
+## New Evidence-Driven Design Backlog (R01 Interview)
+
+A separate exploratory interview with an 18-year-old first-time prospective seller identified two missing sections in the current AutoPiac listing flow. This feedback was collected **after** the earlier I-01 to I-03 refinements and should not be retroactively attributed to those revisions.
+
+| ID | Directly reported participant concern | Proposed next Figma revision | Status |
+| --- | --- | --- | --- |
+| **I-04 — Vehicle Equipment** | "Users cannot choose the car's equipment/features" (paraphrase) | Add an optional, searchable or grouped multi-select for common equipment and show selected items in Review | **Planned, not built or tested** |
+| **I-05 — Damage & Replaced Parts** | "There is no section for damage/replaced parts" (paraphrase) | Add structured vehicle-condition/damage disclosure, allowing users to identify repaired/repainted/replaced body panels and add notes; include summary in Review | **Planned, not built or tested** |
+
+Preserve the simple step-by-step flow that this participant liked. Verify the terminology and controls with additional participants rather than assuming that extra fields automatically improve usability.
+
+[Source interview R01](../../project/docs/interview-r01.md) · [Homework 02 synthesis](../02/README.md)
+
 ## Follow-Up Validation — Remaining
 
 To evaluate whether these changes helped users in practice, ask participants to complete a **realistic interactive listing task** using the HTML demonstration or a prototype capable of actual input. Capture time, independent completion, field errors, where correction was needed, and real participant remarks. Retest at least one improved Figma state or compare versions. **No such follow-up results are claimed here.**
