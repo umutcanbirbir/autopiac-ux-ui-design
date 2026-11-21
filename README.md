@@ -1,5 +1,7 @@
 # AutoPiac — UX/UI Design Semester Project
 
+**Project Kanban:** [Todo / In Progress / Done board](project/KANBAN.md) · [Live GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues)
+
 **University:** University of Pécs — PTE MIK  
 **Course:** UX/UI Design  
 **Student:** Umut Can Birbir — Neptun: DUJ3ZD  
