@@ -34,7 +34,7 @@ Participants generally understood the content they saw. **The number of people r
 
 I built a reusable Figma Equipment Toggle component with two On/Off variants and bidirectional click interactions, and converted all **16 equipment choices** into independent interactive instances. The checkboxes now have changeable prototype states, while their labels remain intact. I removed the nonfunctional equipment search placeholder and added a prompt to tap options to select or deselect them.
 
-The variant switch and label preservation were checked programmatically in Figma. The **interactive click behavior still needs a separate participant check in Figma Present mode**. Choices do not persist to listing data or synchronize the Review example.
+The variant switch and label preservation were checked programmatically in Figma. **Follow-up response (22 November 2026):** After the interactive variant update, the student relayed that the people who tested the equipment options said the selections **worked** in Figma Present mode. This is a positive reported retest of the toggle interaction, not a measured task-completion rate. The exact participant count, individual outcomes and whether every one of the 16 controls was tried were not recorded. Choices do not persist to listing data or synchronize the Review example.
 
 [Interactive options](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2040-9).
 
@@ -44,7 +44,7 @@ The variant switch and label preservation were checked programmatically in Figma
 - [x] No further scrolling or access problem reported after the fix; specific component visibility was not recorded separately.
 - [ ] Check whether **Save as draft** would be clearer than **Draft**.
 - [x] Add on/off interactions to all 16 equipment options using a Figma component.
-- [ ] Confirm participants can actually toggle multiple options in Present mode without disrupting the others.
+- [x] Follow-up report says the interactive equipment selections work in Present mode; which individual options were exercised was not recorded.
 - [ ] Record the actual number of participants, individual outcomes and any measured times before drawing quantitative conclusions.
 
 [Homework 05 — Information Architecture](../../homework/05/README.md) · [Homework 08 — Usability Test](../../homework/08/README.md) · [Homework 09 — Design Iterations](../../homework/09/README.md)
