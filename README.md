@@ -47,6 +47,13 @@ autopiac-ux-ui-design/
 5. Clickable Figma prototype.
 6. Usability tests, revisions, UI guidelines, and final presentation.
 
+## Figma Wireframes and Prototype
+
+- [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)
+- Seven mobile screen states and one desktop variation have been drafted.
+- Basic screen-to-screen click navigation has been added. Form inputs are **visual placeholders**, not functional data-entry widgets.
+- Real participant tests, validation-dependent interactions and final high-fidelity UI are still pending.
+
 ## GitHub Project Board
 
 **Status:** Not created yet. Add the URL for the project board with **Todo → In progress → Done** after setup.
