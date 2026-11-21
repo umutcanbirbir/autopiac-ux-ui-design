@@ -38,6 +38,11 @@ autopiac-ux-ui-design/
         └── README.md
 ```
 
+## Initial Test Evidence
+
+- **[Homework 08 — Three-person Navigation Walkthrough Report](homework/08/README.md)**: 3/3 reportedly navigated the static Figma flow successfully; simplicity received positive aggregate feedback. This was **not** an end-to-end test using editable forms.
+- **[Homework 09 — Three Proposed UX Improvements](homework/09/README.md)**: validation clarity, photo guidance, and review/confirmation. Proposals await Figma implementation and re-testing.
+
 ## Work Plan
 
 1. Problem framing and target users.
