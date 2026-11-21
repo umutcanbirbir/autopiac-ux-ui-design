@@ -3,10 +3,10 @@
 **Course:** UX/UI Design — PTE MIK  
 **Project:** AutoPiac — A User-Friendly Car Listing Experience  
 **FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB  
-**Status:** Initial framing; user research not yet conducted.
+**Status:** Initial problem definition, prepared before the user interview.
 
 ## 1. Problem
-When private vehicle owners in Hungary try to post a vehicle advertisement online, lengthy forms, unclear vehicle specifications, or insufficient feedback **may** lead to errors, confusion, or abandoned listings. This is an **unvalidated problem hypothesis**, not a research finding.
+When private vehicle owners in Hungary try to post a vehicle advertisement online, lengthy forms, unclear vehicle specifications, or insufficient feedback **may** lead to errors, confusion, or abandoned listings. This was my starting hypothesis, which I explored further through the later interview.
 
 ## 2. Target Users
 - Individual vehicle owners in Hungary who wish to sell their cars.
@@ -30,7 +30,7 @@ Improve listing completion, reduce avoidable errors, and raise the quality of ve
 Private car sellers in Hungary need a straightforward way to create complete and accurate online listings, but complicated form flows and unclear information requirements may prevent confident completion.
 
 ## 7. Measurable Success Criterion
-**Proposed target:** At least **2 of 3** usability test participants complete the main listing task independently. Track completion time, mistakes, hesitation, and requests for assistance. No results exist yet.
+**Proposed target:** At least **2 of 3** usability test participants complete the main listing task independently. Track completion time, mistakes, hesitation, and requests for assistance. The later three-person screen walkthrough is documented separately in Homework 08; it did not measure full data-entry completion.
 
 ## 8. Assumptions and Evidence Plan
 | Assumption | Status | Validation |
@@ -48,8 +48,8 @@ AutoPiac is an automotive marketplace concept for the Hungarian market. This UX/
 ## Evidence Checklist
 - [x] Initial project scope and problem hypothesis.
 - [x] FigJam discovery diagram.
-- [ ] At least one actual user research input.
-- [ ] Documented insights supported by observations.
+- [x] One informal first-time-user interview recorded in Homework 02.
+- [x] Interview insights and design revisions documented in Homework 02.
 - [ ] Review final assignment requirements with the lecturer.
 
-*Research participants, interview quotes, and usability outcomes will not be fabricated.*
+The problem definition is the starting point for the project, not a claim that all sellers experience these difficulties.
