@@ -81,7 +81,7 @@ This profile is sourced from a **single interview**. The project's older fiction
 
 ## 7. Decisions & Follow-Up Test
 
-Two feature additions are **prioritized as design proposals, not yet implemented**:
+Two feature additions were **proposed from real participant feedback**; their initial **static Figma mockup** has since been implemented at [Equipment & Condition](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2). They have not been re-tested:
 
 1. **Equipment selector** within Vehicle Details or a compact "Features" subsection.
 2. **Damage & Replacement History** as a clearly explained condition subsection with structured body-panel selection and explanatory text.
@@ -100,9 +100,13 @@ Two feature additions are **prioritized as design proposals, not yet implemented
 - [x] Preliminary theme clustering using authentic reported notes.
 - [ ] Confirm actual session date, duration, consent for academic use if required by the course.
 - [ ] Collect additional participants to check if findings recur.
-- [ ] Implement equipment/damage states in Figma and document before/after.
+- [x] Implement illustrative equipment/damage controls in Figma (static selections, no saved data) and link revised Review screen.
 - [ ] Perform and record at least one **post-change test**.
 - [ ] Evaluate a realistic task using functional inputs; the Figma fields do not accept data.
+
+## FigJam Synthesis
+
+An R01 affinity/themes diagram using only the actual reported themes was added to the [AutoPiac FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB).
 
 ## 8. Research Integrity
 
