@@ -1,52 +1,93 @@
-# Homework 03 — Competitor UX/UI & Accessibility Audit
+# Homework 03 — Evidence-Based Competitor UX/UI & Accessibility Audit
 
-**Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Date:** 2026-11-21  
-**Method:** Public-documentation desk research; **not** hands-on testing of logged-in forms.  
-**Primary competitor:** [Használtautó.hu](https://www.hasznaltauto.hu/)  
-**Additional benchmark:** [mobile.de](https://www.mobile.de/en/sell/car/)
+**Project:** AutoPiac — Private Car Listing Experience  
+**Student:** Umut Can Birbir (DUJ3ZD)  
+**Research date:** 2026-11-21  
+**Status:** Official-source competitor desk audit completed; direct logged-in interface interaction and formal accessibility testing were **not** performed.  
+**Competitors:** Használtautó.hu (Hungarian primary competitor); mobile.de (German market benchmark)
 
-## Sources Reviewed
-1. Használtautó.hu's official step-by-step listing guide: https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/
-2. Használtautó.hu user-facing overview of listing requirements: https://garazs.hasznaltauto.hu/ha-autot-adnal-el/utmutato-hasznalt-auto-eladasahoz/
-3. mobile.de's private selling guide: https://www.mobile.de/en/sell/car/
-4. W3C Web Content Accessibility Guidelines (WCAG) 2.2: https://www.w3.org/TR/WCAG22/
+## 1. Goal and Research Method
 
-## Evidence-Based Competitive Observations
-- Használtautó.hu describes a multi-step flow: vehicle details, photos/documents, photo management, packages, promotions, and submission.
-- The guide identifies mandatory fields such as make/model/variant and describes auto-filled fields that remain editable.
-- It explains photo upload, ordering, and captions, then a separate offer/package choice.
-- A success state confirms the created advertisement.
-- The platform has significant feature depth; whether this makes the *current user interface* difficult requires direct testing.
+Compare two established online vehicle marketplaces with AutoPiac's seller journey. Identify evidenced features, likely user needs, potential friction points, and principled design responses.
 
-## Six Audit Items: Observations, Risks & Proposed Improvements
+**Method:** Review public first-party guides, step-by-step screenshots described and embedded in Használtautó's official guide, official seller advice and listing documentation from mobile.de. **No account login, interactive competitor form walkthrough, screenshot annotation of live form states, automated accessibility audit, or participant comparison was carried out.** Treat any potential UX defect as a *hypothesis*, not an observed failure.
 
-| # | Documented observation / audit target | Potential usability risk (not verified defect) | AutoPiac response | How to verify |
+### Source Log (Primary / Official Sources)
+
+| Source | What it directly supports | Access / limitation |
+| --- | --- | --- |
+| [H1: Használtautó — step-by-step advertisement guide](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/) | Advert creation steps; partially auto-populated editable vehicle fields; photo/document upload; separate image ordering/captions; package choice; contains illustrative screenshots | Describes a published flow; live current logged-in form not tested |
+| [H2: Használtautó — successful listing advice](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-hirdess-a-hasznaltauto-hu-n-a-sikeres-jarmuhirdetes-titka-5-percben/) | Equipment checkboxes, description recommendations, relevant listing completeness and buyer trust | Seller guidance; not a measured usability study |
+| [H3: Használtautó — pre-sale preparation and photos](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-keszitsd-fel-eladova-valt-autodat-a-meghirdetesre/) | Advises clear disclosure of known faults and photographs of vehicle details and damage | General recommendations, not a verification of an actual UI control |
+| [M1: mobile.de — write a good listing](https://www.mobile.de/magazin/artikel/richtig-inserieren-35776) | A complete equipment list, photographs, informative description, service/repair/accident history and known defects | Seller guide with illustrative screenshots; live editable form untested |
+| [M2: mobile.de — selling guide](https://www.mobile.de/sicherheit/guide-and-tips/sicher-verkaufen) | Key pricing factors, extras/equipment and advice to disclose vehicle imperfections | Published advice; current selling-flow interface not individually tested |
+| [A1: WCAG 2.2](https://www.w3.org/TR/WCAG22/) | Normative accessibility success criteria for testing | Standard; does not establish either competitor violates it |
+
+## 2. Confirmed Competitor Features (Source-Based)
+
+### Használtautó.hu (Hungary)
+
+1. **Structured vehicle data:** The official guide describes fields such as model, year and variant; some suggested values are auto-filled and remain editable. **Implication:** Advanced vehicle data can be easier with informed suggestions, but sellers must be able to correct incorrect predictions. [H1](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/)
+2. **Equipment selection:** Its official advice explicitly describes selecting extras using checkboxes (e.g. ABS, central locking). Chosen equipment appears on the vehicle page rather than requiring repetition in free-text description. **Implication:** Dedicated feature selection is a reasonable AutoPiac content model. [H2](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-hirdess-a-hasznaltauto-hu-n-a-sikeres-jarmuhirdetes-titka-5-percben/)
+3. **Photo workflow:** Upload and subsequent image management (ordering/captions) are distinct described stages; the guide describes optional document photos. **Implication:** AutoPiac can show upload status, cover and ordering in one comprehensible stage (proposed simplification, not proof of superiority). [H1](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/)
+4. **Package selection:** The published listing guide describes packages and promotions after image management, some affecting photo visibility. **Implication:** AutoPiac should clearly separate core listing publication from optional premium purchase and disclose terms before payment. [H1](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/)
+5. **Honest vehicle history:** The official preparation article encourages declaring known defects and photographing any damage. **Implication:** A structured damage/replaced-parts section can support transparent condition reporting. [H3](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-keszitsd-fel-eladova-valt-autodat-a-meghirdetesre/)
+
+### mobile.de (Germany)
+
+1. **Listing completeness:** The official seller article identifies three major content pillars: high-quality photos, a fully completed equipment list and informative descriptive text. **Implication:** AutoPiac's initial four-item sample equipment list was too shallow as a product concept. [M1](https://www.mobile.de/magazin/artikel/richtig-inserieren-35776)
+2. **Distinguishing structured extras from description:** mobile.de suggests that free-text description supplement rather than merely repeat extras, emphasizing actual condition and history. **Implication:** Separate equipment/features, damage/repair disclosure, and narrative description. [M1](https://www.mobile.de/magazin/artikel/richtig-inserieren-35776)
+3. **History and damage:** Advice explicitly mentions servicing, repairs, resprays, accidents, outstanding defects and replaced components. **Implication:** A panel-status/repair-history form has a real information-value rationale independent of user research. [M1](https://www.mobile.de/magazin/artikel/richtig-inserieren-35776)
+4. **Pricing inputs:** The sales guide identifies year, mileage, condition and additional equipment among pricing factors. **Implication:** Keep those fields discoverable and consistent on Review. [M2](https://www.mobile.de/sicherheit/guide-and-tips/sicher-verkaufen)
+
+## 3. Side-by-Side Comparison
+
+| Dimension | Használtautó.hu | mobile.de | AutoPiac UX decision |
+| --- | --- | --- | --- |
+| Vehicle identification | Structured form with some editable auto-population (H1) | Listing guide emphasizes make/model/year/trim (M1) | Begin with essentials; advanced taxonomy when necessary |
+| Equipment / extras | Checkbox module described (H2) | Complete equipment list emphasized (M1) | Grouped equipment checklist (Safety, Comfort, Technology, Exterior), potential search and “Other” |
+| Damage and history | Known defects should be disclosed (H3) | Known/repaired damage, repairs and history emphasized (M1) | Separate body-panel status and optional notes |
+| Photo management | Upload plus separate order/captions stages described (H1) | Clear, informative photographs emphasized (M1) | One photo step with counter, cover choice and visible gallery |
+| Description | Contextual vehicle history/details (H2) | Narrative to supplement equipment and describe history (M1) | Prompt for repair/service/ownership details without duplicating feature list |
+| Commercial choices | Packages/promotions after listing stages (H1) | Paid-package considerations in selling guide (M2) | Keep premium visibly optional, clarify benefits |
+| Directly tested task completion | Not measured | Not measured | Only owner-reported AutoPiac Figma navigation results, not live form-completion data |
+
+## 4. Eight Heuristic Review Items (Potential Risks, NOT Verified Defects)
+
+The following are **potential risk scenarios** informed by features described in the official sources. No statement in this table establishes that the competitors fail a heuristic or accessibility criterion.
+
+| ID | Source-backed observation | Potential risk to evaluate | Proposed AutoPiac response | Proposed validation |
 | --- | --- | --- | --- | --- |
-| 1 | Vehicle details include mandatory and auto-filled attributes. | A novice may confuse required and optional technical fields. | Separate essentials, optional details and contextual explanations. | User task observation |
-| 2 | Photos are handled across upload and separate photo-management steps. | People may miss image-order controls or not know photo completeness. | Immediate preview, reorder and progress indicator. | Observe photo task |
-| 3 | Users encounter package and promotion choices before finishing. | Sellers may misunderstand the effect of optional paid services. | Keep premium offer clearly optional, with transparent costs. | Comprehension test |
-| 4 | The guide describes multiple sequential stages. | Progress and return navigation may not feel obvious. | Explicit stepper, saved draft and back navigation. | Step-navigation testing |
-| 5 — accessibility check | Form field labels, required markers, and validation need direct inspection. | A screen reader may miss purpose or error cues **if** labels and messages are not programmatic. | Persistent text labels, associated errors, field-level instructions. | Keyboard + screen-reader inspection, WCAG 3.3.2 / 3.3.1 |
-| 6 — accessibility check | Photo sorting and interactive controls need direct inspection. | Drag-only operation or undersized touch targets **if present** could exclude users. | Keyboard move-up/down alternatives and clear touch targets. | Keyboard-only testing, WCAG 2.1.1 / 2.5.8 |
+| UX-01 | Használtautó auto-suggests some specifications (H1) | Users might accept a wrong auto-filled field | Editable suggestion + explicit confirmation | Seed incorrect suggestion in a task |
+| UX-02 | Equipment selection is detailed (H2 / M1) | Long, flat option lists may hinder discovery | 4 named groups + searchable optional extras | Ask user to find 3 specific options |
+| UX-03 | Image upload and management occur in separate described stages (H1) | Cover/ordering could be overlooked | Inline cover and reorder controls | Cover-photo task with observation |
+| UX-04 | Packages are offered before finalization (H1) | Premium choice could be confused with mandatory payment | “Optional premium” label and pricing clarity | Ask participant what is required to publish |
+| UX-05 | Damage/repair history matters (H3 / M1) | Free-form-only notes may omit key parts | Body-panel status selection and optional repair details | Ask participant to disclose a replaced panel |
+| UX-06 | Vehicle forms use technical terms (H1 / M1) | A first-time seller may not recognize version/trim or features | Plain-language help, “Not sure” state | Terminology comprehension test |
+| A11Y-01 | Forms may include required selections and errors | **If** labels/errors are not programmatically associated, screen-reader users could miss them | Persistent labels, accessible error summary and \`aria-describedby\` in real implementation | Keyboard + screen reader; WCAG 2.4.6 / 3.3.1 / 3.3.2 |
+| A11Y-02 | Photo ordering can be implemented by drag interaction (H1) | **If** dragging is the only method, keyboard/pointer accessibility can suffer | Move earlier/later buttons plus drag alternative, suitably sized targets | Keyboard-only and touch; WCAG 2.1.1 / 2.5.7 / 2.5.8 |
 
-**Important distinction:** The table describes confirmed *features from the guide* and **potential risks**. It does **not** claim six verified usability defects or confirmed accessibility violations.
+## 5. Research Triangulation and Prioritization
 
-## UI State Audit Checklist
-- [ ] Loading state while submitting/uploading
-- [ ] Empty photo collection
-- [ ] Missing mandatory field
-- [ ] Photo type/size upload error
-- [ ] Network/server failure
-- [ ] Draft recovery
-- [ ] Successful publishing confirmation
+**Actual independent research signal:** One owner-reported interview of R01 (18-year-old first-time prospective seller) explicitly requested more equipment options and a place for damage/replaced parts. The initial revised mockup was then liked but the equipment list still judged insufficiently developed. The follow-up impression is **real reported feedback**, not a timed/independent full-task test. See [Interview R01](../../project/docs/interview-r01.md).
 
-## Scope and Limitation
-A final evidence-based interface audit requires actually opening the competitor's listing screens (with appropriate access), recording annotated screenshots, and checking the six items. Do not describe these checks as completed.
+**Source convergence:** The participant's requests align with seller information needs documented by Használtautó.hu (checkbox equipment and defect transparency) and mobile.de (complete equipment list and detailed history). This supports design **priority**, not a measured claim that AutoPiac is faster or easier.
 
-## Early Design Implications
-1. Make minimum required information unambiguous.
-2. Provide contextual vehicle-data help without overwhelming the user.
-3. Keep photos, preview, and error recovery easy to understand.
-4. Distinguish core publishing from optional promotional purchases.
-5. Use WCAG 2.2 as an accessibility verification framework.
+### Prioritized Changes
+1. **P0 — Grouped equipment selection:** Safety & Driver Assistance / Comfort & Interior / Infotainment & Connectivity / Exterior & Lighting; show representative options, selected counts, and an option for unspecified extras.
+2. **P0 — Condition transparency:** Keep Original/Repainted/Replaced/Damaged/Unknown as explainable selections; do not treat a default example as a verified vehicle fact.
+3. **P1 — Photo-stage completeness:** Visible 5-photo minimum and cover control; future accessible reordering.
+4. **P1 — Optional commercial add-on clarity:** Plan premium decision as optional and clear before the publish step.
+5. **P2 — Advanced suggestions:** Make/model/year-based prefill after vehicle catalog integration and real testing.
+
+## 6. Evidence / Scope and Submission Limitations
+
+- [x] Two source-backed competitor/platform reviews with primary citations.
+- [x] Six UX observation/risk cases plus two conditional accessibility risks.
+- [x] Side-by-side feature matrix and specific AutoPiac responses.
+- [x] Detailed evaluation methodology, assumptions, and sourced design implications.
+- [ ] Full hands-on inspection of current logged-in listing editors with annotated screenshots.
+- [ ] Verified actual competitor accessibility issues (none claimed).
+- [ ] Comparative participant task time or conversion results (none claimed).
+
+**Research ethics:** Never present a hypothetical risk as an observed defect, and never fabricate participant quotes or accessibility failures.
