@@ -49,9 +49,21 @@ An informal follow-up on the expanded screen found that participants could read 
 
 **Correction:** I changed the frame to a fixed **390 × 844 px** mobile viewport with **vertical scrolling**, so the damage section and continuation button can be reached by scrolling. Its links to Photos and Vehicle Details remain intact.
 
-**Status:** The Figma correction was applied and visually checked. Follow-up feedback then confirmed the revised navigation works and no further problem was reported. Individual participants and exact test times were not recorded. Equipment checkboxes still display example states without storing changes.
+**Status:** The Figma correction was applied and visually checked. Follow-up feedback then confirmed the revised navigation works and no further problem was reported. Individual participants and exact test times were not recorded. At this stage, equipment checkboxes still displayed noneditable example states.
 
 [Revised Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Observed feedback](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
+
+## Iteration 06 — Clickable Equipment Selections
+
+After the scrolling issue was resolved, I addressed the remaining complaint that the equipment choices could not be changed. I created an [AutoPiac Equipment Toggle component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2040-9) with **two variants (Selected=On / Selected=Off)** and two-way **On Click → Change To** prototype reactions. All **16 items** were replaced with independent instances of this component; the equipment label is a text property that remains unchanged when its selection state changes. The starting selection states were preserved.
+
+I also removed the visual search field, which could not accept typing, and added the instruction **“Tap a feature to select or deselect it.”**
+
+**Checked:** All 16 Figma instances now reference the two-state component. The bidirectional reactions and a test switch of the Apple CarPlay variant were checked in the file, including preservation of its label. The scrolling frame and Continue / Back navigation remain in place. **A participant has not yet tried the new checkbox interactions in Present mode.**
+
+**Scope:** Figma maintains visual checkbox state during component interaction; it does not write to a database, compute a live selected count, or automatically update the Review page.
+
+[Interactive equipment screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Toggle component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2040-9).
 
 ## Mini Design System
 
@@ -74,6 +86,6 @@ I also reviewed the latest screens and corrected issues with back navigation, ph
 
 ## What Remains to Be Tested
 
-The scrolling blocker has been reported resolved. Equipment selection expectations, error-state comprehension and Review editing paths still need individual documented task results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
+The scrolling blocker has been reported resolved. The new interactive equipment toggles, error-state comprehension and Review editing paths still need individual documented task results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
 
 [Next testing instructions](../../project/docs/usability-test-instructions.md)
