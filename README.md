@@ -21,7 +21,7 @@ My aim is to keep the main process simple without leaving out important informat
 | Detailed project notes | [Project overview](project/README.md) |
 | Presentation preparation | [Presentation folder](presentation/01-01/) |
 
-A GitHub Projects workspace has been created and linked. It still needs a project title, a Board view and the existing Issues added. The repository Kanban remains a summary of the current tasks.
+The [AutoPiac GitHub Projects Board](https://github.com/users/umutcanbirbir/projects/1/views/1) has been configured with the existing eight issues in Todo, In Progress and Done. The [repository Kanban](project/KANBAN.md) is a written overview.
 
 ## Design Process
 
