@@ -28,12 +28,12 @@ Participants generally understood the content they saw. **The number of people r
 
 **Fix implemented:** The same frame was changed to a **390 × 844 px mobile viewport with vertical scrolling enabled** (`overflowDirection: VERTICAL`). Its content extends past the viewport, and users should now be able to scroll to the lower Damage & Replacement History section and the Continue to photos action. The original continue link to the Photos frame and back link to Vehicle Details were preserved.
 
-**Not yet verified:** A new participant has **not yet confirmed** that the repaired scrolling behavior works in their Figma presentation environment. The checkboxes and visual search field also remain static. This is a navigation fix, not an interactive equipment form.
+**Follow-up confirmation:** After the scrolling change, the student reported that the people who tried the revised prototype found the navigation working and did not report further problems. This supports closing the specific **unreachable Continue to photos** navigation issue. No individual participant count, time or device information was provided for this confirmation. Equipment checkboxes and search remain visual Figma elements; this confirmation does not establish functional form editing.
 
 ## Next Check
 
-- [ ] Ask a participant to reopen the revised prototype, scroll past the equipment section and reach **Continue to photos** without help.
-- [ ] Confirm that the Damage & Replacement History section is visible while scrolling.
+- [x] Follow-up feedback received: the revised prototype's navigation works and no further issue was reported; individual task details were not recorded.
+- [x] No further scrolling or access problem reported after the fix; specific component visibility was not recorded separately.
 - [ ] Check whether **Save as draft** would be clearer than **Draft**.
 - [ ] If selection behavior is required for the task, test it in an interactive prototype with changeable controls.
 - [ ] Record the actual number of participants, individual outcomes and any measured times before drawing quantitative conclusions.
