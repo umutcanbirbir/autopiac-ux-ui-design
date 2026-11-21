@@ -1,118 +1,51 @@
 # AutoPiac — UX/UI Design Semester Project
 
-**Project Kanban:** [Todo / In Progress / Done board](project/KANBAN.md) · [Live GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues)
+**Student:** Umut Can Birbir (DUJ3ZD)  
+**University:** University of Pécs (PTE MIK)  
+**Course:** UX/UI Design
 
-**University:** University of Pécs — PTE MIK  
-**Course:** UX/UI Design  
-**Student:** Umut Can Birbir — Neptun: DUJ3ZD  
-**Project focus:** User-centered private vehicle listing creation for the Hungarian market.
+## About the Project
 
-## Overview
+AutoPiac is my car marketplace project. For the UX/UI course, I focused on one specific journey: helping a private seller create a clear, complete vehicle advertisement. The design covers vehicle details, equipment, damage history, photos, pricing, review and confirmation.
 
-This repository documents the semester-long UX/UI design process for **AutoPiac**, an automotive marketplace concept. The academic scope is intentionally focused on one user journey: creating and submitting a private car advertisement.
+My aim is to keep the main process simple without leaving out important information that buyers need.
 
-The deliverable is an evidence-based, clickable Figma prototype, **not a complete production application**.
+## Project Files
 
-## Project Links
+| Deliverable | Link |
+| --- | --- |
+| Current clickable prototype | [Figma — AutoPiac](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2) |
+| Research, user flow and idea prioritization | [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) |
+| Homework 01–10 | [Homework folders](homework/) |
+| Tasks and progress | [Kanban board](project/KANBAN.md) · [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) |
+| Detailed project notes | [Project overview](project/README.md) |
+| Presentation preparation | [Presentation folder](presentation/01-01/) |
 
-- **[FigJam — UX/UI Project Discovery](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)**
-- **[Homework 01 — Project Discovery](homework/01/README.md)**
-- **[Project Scope and Milestones](project/README.md)**
-- **[User Research Plan](project/docs/research-plan.md)**
-- **[Design Decision Log](project/docs/decision-log.md)**
-- **[Presentation Planning](presentation/01-01/README.md)**
+The Kanban is a Markdown board in this repository. A separate native GitHub Projects board has not been created.
 
-## Repository Structure
+## Design Process
 
-```text
-autopiac-ux-ui-design/
-├── README.md
-├── homework/
-│   └── 01/
-│       └── README.md
-├── project/
-│   ├── README.md
-│   └── docs/
-│       ├── research-plan.md
-│       └── decision-log.md
-└── presentation/
-    └── 01-01/
-        └── README.md
-```
+**1. Define the problem.** I chose the private seller's listing journey rather than attempting to design the whole marketplace. The initial problem, goals and assumptions are documented in [Homework 01](homework/01/README.md).
 
-## Real Interview R01 — Findings Implemented as Static Mockups
+**2. Research and compare.** I discussed the prototype with my 18-year-old brother, who had never posted a car listing before. He liked the simple layout but wanted equipment selection and a dedicated area for damaged or replaced parts. After seeing the first revision, he suggested developing the equipment list further. I also compared publicly available seller guides from Használtautó.hu and mobile.de. See [Homework 02](homework/02/README.md) and [Homework 03](homework/03/README.md).
 
-An owner-reported interview with an 18-year-old first-time prospective seller identified two missing content areas: equipment choices and damage/replaced-parts information. [Research record](project/docs/interview-r01.md) · [Homework 02](homework/02/README.md). A new [Figma Equipment & Condition mockup](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) has been linked into the listing flow. Controls remain static and no follow-up test has occurred.
+**3. Plan the flow.** I organized the required information into steps, mapped possible errors and prioritized ideas in FigJam. See [Homework 04](homework/04/README.md) and [Homework 05](homework/05/README.md).
 
-## Competition and Next User Tests
+**4. Design and prototype.** The Figma file contains the initial grayscale wireframes, a yellow-and-white visual direction and subsequent improved screens. The latest mobile flow goes from vehicle details through equipment/condition, photos, price, review and completion. A desktop vehicle-details example is also included. See [Homework 06](homework/06/README.md) and [Homework 07](homework/07/README.md).
 
-- [Homework 03 competitor analysis](homework/03/README.md) compares official Használtautó and mobile.de source evidence without claiming untested competitor defects.
-- [Homework 04 FigJam prioritization matrix](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-182) and [competitor comparison cards](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-214).
-- [R01 follow-up feedback](project/docs/r01-follow-up-2026-11-21.md) led to a [16-option grouped equipment screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
-- [Send this anonymous user testing instruction sheet to three participants](project/docs/usability-test-instructions.md). Results are **not yet recorded** for this newer design.
+**5. Test and improve.** In an initial walkthrough, three participants reached the end of the clickable screen flow and the interface was generally liked for its simplicity. Because the Figma fields were static, this tested navigation rather than actual listing entry. Later feedback led to four equipment categories with 16 example choices and clearer damage information. Results and changes are documented in [Homework 08](homework/08/README.md) and [Homework 09](homework/09/README.md).
 
-## Full Figma Design QA — 2026-11-21
+## Visual Design and Components
 
-The latest AutoPiac mobile screens, desktop layout and all four component groups were visually and structurally reviewed. Photo thumbnails, navigation gaps, input-error clipping, desktop spacing, button variant dimensions, user-facing copy and body-panel status controls were corrected. [Read the full review and remaining limitations](project/docs/design-qa-2026-11-21.md). Real form entry and publishing remain outside the static Figma prototype.
+The interface uses yellow (`#FFD400`), white and dark text. The Figma file also includes button, input, alert and photo-tile components with 15 variants in total, plus a developer handoff reference.
 
-## Homework 09 — Implemented Figma Revisions and Mini Design System
+- [Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2)
+- [Component library](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-2)
+- [Color guideline](project/docs/color-guideline.md)
+- [Design review and corrections](project/docs/design-qa-2026-11-21.md)
 
-- [Revised AutoPiac prototype — Student Figma account](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2): an independent row of nine yellow/white screens with field guidance, photograph count and angles, clickable review-section corrections, and honest prototype completion wording.
-- [Figma Mini Design System](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-2): four real component sets with 15 variants.
-- [Developer Handoff](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-55): responsive, validation, color and photo limits.
-- [Homework 09 documentation](homework/09/README.md) records before/after links, implementation and the remaining unverified participant re-test.
+## Prototype Scope and Remaining Work
 
-**Research integrity:** These improvements were designed based on known prototype limitations, not on unreported user complaints. Their effectiveness has not yet been re-tested.
+Figma demonstrates the intended screens and navigation. Its checkboxes, search field, photo tiles and form fields are visual examples: they do not accept or save values. A separate [HTML interaction demo](docs/index.html) supports some form entry and local photo selection but is not a published marketplace.
 
-## Initial Test Evidence
-
-- **[Homework 08 — Three-person Navigation Walkthrough Report](homework/08/README.md)**: 3/3 reportedly navigated the static Figma flow successfully; simplicity received positive aggregate feedback. This was **not** an end-to-end test using editable forms.
-- **[Homework 09 — Three Proposed UX Improvements](homework/09/README.md)**: validation clarity, photo guidance, and review/confirmation. Proposals await Figma implementation and re-testing.
-
-## Work Plan
-
-1. Problem framing and target users.
-2. Actual user interviews / observation and research synthesis.
-3. Competitor analysis and usability audit.
-4. Information architecture and wireframes.
-5. Clickable Figma prototype.
-6. Usability tests, revisions, UI guidelines, and final presentation.
-
-## Interactive Browser Demo (Data Entry and Photo Upload)
-
-The [standalone interactive prototype](docs/index.html) is a pure HTML/CSS/JavaScript simulation that can be used directly in a browser. Unlike the Figma wireframes, it supports:
-
-- Vehicle brand/model selection, year, mileage, fuel, and transmission inputs.
-- Uploading 5–30 local photographs (max 8 MB each), previewing, reordering, and removing them.
-- Price, title, condition, and description fields.
-- Required-field validation, review, editing and successful task completion.
-
-**Privacy:** Images and form values remain inside the user's browser; no backend, database, authentication or real listing publication exists. The success screen confirms completion of the **prototype task only**.
-
-**How to publish on GitHub Pages:** Repository → Settings → Pages → Build and deployment → Deploy from a branch → main → /docs → Save. The expected site address is `https://umutcanbirbir.github.io/autopiac-ux-ui-design/`, **after GitHub Pages finishes publication**.
-
-## Yellow & White UI Direction
-
-- [Open the recolored AutoPiac screen set in Figma](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)
-- [Yellow & White Color Guideline](project/docs/color-guideline.md)
-- Nine colorized frame copies sit below the preserved grayscale wireframes. Primary buttons, information panels, photo placeholders and progress elements use yellow accents. Basic navigation links point among the colored frames.
-- Visual QA and user testing are still pending; Figma controls are not real editable data-entry inputs.
-
-## Figma Wireframes and Prototype
-
-- [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)
-- Eight mobile screen states and one desktop variation have been drafted.
-- Basic screen-to-screen click navigation has been added. Form inputs are **visual placeholders**, not functional data-entry widgets.
-- Real participant tests, validation-dependent interactions and final high-fidelity UI are still pending.
-
-## Actionable Task Tracking
-
-Seven course project tasks are tracked in [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues). These issues are not a substitute for the lecturer's requested Kanban board.
-
-## GitHub Project Board
-
-**Status:** Not created yet. Add the URL for the project board with **Todo → In progress → Done** after setup.
-
-## Research Integrity
-
-The initial problem statement and user-behavior assumptions are hypotheses. Any personas, simulated examples, or proposed tests will be labeled; research findings will only be reported after real participant input.
+The next steps are to collect feedback from three additional users on the revised design, record any terminology or equipment-discovery problems, complete outstanding accessibility checks, and prepare the final presentation. Refer to the [Kanban](project/KANBAN.md) for the current task list.
