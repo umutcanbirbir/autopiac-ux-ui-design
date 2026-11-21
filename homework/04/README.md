@@ -1,58 +1,56 @@
-# Homework 04 — Project Brief & Ideation
+# Homework 04 — Project Brief and Ideation
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)
 
-## One-Page Project Brief
-**Problem hypothesis:** Some private car sellers in Hungary may struggle with lengthy listing forms and unclear requirements.  
-**Who:** Private individuals, including first-time sellers and mobile users.  
-**Outcome:** A guided Figma prototype where sellers enter accurate data, upload photos, review and submit.  
-**Scope:** The seller's core publishing journey (not buyer search, messaging, payments or back-office tools).  
-**Success target:** At least 2 of 3 users complete a realistic prototype task unaided; track errors and confusion.  
-**Risks:** Unsupported assumptions, oversimplification of required vehicle details, and prototype limitations.
+## Project Brief
+
+I am designing a simpler car-listing experience for private sellers in Hungary. The main challenge is balancing a straightforward process with enough information for an accurate advertisement.
+
+**Target users:** Private individuals, particularly first-time sellers.  
+**Main task:** Enter car details, choose equipment, disclose condition, add photos, set the price and review the listing.  
+**Project scope:** Seller-side listing creation, not buyer search, messaging or payment processing.  
+**Success target:** At least two out of three participants should complete a realistic task without help. This still needs testing with functional form inputs.
 
 ## User Story
-As a private car owner who does not know all technical specifications, I want a clear, guided listing process so that I can publish an accurate advertisement without guessing information or repeatedly starting over.
 
-## How Might We Questions
-1. How might we explain vehicle requirements without overwhelming novice sellers?
-2. How might we make photo uploading and listing completeness easy to understand?
-3. How might we help users find and recover from form errors before submission?
+As a private car seller who does not know every technical specification, I want a clear sequence of steps and helpful explanations so I can prepare a complete advertisement without guessing.
 
-## Idea Generation (at least 8 ideas)
-1. Step-by-step listing wizard.
-2. Vehicle specification tooltips and examples.
+## How Might We?
+
+1. How might we help new sellers enter accurate vehicle information without an overwhelming form?
+2. How might we make equipment and damage information easy to understand?
+3. How might we guide people through photo requirements and help them correct mistakes?
+
+## Ideas Considered
+
+1. Step-by-step listing process.
+2. Explanations for unfamiliar vehicle terms.
 3. Automatic draft saving.
-4. A visual progress indicator.
-5. Photo count with recommended photo angles.
-6. Drag-and-drop photo ordering plus accessible keyboard controls.
-7. Inline field validation with specific correction guidance.
-8. Review screen linking directly to incomplete steps.
-9. Optional premium upgrade explained in plain language.
-10. A friendly confirmation screen with next actions.
+4. Visible progress bar.
+5. Photo counter and recommended photo angles.
+6. Easy photo ordering and cover selection.
+7. Clear validation messages.
+8. Review screen with links to edit individual sections.
+9. Clearly optional premium features.
+10. Useful completion screen.
+11. Grouped equipment checklist.
+12. Body-panel condition and repair notes.
 
-## FigJam Deliverables
+## Impact vs Feasibility
 
-- [Actual 2 × 2 Impact vs Feasibility Matrix](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-182) (four separate, labeled quadrants with initial designer priorities)
-- [Competitor comparison cards in FigJam](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-214)
-- [R01 actual interview insight / affinity diagram](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)
+I organized the ideas in a [2×2 FigJam matrix](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-182). The rankings reflect design priorities, not measured performance scores.
 
-The priority rankings are hypotheses and a *designer-led planning exercise*, not quantitative participant votes or scored impact measures. R01's two requested content gaps (equipment breadth and replaced-parts disclosure) influenced the latest priority review.
-
-## Preliminary Impact / Feasibility Matrix
-| Quadrant | Ideas |
+| Priority area | Examples |
 | --- | --- |
-| High impact / high feasibility | 1 wizard, 4 progress, 5 photo guidance, 7 validation, 8 review |
-| High impact / lower feasibility | 3 persistent autosave, 2 advanced vehicle-data suggestions |
-| Lower impact / high feasibility | 10 confirmation improvements, 9 optional premium explanation |
-| Lower impact / lower feasibility | 6 sophisticated drag/drop + keyboard behavior |
+| High impact, easier to implement | Guided steps, progress indicator, clear errors, photo counter, review links, grouped equipment |
+| High impact, harder to implement | Persistent drafts, complete body-panel map, model-based suggestions |
+| Lower impact, easier to implement | Completion message, optional premium explanation |
+| Lower impact, harder to implement | AI-based photo checking and advanced price suggestions |
 
-This is a **team-of-one prioritization**, not a measured usability score or stakeholder workshop. It has been updated after one real exploratory interview, but requires broader validation.
+## Selected Direction
 
-## Selected Concept
-A responsive, guided car-listing wizard with transparent requirements and recoverable errors.
+I chose a guided mobile-first listing process with clear required fields, an equipment-and-condition section, photo guidance and an editable review.
 
-## Open Tasks
-- [x] Place the ideas and four-quadrant impact/feasibility matrix in FigJam.
-- [x] Update priority candidates using R01's actual equipment/damage feedback, while marking priority judgments as provisional.
-- [x] Cross-link competitor-source observations and R01 findings to selected design concepts.
-- [ ] Test prioritization and completeness with a broader set of sellers.
+The interview feedback highlighted the importance of keeping the design simple **while adding enough equipment and repair information**. I also used the [competitor comparison](../03/README.md) to support these choices.
+
+[FigJam research and ideation board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)
