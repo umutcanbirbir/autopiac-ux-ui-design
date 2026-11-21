@@ -33,6 +33,6 @@ Ask at least one real student to try the flow and note a minimum of three specif
 ## Completion Checklist
 - [x] Figma prototype share link.
 - [x] Connected frame-to-frame main task path (not dynamic forms).
-- [x] Success screen and photo error branch; missing-field state pending.
+- [x] Success screen, photo error branch and missing-vehicle-field error frame created. The required-field branch needs wiring into a complete data-aware interaction model.
 - [ ] At least one actual peer walkthrough.
 - [ ] Three recorded concrete observations.
