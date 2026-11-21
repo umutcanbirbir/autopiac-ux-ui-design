@@ -76,6 +76,14 @@ The themes above are intentionally limited to what this participant actually rep
 
 A first Figma redesign now shows vehicle-equipment sample choices and a damage/replacement-history panel in the existing listing flow. [View the added Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2). The Review screen links back to this new section. These are illustrative, static Figma controls and are **not** real interactive feature selectors. **Effectiveness has not been re-tested.**
 
+## Informal Follow-Up After Initial Revision
+
+The same R01 participant was shown the first revised Equipment & Condition screen. According to the owner, **they liked the screen but felt the equipment list could be more developed**. This was an informal reaction with no recorded test time or independent measured task. It is not another participant.
+
+The new Figma design consequently groups **16 equipment options in four categories**: Safety & Driver Assistance, Comfort & Interior, Infotainment & Connectivity, and Exterior & Parking. The updated screen is **not yet retested**.
+
+[Source follow-up record](../../project/docs/r01-follow-up-2026-11-21.md) · [Latest static Figma design](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
+
 ## Design Direction
 
 Add the missing structured sections **without turning the simple flow into an intimidating long form**. Use optional disclosure panels with concise explanations and a summary on Review. Test whether a combined "Equipment & Condition" screen or two short subsections is easier to understand; do not assume the preferred layout.
