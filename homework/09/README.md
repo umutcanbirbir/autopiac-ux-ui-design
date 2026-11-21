@@ -66,12 +66,20 @@ A separate exploratory interview with an 18-year-old first-time prospective sell
 
 | ID | Directly reported participant concern | Proposed next Figma revision | Status |
 | --- | --- | --- | --- |
-| **I-04 — Vehicle Equipment** | "Users cannot choose the car's equipment/features" (paraphrase) | Add an optional, searchable or grouped multi-select for common equipment and show selected items in Review | **Planned, not built or tested** |
+| **I-04 — Vehicle Equipment** | "Users cannot choose the car's equipment/features" (paraphrase) | Add an optional, searchable or grouped multi-select for common equipment and show selected items in Review | **Static Figma design implemented; not user-tested** |
 | **I-05 — Damage & Replaced Parts** | "There is no section for damage/replaced parts" (paraphrase) | Add structured vehicle-condition/damage disclosure, allowing users to identify repaired/repainted/replaced body panels and add notes; include summary in Review | **Planned, not built or tested** |
 
 Preserve the simple step-by-step flow that this participant liked. Verify the terminology and controls with additional participants rather than assuming that extra fields automatically improve usability.
 
 [Source interview R01](../../project/docs/interview-r01.md) · [Homework 02 synthesis](../02/README.md)
+
+## Implementation of R01-Driven Additions
+
+[New Figma Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) was added as an extra subsection within vehicle details rather than replacing the existing four-step structure. It includes example equipment choices and a sample replaced body panel with a status legend. The revised Vehicle Details continuation navigates to this new screen, its next action navigates to Photos, and the revised Review screen has a linked Equipment & Condition summary. The visual controls are **static prototype examples**; no actual equipment selection or damage data is saved.
+
+[Updated Review screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-115). **Before/after evidence**: the [previous vehicle details screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-20) had no equipment/damage stage; the improved flow now contains a dedicated panel. See [R01 interview](../../project/docs/interview-r01.md).
+
+No additional participant test has assessed this revision yet. Do not call it a proven usability improvement.
 
 ## Follow-Up Validation — Remaining
 
@@ -86,4 +94,5 @@ To evaluate whether these changes helped users in practice, ask participants to 
 - [x] Cross-links to evidence, palette and source frames.
 - [ ] Independent human visual and accessibility QA of final screens.
 - [ ] At least one real user/peer follow-up evaluation of a design improvement.
+- [x] Add two R01-requested content areas as a static Figma mockup (equipment + damage/replaced panels).
 - [ ] Actual end-to-end editable-field completion test (not possible using static Figma forms alone).
