@@ -45,6 +45,12 @@ The initial problem was traced to a 1360 px Figma frame with no scrolling. I red
 
 The participant count, individual timing and independence data for this later feedback were not supplied. It should not be added to the earlier 3/3 result as a new measured sample. [Follow-up test notes](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md).
 
+## Additional Correction — Damage Status Controls
+
+A further participant report found that the damage-status choices were still noninteractive. I changed the *Front-left fender* example into a five-state Figma component (Original / Repainted / Replaced / Damaged / Unknown), with one choice selected at a time and a matching Selected label. Its 20 between-state links and five displayed states were checked in the design file. A participant retest of these particular controls is pending.
+
+[Current screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34).
+
 ## Mini UI Guideline
 
 | Element | Guideline |
