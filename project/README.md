@@ -65,7 +65,15 @@ A separate owner-reported exploratory interview with an 18-year-old first-time p
 - [Homework 02 — Interview, Insights, Persona Snapshot and Journey](../homework/02/README.md)
 - [Homework 09 — Two New Planned Improvements](../homework/09/README.md)
 
-These new improvements have **not yet been added to Figma** or evaluated by a subsequent user. The original three-person navigation walkthrough is documented separately in Homework 08; avoid counting R01 as an additional distinct participant without confirmation.
+These content areas have been added in a [static Figma equipment and condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) and connected to Review. They have **not** been re-tested, and the controls do not accept real data. The original three-person navigation walkthrough is documented separately in Homework 08; avoid counting R01 as an additional distinct participant without confirmation.
+
+## R01-Driven New Figma Screen
+
+- [Equipment & Condition — new static mobile screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2)
+- [Review screen — edit link to Equipment & Condition](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-115)
+- [FigJam actual interview affinity themes](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)
+
+**Still pending:** user re-test of these content changes and actual interactive form behavior.
 
 ## Initial Usability Walkthrough Results (Owner-Reported, 2026-11-21)
 
