@@ -38,6 +38,14 @@ The variant switch and label preservation were checked programmatically in Figma
 
 [Interactive options](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2040-9).
 
+## Subsequent Correction — Interactive Fender Condition (22 November 2026)
+
+After the equipment checkbox retest, the student reported that the **damage-status options remained noninteractive**. I replaced the static status chips for the *Front-left fender* with a reusable five-variant Figma component. It supports **Original, Repainted, Replaced, Damaged and Unknown** as mutually exclusive states. Selecting a different status updates the selected radio-style option and the status text.
+
+All five variants and their labels were inspected, with 20 valid between-state click destinations verified. The corrected damage interaction still **needs participant confirmation in Present mode**. It currently illustrates one body panel, not an interactive 13-panel vehicle map, and does not store values or update Review automatically.
+
+[Interactive condition component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34) · [Current listing screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
+
 ## Next Check
 
 - [x] Follow-up feedback received: the revised prototype's navigation works and no further issue was reported; individual task details were not recorded.
@@ -45,6 +53,7 @@ The variant switch and label preservation were checked programmatically in Figma
 - [ ] Check whether **Save as draft** would be clearer than **Draft**.
 - [x] Add on/off interactions to all 16 equipment options using a Figma component.
 - [x] Follow-up report says the interactive equipment selections work in Present mode; which individual options were exercised was not recorded.
+- [ ] Ask a participant to switch the front-left fender from Replaced to Repainted, then Unknown, and confirm that only one status is selected each time.
 - [ ] Record the actual number of participants, individual outcomes and any measured times before drawing quantitative conclusions.
 
 [Homework 05 — Information Architecture](../../homework/05/README.md) · [Homework 08 — Usability Test](../../homework/08/README.md) · [Homework 09 — Design Iterations](../../homework/09/README.md)
