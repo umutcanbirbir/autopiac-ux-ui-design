@@ -47,7 +47,7 @@ The participant count, individual timing and independence data for this later fe
 
 ## Additional Correction — Damage Status Controls
 
-A further participant report found that the damage-status choices were still noninteractive. I changed the *Front-left fender* example into a five-state Figma component (Original / Repainted / Replaced / Damaged / Unknown), with one choice selected at a time and a matching Selected label. Its 20 between-state links and five displayed states were checked in the design file. A participant retest of these particular controls is pending.
+A further participant report found that the damage-status choices were still noninteractive. I changed the *Front-left fender* example into a five-state Figma component (Original / Repainted / Replaced / Damaged / Unknown), with one choice selected at a time and a matching Selected label. Its 20 between-state links and five displayed states were checked in the design file. After the revision, the student relayed positive follow-up feedback: the damage selections now work and participants found the screen simple and practical. The exact number of testers and individual outcomes were not documented.
 
 [Current screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34).
 
@@ -68,7 +68,7 @@ Selected text-color pairs were checked during the later [design QA](../../projec
 
 ## Next Test
 
-The corrected Equipment & Condition navigation has now received positive follow-up confirmation. A further informal retest reported the on/off equipment selections worked. A structured test should still record results per participant for option selection, damage-status interpretation and Review editing. I will record whether they needed help, what they could not find, and their feedback.
+The corrected Equipment & Condition navigation has now received positive follow-up confirmation. A further informal retest reported the on/off equipment selections worked. A structured test should still record results per participant for option selection, damage-status interpretation and Review editing, despite the positive informal feedback. I will record whether they needed help, what they could not find, and their feedback.
 
 [Participant instructions and results template](../../project/docs/usability-test-instructions.md) · [Design changes](../09/README.md)
 
