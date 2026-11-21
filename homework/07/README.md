@@ -19,7 +19,7 @@ The main buttons connect the screens. The Review page also links back to the rel
 | Missing information | Explain what needs to be completed | Separate validation example screens |
 | Finish | Confirm that the task has ended | Prototype completion screen |
 
-These links are useful for checking the flow. Figma does not save field values, make the checkbox choices functional or publish an advertisement.
+These links are useful for checking the flow. The revised equipment screen now lets people **toggle each of the 16 equipment choices** as an interactive Figma component. Figma still does not save the choices as listing data, update the Review summary dynamically or publish an advertisement.
 
 ## Feedback From a First-Time User
 
