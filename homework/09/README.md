@@ -1,94 +1,76 @@
-# Homework 09 — Iteration Plan, Mini Design System & Developer Handoff
+# Homework 09 — Iteration, Mini Design System & Developer Handoff
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Iterations **planned, not implemented or verified**. Existing yellow/white visual treatment was designed **before** this participant walkthrough.  
-**Figma screens:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC  
-**Color guideline:** [Yellow & White](../../project/docs/color-guideline.md)  
-**Test evidence:** [Homework 08](../08/README.md)
+**Status:** Three designed improvements implemented in Figma; reusable variants and handoff created. **No post-change participant retest yet.**  
+**Date:** 2026-11-21  
+**Primary Figma file:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC  
+**Before (Yellow/White):** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-20  
+**After (Homework 09):** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-25  
+**Color guide:** [Yellow & White Color Guideline](../../project/docs/color-guideline.md)  
+**Test basis:** [Homework 08](../08/README.md)
 
-## Summary of Available Evidence
+## Evidence and Interpretation
 
-The project owner reported that 3/3 participants reached the end of the non-editable Figma screen flow. Participants did not need to fill in forms; no particular problem or change request was reported. The owner summarized the response as positive about the interface's simplicity.
+The owner reported a three-participant navigation walkthrough of the static Figma prototype: all reportedly reached the final screen, and the interface was liked for its simplicity. No participant reported a concrete navigation problem or feature request. Actual text input, photo upload, error correction and unaided completion were not tested in Figma.
 
-**Interpretation:** Keep the straightforward structure. Do not claim the walkthrough revealed three specific user pain points. The changes below are **designer-proposed responses to known prototype limitations and future testing requirements**.
+**Therefore the iterations below are designer-initiated responses to demonstrable prototype limitations and to the need for clearer guidance. They must NOT be described as participant-requested changes or as proven usability improvements.**
 
-## Three Planned Design Iterations
+## Three Documented Design Iterations
 
-| ID / priority | Baseline | Proposed revision | Why | What counts as completed? |
+| ID | Before | After (implemented in Figma) | Design rationale | Validation |
 | --- | --- | --- | --- | --- |
-| **I-01 / P0 — Validation clarity** | Fields are static; an error screen is a separate example | Clearly distinguish required vs optional fields; add field-level help; annotate a missing-field state and a corresponding correction path | Makes a future realistic task testable and reduces ambiguity about error recovery | Before/after frames + at least one observed user attempting to fix a missing field |
-| **I-02 / P1 — Photograph guidance** | Photo upload is presented as a visual placeholder | Provide visible 0/5 through 5/5 progress, photo angle examples, cover-photo label and explicit missing-photo instruction; show keyboard-accessible sort options in specification | Product requires at least 5 photos; the current Figma demo did not test photo selection | Before/after photo frames + participant observation on the 5-photo rule |
-| **I-03 / P1 — Review and completion** | Review and success are navigation-only frames | Add a concise editable review summary, obvious return-to-section actions, clear submission feedback and an explicit notice that this is a prototype | The walkthrough demonstrated navigation, not understanding or correction of actual entered data | Before/after review screen + task observation confirming users can identify and correct a seeded error |
+| **I-01 — Validation / required data** | Vehicle screen with visual form fields and basic help; separate missing-field error example | Enhanced vehicle form copy explicitly explains required fields; new yellow guidance card explains make/model/year/mileage; missing-field example emphasizes explicit corrective text and remains linked from vehicle screen | Make data expectations and recovery path more apparent | **Not yet retested** |
+| **I-02 — Photo minimum / guidance** | Photo screen showed minimum count and a simple prototype branch | Updated photo count/status, 5 required / 30 standard / 55 premium copy, cover-photo explanation, new guidance card listing five recommended viewing angles, and missing-photo error copy emphasizing 2/5 + add three | Reduce ambiguity about image quantity and useful coverage | **Not yet retested** |
+| **I-03 — Review / completion clarity** | Read-only overview with generic back-to-edit button and “listing submitted” state | Review section cards are clickable and navigate to their corresponding step; new edit instruction card; success screen explicitly states prototype completed and nothing was published; return-to-review and restart buttons are connected | Improve step correction and avoid implying a real listing was published | **Not yet retested** |
 
-These are **proposals**: their effectiveness is not established by the three navigation walkthroughs.
+### Before / After Figma Screen Links
 
-## Follow-Up Study to Validate Changes
+| Part | Before | After |
+| --- | --- | --- |
+| Vehicle details | [Before](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-20) | [After](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-25) |
+| Photos | [Before](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-50) | [After](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-62) |
+| Review | [Before](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-93) | [After](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-115) |
+| Success | [Before](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=9-116) | [After](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-143) |
 
-### Realistic task
-"Using sample fictional vehicle information, create an AutoPiac listing, choose at least five photos, add a price and description, fix an intentionally missing field, review your listing and finish the prototype."
+**Preservation:** The grayscale low-fidelity originals, first yellow/white colored version, and Homework 09 revised version are in separate Figma frame rows. All revised primary navigation buttons were re-linked to revised frames (rather than sending users to the older designs). The review summary sections and the success-state actions also have prototype links.
 
-### Required records
-- Anonymous participant ID and date.
-- Relevant selling experience, if participant volunteers it.
-- Start/end time and total duration.
-- Completed without help? (yes/no).
-- Number and type of validation errors encountered.
-- Exact step where a participant hesitated.
-- Participant's own feedback in their own words, only if actually recorded.
-- Before/after design version tested.
+## Mini Design System — Real Figma Components
 
-### Success criteria
-- At least **2 of 3** complete the full test task independently (proposed threshold).
-- No observed critical unrecoverable navigation or validation failures.
-- Re-test at least one actual design change and document the outcome.
+Four **real Figma COMPONENT_SET** groups with **15 variants** have been created:
 
-The [browser-based interactive demonstration](../../docs/index.html) has data-entry behavior and can support task simulation, while the Figma file remains the primary design artifact for the coursework.
+| Component set | Variants | Figma |
+| --- | --- | --- |
+| **AutoPiac / Button** | Primary, Secondary, Disabled, Focused | [Button](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-2) |
+| **AutoPiac / Input** | Default, Filled, Focused, Error | [Input](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-11) |
+| **AutoPiac / Alert** | Info, Error, Success | [Alert](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-20) |
+| **AutoPiac / Photo Tile** | Empty, Filled, Cover, Error | [Photo Tile](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-30) |
 
-## Mini Design System — Planned Component Inventory
+Foundations are documented in the design file: primary yellow \`#FFD400\`, white \`#FFFFFF\`, pale-yellow \`#FFF7D8\`, dark-text \`#1F1F1F\`; Inter font; 8/16/24/32 px spacing. Keyboard/focus and contrast checks remain requirements, **not verified compliance results**.
 
-- **Button:** primary, secondary, disabled, loading, hover and keyboard focus.
-- **Text Input:** empty, filled, focused, invalid and disabled.
-- **Select:** default, expanded, selected, error.
-- **Progress Indicator:** completed, current and upcoming steps.
-- **Photo Tile:** empty, uploading, uploaded, failed, cover.
-- **Information Alert:** hint, validation error and success.
+Note: These are reusable component variant definitions in Figma, but the existing screens are not necessarily refactored into instances of all components.
 
-### Foundational Tokens (Design Proposal)
-- Primary yellow: \`#FFD400\`
-- Light yellow: \`#FFF7D8\`
-- White: \`#FFFFFF\`
-- Primary text: \`#1F1F1F\`
-- Error red: \`#B42331\`
-- Spacing: 8/16/24/32 px rhythm
-- Type: accessible hierarchy and clearly distinguished labels
-- Contrast: manually verify WCAG 2.2 Level AA
+## Annotated Developer Handoff
 
-**Status:** This is the component specification. It is not a completed Figma component library.
+[Vehicle Details — Developer Handoff Panel](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-55) includes:
 
-## Annotated Handoff Screen — Scope
+1. Responsive mobile 390 px / desktop 1130 px references and single-column mobile rules.
+2. Explicit make, model, production year, mileage field requirements.
+3. Field-level validation summary, explanation, and focus behavior.
+4. Photo constraints: minimum five; standard max 30, premium max 55; 8 MB maximum per photo.
+5. Button colors, interactive states and WCAG 2.2 AA target.
+6. Clear distinction between Figma simulation and functional browser demonstration.
 
-Annotate the Figma **Vehicle Details** frame with:
-1. Mobile and desktop responsive frame widths.
-2. Label positioning, spacing, and min input target height.
-3. Required and optional fields.
-4. Exact validation/error text and placement.
-5. Button states and keyboard focus behavior.
-6. Progress indicator semantics and accessibility notes.
+## Follow-Up Validation — Remaining
 
-## Iteration Evidence Log
-
-| Iteration | Figma before link | Figma after link | Supporting test evidence | Re-tested? |
-| --- | --- | --- | --- | --- |
-| I-01 | Pending | Pending | Not yet gathered | No |
-| I-02 | Pending | Pending | Not yet gathered | No |
-| I-03 | Pending | Pending | Not yet gathered | No |
+To evaluate whether these changes helped users in practice, ask participants to complete a **realistic interactive listing task** using the HTML demonstration or a prototype capable of actual input. Capture time, independent completion, field errors, where correction was needed, and real participant remarks. Retest at least one improved Figma state or compare versions. **No such follow-up results are claimed here.**
 
 ## Completion Checklist
 
-- [x] Drafted three prioritized design revision hypotheses, grounded in known prototype/test limitations.
-- [x] Defined the mini design system's required components and design tokens.
-- [ ] Implement the three revisions in Figma.
-- [ ] Capture before/after evidence.
-- [ ] Verify at least one revision with an actual participant.
-- [ ] Build reusable Figma components and states.
-- [ ] Produce annotated developer handoff screen.
+- [x] Three **implemented and documented** before/after design refinements.
+- [x] Revised yellow/white Figma screens with basic clickable navigation.
+- [x] Four reusable Figma component sets and 15 variants.
+- [x] Developer handoff panel with field, spacing, error and breakpoint notes.
+- [x] Cross-links to evidence, palette and source frames.
+- [ ] Independent human visual and accessibility QA of final screens.
+- [ ] At least one real user/peer follow-up evaluation of a design improvement.
+- [ ] Actual end-to-end editable-field completion test (not possible using static Figma forms alone).
