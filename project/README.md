@@ -2,7 +2,7 @@
 
 **Course:** UX/UI Design, University of Pécs (PTE MIK)  
 **Student:** Umut Can Birbir — Neptun: DUJ3ZD  
-**Progress:** Discovery phase.  
+**Progress:** Wireframes and initial three-person navigation walkthrough documented; realistic task tests and final design work pending.  
 **FigJam board:** https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2
 
 ## Project Description
@@ -40,11 +40,20 @@ AutoPiac is a Hungarian automotive marketplace concept. This semester project fo
 | 03 | Competitor and accessibility audit | Not started |
 | 04 | Prioritization and project brief | Not started |
 | 05 | Sitemap and task flow | Not started |
-| 06 | Low-fidelity wireframes | Not started |
-| 07 | Interactive prototype | Not started |
-| 08 | Usability testing and UI guideline | Not started |
-| 09 | Design revisions, components, handoff | Not started |
+| 06 | Low-fidelity wireframes | Initial Figma screens created |
+| 07 | Interactive prototype | Basic screen navigation created; forms remain static |
+| 08 | Usability testing and UI guideline | Three-person navigation walkthrough reported; full task not yet tested |
+| 09 | Design revisions, components, handoff | Three revisions planned; implementation and verification pending |
 | 10 | Final presentation and reflection | Not started |
+
+## Initial Usability Walkthrough Results (Owner-Reported, 2026-11-21)
+
+The project owner reported a three-participant walkthrough of the static Figma listing flow. All three reportedly reached the final screen and the interface's simplicity received positive general feedback. No specific participant problems or improvement suggestions were provided.
+
+**Scope limitation:** Because the Figma form fields are not editable, this was a **navigation walkthrough**, not a complete listing-creation test. The original 2-of-3 unaided end-to-end completion target has **not** been verified. No participant task times, demographics, or independence/assistance details were recorded.
+
+- [Homework 08 — Detailed Test Report](../homework/08/README.md)
+- [Homework 09 — Planned Design Iterations](../homework/09/README.md)
 
 ## UI Color Exploration
 
@@ -54,7 +63,7 @@ A yellow/white visual version of the original wireframes has been created in Fig
 
 **[Figma — Low-Fidelity Wireframes and Basic Click-Through](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)**
 
-Created: eight mobile frames (start, vehicle details, photos, price/description, review, success, photos error, required vehicle field error), plus a desktop vehicle details layout. Basic click navigation connects the main path and error branch. Input controls are currently visual and must not be described as working data entry. Research, participant tests and final polish remain pending.
+Created: eight mobile frames (start, vehicle details, photos, price/description, review, success, photos error, required vehicle field error), plus a desktop vehicle details layout. Basic click navigation connects the main path and error branch. Input controls are currently visual and must not be described as working data entry. Initial navigation-test results are now reported, but real end-to-end task testing and final polish remain pending.
 
 **[FigJam — Planned Seller User Flow](https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2)**
 
