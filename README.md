@@ -42,6 +42,10 @@ autopiac-ux-ui-design/
 
 An owner-reported interview with an 18-year-old first-time prospective seller identified two missing content areas: equipment choices and damage/replaced-parts information. [Research record](project/docs/interview-r01.md) · [Homework 02](homework/02/README.md). A new [Figma Equipment & Condition mockup](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) has been linked into the listing flow. Controls remain static and no follow-up test has occurred.
 
+## Full Figma Design QA — 2026-11-21
+
+The latest AutoPiac mobile screens, desktop layout and all four component groups were visually and structurally reviewed. Photo thumbnails, navigation gaps, input-error clipping, desktop spacing, button variant dimensions, user-facing copy and body-panel status controls were corrected. [Read the full review and remaining limitations](project/docs/design-qa-2026-11-21.md). Real form entry and publishing remain outside the static Figma prototype.
+
 ## Homework 09 — Implemented Figma Revisions and Mini Design System
 
 - [Revised AutoPiac prototype — Student Figma account](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2): an independent row of nine yellow/white screens with field guidance, photograph count and angles, clickable review-section corrections, and honest prototype completion wording.
