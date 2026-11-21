@@ -1,7 +1,8 @@
 # Homework 06 — Low-Fidelity Wireframes
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Screen specifications drafted; Figma wireframes not created in this repository.
+**Status:** Initial editable wireframes created in Figma on 2026-11-21; detailed QA pending.
+**Figma file:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm
 
 ## Scope
 Design the seller's primary listing task with 5–6 connected grayscale wireframes. Keep visual decoration minimal; emphasize structure, hierarchy, form requirements, and screen states.
@@ -31,8 +32,8 @@ Create one primary screen for mobile (e.g., 390 px content width) and a larger s
 - Navigation connected in the subsequent prototype stage.
 
 ## Completion Checklist
-- [ ] Low-fidelity Figma file linked here.
-- [ ] At least 3–5 **actual** related wireframes.
-- [ ] Two critical states illustrated.
-- [ ] Mobile and larger-screen layout for a main step.
-- [ ] Auto Layout verified.
+- [x] Low-fidelity Figma file linked here.
+- [x] Seven mobile wireframe states and one desktop variant created.
+- [ ] Dedicated missing-field state still needed; photo-count error state created.
+- [x] Mobile and larger-screen layout for vehicle details.
+- [x] Auto Layout used across primary structures; final visual QA pending.
