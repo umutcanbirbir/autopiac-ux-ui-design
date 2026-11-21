@@ -1,14 +1,15 @@
 # Homework 05 — Information Architecture & User Flow
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Proposed architecture; terminology testing pending.
+**Status:** Proposed architecture; one interviewed first-time user understood existing wording but requested vehicle-equipment and damage/replaced-parts sections. Three-person terminology test remains pending.
 
 ## Content Inventory
 | Group | Information |
 | --- | --- |
 | Account | Login state; private seller identity |
 | Vehicle | Make, model, production year, version, body type, mileage, fuel, transmission |
-| Condition | Vehicle state, service history, known defects, optional equipment |
+| Equipment | Vehicle features, grouped selectable options, 'Other' / 'Not sure' choices (proposed from R01) |
+| Condition | Vehicle state, service history, known defects, damage/paint/replaced panel history (proposed from R01) |
 | Photos | Required images, cover photo, order, captions |
 | Listing | Title, price, currency, description, location and contact preferences |
 | Publishing | Progress, validation results, preview, optional premium, submit confirmation |
@@ -22,6 +23,8 @@ AutoPiac
 │   └── Published Listings
 └── Create a Listing
     ├── Vehicle Details
+    ├── Equipment & Features (proposed)
+    ├── Condition / Damage & Replaced Parts (proposed)
     ├── Photos
     ├── Price and Description
     ├── Review and Fix Errors
@@ -35,6 +38,8 @@ Open Create Listing
 Sign in if needed
     ↓
 Enter vehicle details
+    ↓
+Select equipment and disclose damage/replaced parts (new proposed subsections)
     ↓
 Add minimum 5 vehicle photos
     ↓
@@ -54,6 +59,12 @@ Any errors or missing fields?
 
 ## Additional Rule to Consider
 The planned AutoPiac product allows only one active private-seller listing, counting drafts and published listings. This needs a specific limit-reached UI state in later prototypes.
+
+## R01 Interview — Content Gaps
+
+A first-time prospective seller (R01, 18, researcher's sibling) reportedly understood the existing terminology and navigated the prototype independently. They explicitly identified missing **equipment selection** and **damage/replacement history** entry. See [research interview](../../project/docs/interview-r01.md).
+
+These are **new content requirements under consideration**, not features already present in the Figma prototype. The preferred navigation layout has not been tested yet.
 
 ## Label Validation Plan
 Ask **three actual participants** how they interpret terms such as "Vehicle Details", "Equipment", "Review", "Publish", and "Draft". Record the date, task, and anonymized observations.
