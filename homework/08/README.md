@@ -4,7 +4,7 @@
 **Student:** Umut Can Birbir (DUJ3ZD)  
 **Report prepared:** 2026-11-21  
 **Evidence:** The project owner's report of a test with three participants, received on 2026-11-21. Individual session dates, recordings, and timestamps were not provided.  
-**Prototype:** [Figma — yellow/white AutoPiac flow](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2)
+**Prototype:** [Figma — yellow/white AutoPiac flow](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)
 
 ## 1. Objective
 
