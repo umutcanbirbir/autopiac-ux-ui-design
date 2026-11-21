@@ -13,7 +13,7 @@ The deliverable is an evidence-based, clickable Figma prototype, **not a complet
 
 ## Project Links
 
-- **[FigJam — UX/UI Project Discovery](https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2)**
+- **[FigJam — UX/UI Project Discovery](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)**
 - **[Homework 01 — Project Discovery](homework/01/README.md)**
 - **[Project Scope and Milestones](project/README.md)**
 - **[User Research Plan](project/docs/research-plan.md)**
@@ -67,14 +67,14 @@ The [standalone interactive prototype](docs/index.html) is a pure HTML/CSS/JavaS
 
 ## Yellow & White UI Direction
 
-- [Open the recolored AutoPiac screen set in Figma](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2)
+- [Open the recolored AutoPiac screen set in Figma](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)
 - [Yellow & White Color Guideline](project/docs/color-guideline.md)
 - Nine colorized frame copies sit below the preserved grayscale wireframes. Primary buttons, information panels, photo placeholders and progress elements use yellow accents. Basic navigation links point among the colored frames.
 - Visual QA and user testing are still pending; Figma controls are not real editable data-entry inputs.
 
 ## Figma Wireframes and Prototype
 
-- [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)
+- [Editable Figma wireframes and click-through prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)
 - Eight mobile screen states and one desktop variation have been drafted.
 - Basic screen-to-screen click navigation has been added. Form inputs are **visual placeholders**, not functional data-entry widgets.
 - Real participant tests, validation-dependent interactions and final high-fidelity UI are still pending.
