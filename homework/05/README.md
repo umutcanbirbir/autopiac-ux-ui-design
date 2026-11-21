@@ -1,80 +1,82 @@
-# Homework 05 — Information Architecture & User Flow
+# Homework 05 — Information Architecture and User Flow
 
-**Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Proposed architecture; one interviewed first-time user understood existing wording but requested vehicle-equipment and damage/replaced-parts sections. Three-person terminology test remains pending.
+**Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)
 
-## Content Inventory
-| Group | Information |
+## Information Architecture
+
+I organized the seller journey around the information needed to create one complete vehicle listing.
+
+| Section | Content |
 | --- | --- |
-| Account | Login state; private seller identity |
-| Vehicle | Make, model, production year, version, body type, mileage, fuel, transmission |
-| Equipment | Vehicle features, grouped selectable options, 'Other' / 'Not sure' choices (proposed from R01) |
-| Condition | Vehicle state, service history, known defects, damage/paint/replaced panel history (proposed from R01) |
-| Photos | Required images, cover photo, order, captions |
-| Listing | Title, price, currency, description, location and contact preferences |
-| Publishing | Progress, validation results, preview, optional premium, submit confirmation |
+| Account | Sign-in and private seller |
+| Vehicle Details | Make, model, year, mileage and other specifications |
+| Equipment & Condition | Feature choices, damaged/repainted/replaced panels and repair notes |
+| Photos | Required images, cover photo and order |
+| Price & Description | Listing title, asking price and description |
+| Review | Summary of the information and links to edit each section |
+| Completion | Confirmation that the prototype flow has ended |
 
-## Proposed Sitemap
+## Sitemap
+
 ```text
 AutoPiac
 ├── Home
 ├── My Listings
 │   ├── Drafts
 │   └── Published Listings
-└── Create a Listing
+└── Create Listing
     ├── Vehicle Details
-    ├── Equipment & Features (proposed)
-    ├── Condition / Damage & Replaced Parts (proposed)
-    ├── Photos
-    ├── Price and Description
-    ├── Review and Fix Errors
-    └── Publish Confirmation
+    ├── Equipment & Condition
+    ├── Vehicle Photos
+    ├── Price & Description
+    ├── Review Listing
+    └── Completion
 ```
 
-## Primary Task Flow
+## Main User Flow
+
 ```text
-Open Create Listing
+Start a listing
     ↓
 Sign in if needed
     ↓
 Enter vehicle details
     ↓
-Select equipment and disclose damage/replaced parts (new proposed subsections)
+Choose equipment and describe condition
     ↓
-Add minimum 5 vehicle photos
+Add at least five photos
     ↓
-Enter listing price and description
+Enter price and description
     ↓
-Review listing
-    ↓
-Any errors or missing fields?
-    ├── Yes → Open relevant step → Correct → Review again
-    └── No  → Publish → Success
+Review information
+    ├── Need to change something → Open that section → Review again
+    └── Everything looks correct → Finish
 ```
 
-## Three Exceptional States
-1. **Missing required field:** Explain the exact field and retain previously entered data.
-2. **Too few photos:** Show "At least 5 vehicle photos are required" with an actionable upload control.
-3. **Submission/network error:** Preserve the draft and display an accessible retry action.
+[FigJam user flow](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) · [Current Figma prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2)
 
-## Additional Rule to Consider
-The planned AutoPiac product allows only one active private-seller listing, counting drafts and published listings. This needs a specific limit-reached UI state in later prototypes.
+## Error States
 
-## R01 Interview — Content Gaps
+1. **Missing vehicle information:** Show the field that needs attention.
+2. **Not enough photos:** Explain that five photos are required and provide a way back.
+3. **Submission error:** In a functional product, keep the draft and offer a retry action.
 
-A first-time prospective seller (R01, 18, researcher's sibling) reportedly understood the existing terminology and navigated the prototype independently. They explicitly identified missing **equipment selection** and **damage/replacement history** entry. See [research interview](../../project/docs/interview-r01.md).
+The current Figma prototype illustrates the first two error cases. The third is a future implementation scenario.
 
-These content areas have now been incorporated into a [new static Figma Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2), with a linked path between Vehicle Details and Photos. Actual editable choices, persistence and preferred layout have **not** been tested.
+## Update After User Feedback
 
-**Next terminology testing:** Use the [three-person instruction sheet](../../project/docs/usability-test-instructions.md), especially the explanation of Vehicle Details, Equipment, Review, Publish, and Draft. R01 understood the earlier screen's available labels, but three separate participant results have not been recorded.
+The initial flow did not include equipment or body condition as a dedicated step. After the first interview, I added [Equipment & Condition](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) between Vehicle Details and Photos, without changing the main four-stage structure.
 
-## Label Validation Plan
-Ask **three actual participants** how they interpret terms such as "Vehicle Details", "Equipment", "Review", "Publish", and "Draft". Record the date, task, and anonymized observations.
+The project also has a planned limit of one active listing per private seller, including drafts. A future design should explain that limit if someone tries to create a second one.
 
-| Participant | Tested? | Confusing labels | Suggested revisions |
+## Terminology Test
+
+I plan to ask three additional people to explain these labels in their own words: **Vehicle Details, Equipment, Review, Publish and Draft**. I will note any confusing terms and update the design if necessary.
+
+| Participant | Terms understood | Unclear terms | Suggested change |
 | --- | --- | --- | --- |
-| T01 | No | — | — |
-| T02 | No | — | — |
-| T03 | No | — | — |
+| T01 | Not tested yet | — | — |
+| T02 | Not tested yet | — | — |
+| T03 | Not tested yet | — | — |
 
-The table is a testing plan and **does not report results**.
+[Test questions and recording template](../../project/docs/usability-test-instructions.md)
