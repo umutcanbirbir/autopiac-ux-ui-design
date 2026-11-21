@@ -1,7 +1,9 @@
 # Homework 09 — Iteration, Mini Design System & Developer Handoff
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Planned deliverables; design changes require actual evaluation before claiming impact.
+**Status:** Initial visual color exploration completed; reusable component library and evidence-based iterations pending.
+**Colored Figma screens:** https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2
+**Palette:** [Yellow & White Color Guideline](../../project/docs/color-guideline.md)
 
 ## Mini Design System: Planned Components
 - **Button:** primary, secondary, disabled, loading and focus states.
