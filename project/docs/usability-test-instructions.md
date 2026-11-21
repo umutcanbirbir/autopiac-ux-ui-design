@@ -1,14 +1,14 @@
-# AutoPiac — User Testing Instructions and Blank Evidence Forms
+# AutoPiac — User Test Guide
 
-**Prepared:** 2026-11-21  
-**Purpose:** Test the **latest** Figma screen flow and collect independent comprehension evidence for Homework 05, 07, 08 and 09.  
+**Prepared:** 21 November 2026  
+**Purpose:** Test the updated listing flow and gather feedback for Homework 05, 08 and 09.  
 **Figma starting screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2  
-**Static equipment/condition screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2  
-**Important:** Fields, checkboxes, photo samples and search visuals in Figma are non-functional. Participants can only click links between frames, inspect choices and **explain** what they would do. Do not test pretend data entry as if it worked.
+**Equipment and condition screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2  
+The Figma file is a clickable design prototype. Participants can navigate the screens and describe how they would use the fields, but they cannot save entries or upload photos.
 
-## Recruitment
+## Participants
 
-Aim for **three** additional participants who did not design the project and were not coached. At least one person who has actually sold or advertised a car would provide useful experience diversity. Keep records anonymous as T01, T02, T03; ask permission before recording notes. Do not store their names, plates, VINs or personal contact details in the public repository.
+Aim for **three** additional participants who did not design the project and were not coached. If possible, include someone who has advertised a car before. Keep records anonymous as T01, T02, T03; ask permission before recording notes. Keep names, contact details and vehicle identifiers out of the public results.
 
 ## Script to Read or Send (English)
 
@@ -16,24 +16,24 @@ Aim for **three** additional participants who did not design the project and wer
 
 ## Tasks (Use This Order)
 
-1. **Navigation:** Start a car listing and reach the final Review screen. Record whether they found the next steps **without help**. Do not claim a real listing was created.
-2. **Equipment lookup:** On Equipment & Condition, locate **Adaptive cruise**, **Heated seats**, **Apple CarPlay**, and **Rear camera**; ask which group each is in. These are reading/recognition tasks, not interactive checkbox selection.
-3. **Damage comprehension:** Point to how you would indicate a **replaced front fender**. Ask what "Repainted", "Replaced", "Damaged" and "Unknown" mean. Do **not** suggest the answers.
+1. **Navigation:** Start a car listing and reach the final Review screen. Record whether they found the next steps **without help**. 
+2. **Equipment lookup:** On Equipment & Condition, locate **Adaptive cruise**, **Heated seats**, **Apple CarPlay**, and **Rear camera**; ask which group each is in. The checkboxes are visual examples.
+3. **Damage comprehension:** Point to how you would indicate a **replaced front fender**. Ask what "Repainted", "Replaced", "Damaged" and "Unknown" mean. Let them explain without hints.
 4. **Photos and recovery:** Identify the minimum number of photos and the cover photo. If useful, click **Remove 3 photos** to view the error-example branch, then find the route back to the photo step.
 5. **Review edit:** From Review, click **Equipment & condition · Edit** and see whether they understand where it leads.
 6. **Terminology check:** Ask the participant to explain in their own words **Vehicle Details**, **Equipment**, **Review**, **Publish**, and **Draft**. Keep their answers separate from your own interpretation.
-7. **Feedback:** Ask **"What was clear? What was confusing? Which item or detail was missing?"** Do not request a particular opinion.
+7. **Feedback:** Ask **"What was clear? What was confusing? Which item or detail was missing?"** 
 
-## Facilitator Rules
+## While Observing
 
 - Ask the participant to **think aloud**, but do not explain the meaning of terms during the task.
 - Start a stopwatch before the first task; stop at final Review if measuring duration.
 - If they need help, note **when**, **what help you gave**, and whether they finished afterward.
 - Separate what you **observed** from what the participant **said**.
-- Acknowledge that a static Figma screen cannot verify dynamic data entry, upload progress or saved values.
-- Run a separate full-task study in a functional demo if the course requires *actual form completion* and error recovery.
+- Remember that this test covers navigation and understanding, not functional data entry.
+- Use a functional demo for a separate real form-entry test if needed.
 
-## Blank Individual Record (Copy Once Per Participant)
+## Notes for Each Participant
 
 **Participant ID:** T__  
 **Date and approximate time:**  
@@ -49,10 +49,10 @@ Aim for **three** additional participants who did not design the project and wer
 **Review edit found?** Yes / No  
 **Terminology answers (in participant's own words):**  
 **Observed hesitation / errors:**  
-**Direct feedback (verbatim only if actually recorded):**  
-**Researcher's interpretation (clearly separate):**
+**Participant's feedback:**  
+**My notes on possible design changes:**
 
-## Summary Table (Remain Blank Until Real Tests)
+## Results Table
 
 | Participant | Date | Prior listing experience | Review reached unaided? | Equipment lookup | Damage comprehension | Terminology | Time | Specific issue |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,4 +60,4 @@ Aim for **three** additional participants who did not design the project and wer
 | T02 | — | — | — | — | — | — | — | — |
 | T03 | — | — | — | — | — | — | — | — |
 
-After these tests, update the Homework 05 terminology table, Homework 08 actual observations and Homework 09 iteration verification. **Do not fabricate** outcomes. The previous original three-person navigation test and R01 interview must remain clearly distinguished from any new participants.
+After the sessions, add the recorded results to Homework 05, 08 and 09. Keep the new participants separate from the earlier three-person walkthrough and R01 interview.
