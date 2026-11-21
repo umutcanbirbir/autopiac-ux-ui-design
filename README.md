@@ -2,7 +2,7 @@
 
 **University:** University of Pécs — PTE MIK  
 **Course:** UX/UI Design  
-**Student:** Umut (add your official full name and Neptun code before submission)  
+**Student:** Umut Can Birbir — Neptun: DUJ3ZD  
 **Project focus:** User-centered private vehicle listing creation for the Hungarian market.
 
 ## Overview
