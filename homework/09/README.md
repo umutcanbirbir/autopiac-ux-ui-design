@@ -59,7 +59,7 @@ After the scrolling issue was resolved, I addressed the remaining complaint that
 
 I also removed the visual search field, which could not accept typing, and added the instruction **“Tap a feature to select or deselect it.”**
 
-**Checked:** All 16 Figma instances now reference the two-state component. The bidirectional reactions and a test switch of the Apple CarPlay variant were checked in the file, including preservation of its label. The scrolling frame and Continue / Back navigation remain in place. **A participant has not yet tried the new checkbox interactions in Present mode.**
+**Checked:** All 16 Figma instances now reference the two-state component. The bidirectional reactions and a test switch of the Apple CarPlay variant were checked in the file, including preservation of its label. The scrolling frame and Continue / Back navigation remain in place. **A subsequent student-relayed retest reported that the choices worked in Figma Present mode.** The exact participants and individual options tested were not recorded.
 
 **Scope:** Figma maintains visual checkbox state during component interaction; it does not write to a database, compute a live selected count, or automatically update the Review page.
 
@@ -86,6 +86,6 @@ I also reviewed the latest screens and corrected issues with back navigation, ph
 
 ## What Remains to Be Tested
 
-The scrolling blocker has been reported resolved. The new interactive equipment toggles, error-state comprehension and Review editing paths still need individual documented task results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
+The scrolling blocker has been reported resolved. The interactive equipment toggles have received positive reported feedback, but individual documented results for all equipment controls, error-state comprehension and Review editing are still needed. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
 
 [Next testing instructions](../../project/docs/usability-test-instructions.md)
