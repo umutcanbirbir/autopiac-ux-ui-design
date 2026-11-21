@@ -109,7 +109,7 @@ Created: eight mobile frames (start, vehicle details, photos, price/description,
 **[FigJam — Planned Seller User Flow](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)**
 
 ## Project Management
-**GitHub Projects Kanban:** To be created. The planned columns are **Todo**, **In progress**, and **Done**. Add its URL here once created.
+**Repository-hosted Kanban:** [Todo / In Progress / Done](KANBAN.md), with links to all existing [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues). A native **GitHub Projects** board is still pending because the connected GitHub tool lacks Projects creation; see [Issue #7](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/7).
 
 ## Navigation
 - [Homework 01](../homework/01/README.md)
