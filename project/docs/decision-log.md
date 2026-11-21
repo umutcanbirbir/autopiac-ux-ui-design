@@ -1,26 +1,26 @@
 # AutoPiac — Design Decision Log
 
-This log separates design proposals from research-backed decisions.
+**Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)
 
-| ID | Date | Proposal or decision | Reason | Evidence | Planned next step |
-| --- | --- | --- | --- | --- | --- |
-| D-001 | 2026-11-21 | Focus on listing creation by private car sellers | One complete UX journey fits the semester project | Scope decision | Check with lecturer if required |
-| D-002 | 2026-11-21 | Explore a guided step-by-step form | May make complex entry less intimidating | Unvalidated hypothesis | Prototype evaluation |
-| D-003 | 2026-11-21 | Include preview and validation states | Helps communicate correctness and completion | Design rationale | Observe user recovery |
-| D-004 | 2026-11-21 | Cover both mobile and desktop | Supports more usage contexts | Scope constraint | Test responsive wireframes |
+This log records the main design choices and why they were made. Some decisions came from project scope and design review; others were based on user feedback.
 
-| D-005 | 2026-11-21 | Preserve the simple linear listing flow in the next design revision | Owner reported 3/3 participants navigated to the last screen and found the UI simple; this is not a full task validation | [Homework 08 navigation walkthrough](../../homework/08/README.md) | Test realistic data entry, recovery and independent completion |
-| D-006 | 2026-11-21 | Prioritize explicit validation and minimum photo guidance in the next design iteration | Figma fields were static; form entry and error recovery were not tested | Known prototype limitation, not participant complaint | Implement I-01 and I-02, then conduct task tests |
-| D-007 | 2026-11-21 | Improve review/edit and confirmation information without increasing complexity | No tested evidence yet that users understand or correct entered data | Design proposal | Implement I-03 and verify with participants |
+| ID | Decision | Reason | Source / next step |
+| --- | --- | --- | --- |
+| D-01 | Focus on private-seller listing creation | One complete journey is manageable for the semester | [Project scope](../README.md) |
+| D-02 | Use a guided step-by-step flow | Break the task into understandable sections | Initial design idea; evaluate in user tests |
+| D-03 | Include a Review page and example error states | People should be able to find and correct mistakes | [Figma prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) |
+| D-04 | Design for mobile and a larger screen | The flow should adapt to different devices | [Homework 06](../../homework/06/README.md) |
+| D-05 | Keep navigation simple | Three participants reached the end of the initial screen flow and liked its simplicity | [Homework 08](../../homework/08/README.md) |
+| D-06 | Clarify required fields and minimum photo count | These expectations were not clear enough in the first prototype | [Homework 09](../../homework/09/README.md) |
+| D-07 | Link review sections back to the right steps | Makes corrections easier to find | [Review screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-115) |
+| D-08 | Add equipment selection | The first interview identified this missing information | [Interview R01](interview-r01.md) |
+| D-09 | Add damage and replacement history | The same participant wanted to disclose replaced or damaged parts | [Interview R01](interview-r01.md) |
+| D-10 | Expand equipment to four groups with 16 options | The first revised screen was liked, but the participant wanted more equipment choices | [R01 follow-up](r01-follow-up-2026-11-21.md) · [Competitor review](../../homework/03/README.md) |
 
-| D-008 | 2026-11-21 report | Propose a dedicated optional equipment/features selection section | R01 explicitly noted that equipment could not be selected in AutoPiac | [R01 Interview](interview-r01.md); single participant | Static Figma equipment examples added; real choice interaction and re-test pending |
-| D-009 | 2026-11-21 report | Propose structured vehicle damage/replacement disclosure | R01 explicitly noted missing damage/replaced-parts entry | [R01 Interview](interview-r01.md); single participant | Static Figma panel status example added; full panel model and re-test pending |
-| D-010 | 2026-11-21 report | Preserve simple core progression while adding needed content | R01 liked the interface's simplicity and navigated independently | [R01 Interview](interview-r01.md); single participant | Check whether optional subsections overload the task |
+## Current Design Direction
 
-| D-011 | 2026-11-21 report | Expand the short vehicle-equipment sample into discoverable categories | Same R01 liked the first revision but requested a more developed equipment list; official seller sources also emphasize a complete equipment list | [R01 follow-up](r01-follow-up-2026-11-21.md), [competitor audit](../../homework/03/README.md) | Four static groups with 16 options implemented; confirm with independent users |
+The latest Figma flow keeps the main steps simple while including equipment and body-condition information. It includes visible photo guidance, review/edit links and a yellow-and-white visual style.
 
-**Update:** The initial illustrative Figma screen for D-008/D-009 is implemented: [Equipment & Condition](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2). It is a static mockup; no verified usability effect. D-010 (preserving simplicity) remains a design direction to test.
+The next round of testing should check whether the longer equipment screen is still easy to use, whether users recognize the categories and whether the condition terms are clear. The checkboxes and form fields are currently visual prototypes, not functional saved inputs.
 
-**Caution:** D-005 reflects a limited owner-reported walkthrough, not a causal or population-wide finding. D-006 and D-007 are planned hypotheses, not completed or verified iterations.
-
-After subsequent usability testing, add actual participant evidence sources, implementation links, and re-test outcomes.
+[Current Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2)
