@@ -66,6 +66,8 @@ A first-time prospective seller (R01, 18, researcher's sibling) reportedly under
 
 These content areas have now been incorporated into a [new static Figma Equipment & Condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2), with a linked path between Vehicle Details and Photos. Actual editable choices, persistence and preferred layout have **not** been tested.
 
+**Next terminology testing:** Use the [three-person instruction sheet](../../project/docs/usability-test-instructions.md), especially the explanation of Vehicle Details, Equipment, Review, Publish, and Draft. R01 understood the earlier screen's available labels, but three separate participant results have not been recorded.
+
 ## Label Validation Plan
 Ask **three actual participants** how they interpret terms such as "Vehicle Details", "Equipment", "Review", "Publish", and "Draft". Record the date, task, and anonymized observations.
 
