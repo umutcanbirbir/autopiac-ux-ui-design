@@ -3,7 +3,7 @@
 **Course:** UX/UI Design, University of Pécs (PTE MIK)  
 **Student:** Umut Can Birbir — Neptun: DUJ3ZD  
 **Progress:** Wireframes and initial three-person navigation walkthrough documented; realistic task tests and final design work pending.  
-**FigJam board:** https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2
+**FigJam board:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB
 
 ## Project Description
 AutoPiac is a Hungarian automotive marketplace concept. This semester project focuses on the **private seller's vehicle-advertisement creation flow**, not the entire commercial product. Its goal is to design and test an accessible, guided listing experience.
@@ -57,15 +57,15 @@ The project owner reported a three-participant walkthrough of the static Figma l
 
 ## UI Color Exploration
 
-A yellow/white visual version of the original wireframes has been created in Figma while retaining the grayscale originals. See [the colored screens](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm?node-id=9-2) and [the documented palette](docs/color-guideline.md). Screen interactions remain illustrative; no real Figma text input is implemented.
+A yellow/white visual version of the original wireframes has been created in Figma while retaining the grayscale originals. See [the colored screens](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) and [the documented palette](docs/color-guideline.md). Screen interactions remain illustrative; no real Figma text input is implemented.
 
 ## Design Artifacts — Created 2026-11-21
 
-**[Figma — Low-Fidelity Wireframes and Basic Click-Through](https://www.figma.com/design/cEkbZFkMY32FYY4q5op5Jm)**
+**[Figma — Low-Fidelity Wireframes and Basic Click-Through](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC)**
 
 Created: eight mobile frames (start, vehicle details, photos, price/description, review, success, photos error, required vehicle field error), plus a desktop vehicle details layout. Basic click navigation connects the main path and error branch. Input controls are currently visual and must not be described as working data entry. Initial navigation-test results are now reported, but real end-to-end task testing and final polish remain pending.
 
-**[FigJam — Planned Seller User Flow](https://www.figma.com/board/8M1vecaiwW7U9MpYBbuok2)**
+**[FigJam — Planned Seller User Flow](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB)**
 
 ## Project Management
 **GitHub Projects Kanban:** To be created. The planned columns are **Todo**, **In progress**, and **Done**. Add its URL here once created.
