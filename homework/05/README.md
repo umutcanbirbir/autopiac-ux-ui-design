@@ -69,9 +69,11 @@ The initial flow did not include equipment or body condition as a dedicated step
 
 The project also has a planned limit of one active listing per private seller, including drafts. A future design should explain that limit if someone tries to create a second one.
 
-## Terminology Test
+## Terminology Feedback
 
-I plan to ask three additional people to explain these labels in their own words: **Vehicle Details, Equipment, Review, Publish and Draft**. I will note any confusing terms and update the design if necessary.
+In a later discussion of the revised prototype, participants gave the following Turkish interpretations: **Vehicle Details → araç detayları, Equipment → donanım, Review → incele, Publish → yayınla, Draft → kaydet**. Most terms matched their intended meanings. **Draft** was associated with saving, but did not clearly express that the listing remains unpublished; “Save as draft” may be easier to understand. The number of participants and individual responses in this feedback were not recorded, so these results are not assigned to T01–T03.
+
+[Follow-up feedback and navigation issue](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md). I still plan to record individual responses from three participants in a structured terminology test.
 
 | Participant | Terms understood | Unclear terms | Suggested change |
 | --- | --- | --- | --- |
