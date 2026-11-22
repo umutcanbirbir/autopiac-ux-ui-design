@@ -67,11 +67,13 @@ The later interview and follow-up helped me identify missing vehicle details and
 | 07 | Clickable prototype | Main flow and examples connected |
 | 08 | Usability testing | Initial walkthrough and positive three-person updated-prototype feedback documented; individual task records not collected |
 | 09 | Revisions and components | Latest Figma revisions, component interactions, handoff and qualitative retest documented |
-| 10 | Final presentation | Not yet completed |
+| 10 | Final presentation | Editable 9-slide English PowerPoint and speaker notes in GitHub; rehearsal completed (student-reported) |
 
 ## What Is Still Open
 
-The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. Keyboard, screen-reader and reflow behavior still requires a functional implementation. Next steps are any required individual terminology records, the final presentation and submission checks. The Figma file is a clickable design demonstration, not a functioning listing application.
+The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. Keyboard, screen-reader and reflow behavior still requires a functional implementation. Final presentation and rehearsal are complete. Individual terminology records would only be added if the course requires them and actual participant data can be obtained. The external Figma and FigJam viewer permissions still need checking in their Share dialogs. The Figma file is a clickable design demonstration, not a functioning listing application.
+
+[Final PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) · [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) · [Homework 10](../homework/10/README.md)
 
 The [AutoPiac GitHub Projects Board](https://github.com/users/umutcanbirbir/projects/1/views/1) now displays all eight repository issues in Todo / In Progress / Done columns. The [repository task overview](KANBAN.md) and [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) provide the detailed work list.
 
