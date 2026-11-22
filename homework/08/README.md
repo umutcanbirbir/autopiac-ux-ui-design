@@ -51,13 +51,23 @@ A further participant report found that the damage-status choices were still non
 
 [Current screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34).
 
-## Latest Prototype — Three Testers Confirmed
+## Participant-Level Usability Results — Clarified 23 November 2026
 
-The student confirmed that **three different people tested the latest Figma prototype**. The final overall feedback from the three testers was consistently positive: **all three reported no problems and liked the design**, describing it as **simple and easy to use**. Earlier follow-ups also confirmed the equipment selections, front-left-fender choices and scrolling/continuation issue had been addressed.
+The student provided **individual outcomes for three participants (T01–T03)** after the earlier aggregate report. All three independently worked through the assigned Figma navigation/interaction tasks and reached the final screen. However, **the participants tested different design states**: T01 encountered broken controls and an unreachable Continue button, while T02 and T03 tested the corrected prototype.
 
-These observations are reported **for the group**, not as three individual task records. There are no measured completion times, per-person assistance records or full task checklists for this latest round. It is not confirmed whether these people were also involved in the initial three-person navigation walkthrough, so the two groups are not combined into a six-person sample.
+| Participant | Prototype state | Completed assigned flow and tasks? | Navigation assistance | Findings | Approximate time |
+| --- | --- | --- | --- | --- | --- |
+| **T01** | Earlier problematic version, then corrected during the iteration/retest | **Yes**, reached final screen after the controls and Continue navigation were fixed | No step-by-step navigation guidance reported; the prototype required a design fix | Reported that buttons/selections did not respond and the Continue action was unreachable; successfully used Continue after the fix | **~4 minutes** in the reported test/retest process |
+| **T02** | Corrected interactive version | **Yes**, reached final screen and completed the assigned tasks | None reported; completed independently | Controls and progression worked; positive response | **~1 minute** |
+| **T03** | Corrected interactive version | **Yes**, reached final screen and completed the assigned tasks | None reported; completed independently | Controls and progression worked; positive response | **~1 minute** |
 
-[Follow-up report](../../project/docs/prototype-test-feedback-2026-11-21.md)
+**Terminology:** The student confirmed that all three interpreted the interface terms correctly in Turkish. The recorded group translations are *Vehicle Details → araç detayları; Equipment → donanım; Review → incele; Publish → yayınla; Draft → kaydet*. The responses were direct translations/interpretations rather than separate word-for-word transcripts. The nuance between **Draft** and a saved but unpublished listing still deserves clear interface copy.
+
+**Measurement limits:** Durations are approximate recollections reported by the student, **not individually stopwatch-verified measurements**. T01's ~4 minutes included encountering a defect and resuming after correction, so it is **not comparable as a pure completion-time benchmark** with T02/T03. The exact test dates, full action-by-action logs, device details and whether this three-person group overlaps with the earlier navigation walkthrough were not documented. Do not treat these as six unique users, claim precise timing statistics, or claim actual advertisement submission.
+
+**Result:** **3/3 participants completed the assigned Figma walkthrough independently**, with the important qualification that T01 required the prototype to be corrected before the inaccessible continuation became usable. The reported issues prompted the fixes; T02 and T03 encountered no remaining blockers in the corrected flow.
+
+[Follow-up evidence and participant table](../../project/docs/prototype-test-feedback-2026-11-21.md) · [Participant task guide](../../project/docs/usability-test-instructions.md)
 
 ## Mini UI Guideline
 
@@ -74,9 +84,13 @@ These observations are reported **for the group**, not as three individual task 
 
 Following that review, I conducted a separate [WCAG 2.2 AA design-level accessibility check](../../project/docs/accessibility-review-2026-11-22.md) on ten Figma frames (22 November 2026). I strengthened nine input outlines, enlarged the equipment and damage labels and adjusted photo captions. The 44 prototype action hit boxes examined were at least 36 px in each dimension, and an approximate check of 204 text layers identified no below-threshold pairs. This does **not** confirm keyboard, screen-reader or responsive reflow conformance.
 
-## Next Test
+## Test Conclusion and Limitations
 
-The corrected Equipment & Condition navigation has now received positive follow-up confirmation. A further informal retest reported the on/off equipment selections worked. A structured test should still record results per participant for option selection, damage-status interpretation and Review editing, despite the positive informal feedback. I will record whether they needed help, what they could not find, and their feedback.
+The three participants' independence, overall completion, major defect observations, terminology comprehension and approximate times are now documented individually. This closes the Figma navigation/interaction test documentation gap. Detailed per-feature click logs, stopwatch timings and testing of editable form values are **not available** and are not invented; the lecturer requested a Figma prototype rather than a working marketplace.
+
+The observed defect-to-fix sequence is the central outcome: T01 discovered the nonworking selections and unreachable Continue button, then could proceed following the correction; T02 and T03 completed the assigned tasks independently on the corrected version without reported control failures.
+
+
 
 [Participant instructions and results template](../../project/docs/usability-test-instructions.md) · [Design changes](../09/README.md)
 
