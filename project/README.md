@@ -34,7 +34,7 @@ I also reviewed published selling guides from Használtautó.hu and mobile.de. T
 
 ## From Idea to Prototype
 
-The [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) contains the initial problem, primary flow, interview themes and impact/feasibility matrix.
+The [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) contains the initial problem, interview themes and impact/feasibility matrix. The [Homework 05 section](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2007-200) now includes both a visual sitemap and the revised user flow reflecting the equipment/condition step.
 
 The [Figma file](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) contains the grayscale wireframes, the yellow-and-white visual direction and the revised prototype. The latest design includes a grouped equipment checklist, condition statuses, photo thumbnails, review/edit links and two example validation states.
 
@@ -61,7 +61,7 @@ The later interview and follow-up helped me identify missing vehicle details and
 | 02 | Interview, persona and journey | First interview documented |
 | 03 | Competitor comparison | Public-source research completed; live form audit outstanding |
 | 04 | Ideation and prioritization | FigJam matrix completed |
-| 05 | Information architecture and flow | Flow ready; three-person terminology test outstanding |
+| 05 | Information architecture and flow | Sitemap and updated user flow complete in FigJam; individual terminology results outstanding |
 | 06 | Wireframes | Mobile and desktop examples completed |
 | 07 | Clickable prototype | Main flow and examples connected |
 | 08 | Usability testing | Initial three-person navigation walkthrough documented |
