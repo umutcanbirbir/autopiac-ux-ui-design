@@ -1,7 +1,7 @@
 # Homework 10 — Final Presentation & Reflection
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Status:** Final presentation and English speaking notes prepared; rehearsal completed (student-reported, 22 November 2026). External submission not yet recorded.
+**Status:** Final English presentation, notes, rehearsal and link-sharing setup complete (sharing and rehearsal confirmed by the student, 22 November 2026). External course submission not yet recorded.
 
 ## Deliverables
 
@@ -41,7 +41,7 @@ The starting hypothesis was that complex vehicle-listing forms may cause confusi
 - [x] Describe prototype limits and design-level accessibility improvements without claiming full WCAG conformance.
 - [x] Include final slides and Figma/FigJam/GitHub links.
 - [x] Prepare English speaker notes and conduct a rehearsal (student-confirmed).
-- [ ] Verify Figma and FigJam **external viewer link access** from their Share dialogs; the connected account can access both, but the audience's permission is not exposed through the connector.
+- [x] Figma and FigJam link-sharing configured to **Anyone with the link → Can view** (confirmed directly by the student, 22 November 2026; not independently verified in a logged-out browser).
 
 **Course-submission notice:** The lecturer's exact submission method, date and accepted format have not yet been confirmed. This is an external announcement, not an unfinished design task. No deadline has been assumed.
 
