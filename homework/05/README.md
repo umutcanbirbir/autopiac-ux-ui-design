@@ -37,7 +37,7 @@ AutoPiac
 
 ## Main User Flow
 
-The [same FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) includes the linked user-flow diagram and its validation branches. I updated the visual flow to add **Equipment & Condition** between vehicle-details validation and photo upload, matching the revised clickable Figma prototype.
+The [same FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) presents the main listing journey as a readable connected flow, with missing fields, insufficient photos, Review edits and planned submission retry grouped below as separate recovery notes. **Equipment & Condition** remains between vehicle details and photos, matching the clickable Figma prototype.
 
 ```text
 Start a listing
