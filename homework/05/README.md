@@ -77,7 +77,7 @@ The project also has a planned limit of one active listing per private seller, i
 
 In a later discussion of the revised prototype, participants gave the following Turkish interpretations: **Vehicle Details → araç detayları, Equipment → donanım, Review → incele, Publish → yayınla, Draft → kaydet**. Most terms matched their intended meanings. **Draft** was associated with saving, but did not clearly express that the listing remains unpublished; “Save as draft” may be easier to understand. The student later confirmed that **three people tested the latest Figma prototype**, but did not identify which participant gave each terminology answer. The term interpretations below are therefore reported as group feedback, not individual scores. It is also unknown whether these testers overlap with the initial navigation group.
 
-[Follow-up feedback and navigation issue](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md). Individual responses are still needed for a participant-by-participant terminology table.
+[Follow-up feedback and navigation issue](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md). The latest three-person group also reported that the revised interface was easy to use and had no remaining problems. Individual terminology answers are still needed for a participant-by-participant terminology table.
 
 | Participant | Terms understood | Unclear terms | Suggested change |
 | --- | --- | --- | --- |
