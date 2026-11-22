@@ -79,7 +79,7 @@ Each variant has clickable alternatives that change the whole control to the sel
 
 ## Follow-Up Test Summary — Three People
 
-After the equipment and damage controls were made interactive, the student confirmed that **three different people had tested the latest prototype**. The reported overall response was positive: the controls worked and the design was seen as simple and practical. The earlier Continue button issue was no longer reported.
+After the equipment and damage controls were made interactive, the student confirmed that **three different people had tested the latest prototype**. The student's final group feedback was that **all three testers encountered no remaining problems and liked the simple, usable design**. Earlier retests confirmed the clickable equipment and front-left-fender choices worked, and the Continue button issue was no longer reported.
 
 I have not treated this as a measured 3/3 task-completion rate: results were not recorded separately for each person, and it is not known whether they overlap with the original navigation group.
 
