@@ -10,8 +10,8 @@
 
 | TO DO — handoff only | IN PROGRESS / CONDITIONAL | DONE |
 | --- | --- | --- |
-| [ ] Verify Figma viewer link access in **Share** | [ ] [#6 — Presentation complete; Figma/FigJam viewer access needs confirmation](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/6) | [x] [HW10 English PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) — 9 editable slides |
-| [ ] Verify FigJam viewer link access in **Share** | [ ] [#4 — Individual usability task records](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/4) — only if specifically required and actual data available | [x] [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) |
+| | | [x] [#6 — Presentation and link-access check completed](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/6) · [HW10 PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) |
+| | [ ] [#4 — Individual usability task records](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/4) — only if specifically required and actual data available | [x] [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) |
 | | [ ] [#2 — Authenticated competitor editor/accessibility test](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/2) — additional research, only if required | [x] **Presentation rehearsal completed**, confirmed by student (no measured time recorded) |
 | | [ ] [#5 — Functional keyboard/screen-reader/reflow QA](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/5) — requires a working frontend; beyond current Figma-design review | [x] HW01–HW09: main research, sitemap, wireframes, prototype, iterations and qualitative tests documented |
 | | | [x] [#8 — Equipment and condition issues resolved](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/8) |
@@ -20,11 +20,11 @@
 
 ## Immediate Handoff Check
 
-1. Open [Figma design](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2) → **Share** → allow **Anyone with the link: Can view** (or confirm the lecturer can view).
-2. Repeat for [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB).
+1. [x] **Figma design:** Student confirmed **Share → Anyone with the link → Can view** (22 November 2026).
+2. [x] **FigJam board:** Student confirmed **Share → Anyone with the link → Can view** (22 November 2026).
 3. Hand over the [GitHub repository](https://github.com/umutcanbirbir/autopiac-ux-ui-design), [PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) and the design links once the university communicates a submission route.
 
-**Access verification:** The GitHub repository is **public**. Both Figma files could be opened with the connected student account, but their anonymous/lecturer link-sharing setting cannot be read through the available connector. Do **not** label those share permissions confirmed until checked in the Figma Share panel.
+**Access verification:** The GitHub repository is **public** (verified using GitHub repository metadata). The student explicitly confirmed the Figma and FigJam sharing settings as **Anyone with the link → Can view**. The connector itself cannot read these settings; no independent signed-out link-opening test was performed.
 
 **Course timing:** Exact lecturer delivery date, destination and required formats have not been announced or verified. There is **no known immediate action** for this information; it is not treated as an overdue or unfinished project task.
 
