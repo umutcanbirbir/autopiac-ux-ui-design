@@ -77,6 +77,14 @@ Each variant has clickable alternatives that change the whole control to the sel
 
 [Body panel component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34) · [Updated equipment & condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
 
+## Follow-Up Test Summary — Three People
+
+After the equipment and damage controls were made interactive, the student confirmed that **three different people had tested the latest prototype**. The reported overall response was positive: the controls worked and the design was seen as simple and practical. The earlier Continue button issue was no longer reported.
+
+I have not treated this as a measured 3/3 task-completion rate: results were not recorded separately for each person, and it is not known whether they overlap with the original navigation group.
+
+[Latest test feedback](../../project/docs/prototype-test-feedback-2026-11-21.md)
+
 ## Mini Design System
 
 I prepared four component groups in Figma with **15 variants**:
