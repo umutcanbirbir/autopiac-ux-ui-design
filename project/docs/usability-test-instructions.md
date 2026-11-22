@@ -58,16 +58,26 @@ An earlier participant reported that the expanded Equipment & Condition page cou
 **Participant's feedback:**  
 **My notes on possible design changes:**
 
-## Latest Round — Aggregate Feedback Already Received
+## Recorded Participant-Level Results (Student Clarification, 23 November 2026)
 
-The student confirmed **three different testers** of the latest interactive prototype. Group feedback was positive about the design's simplicity and usability, and the equipment, single-panel damage selection and navigation were reported to work. Individual task results and measured times were not recorded, and overlap with the earlier three-person navigation test is unknown. The table below remains a template for collecting individual details; its blank cells do not mean that no tests occurred.
+The following results relate to the **three distinct participants labelled T01, T02 and T03**. The actual test-session dates and exact stopwatch measurements were not supplied.
 
-## Results Table
+| ID | Prototype tested | Independent final-screen completion and assigned tasks | Terminology understood? | Approximate duration | Important observation |
+| --- | --- | --- | --- | --- | --- |
+| **T01** | Earlier controls/scrolling problem, then correction | **Yes, after the prototype fix**; user independently navigated | **Yes**, straightforward Turkish interpretations reported | **~4 minutes** (including problem discovery and correction/retest) | Identified buttons/selection controls not working; Continue reachable after correction |
+| **T02** | Corrected Figma version | **Yes**, independently | **Yes**, straightforward Turkish interpretations reported | **~1 minute** | No remaining control or navigation problem reported |
+| **T03** | Corrected Figma version | **Yes**, independently | **Yes**, straightforward Turkish interpretations reported | **~1 minute** | No remaining control or navigation problem reported |
 
-| Participant | Date | Prior listing experience | Review reached unaided? | Equipment lookup | Damage comprehension | Terminology | Time | Specific issue |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T01 | — | — | — | — | — | — | — | — |
-| T02 | — | — | — | — | — | — | — | — |
-| T03 | — | — | — | — | — | — | — | — |
+**Recorded terminology examples:** Vehicle Details → araç detayları; Equipment → donanım; Review → incele; Publish → yayınla; Draft → kaydet. The examples are from the group's answers; individual word-for-word transcripts were not collected. "Draft" might benefit from more explicit "Save as draft" wording to express that an advertisement remains unpublished.
 
-After the sessions, add the recorded results to Homework 05, 08 and 09. Keep the new participants separate from the earlier three-person walkthrough and R01 interview.
+The time values are **student-reported approximations**. The 4-minute T01 session includes the original broken prototype and subsequent correction, so do not treat it as a controlled timing comparison with the roughly one-minute corrected-version runs. All three reported completing the assigned Figma interaction/navigation tasks, but detailed button-by-button logs are not available. No real data entry or publishing was tested. It is unknown whether this group overlaps with the earlier three-person navigation walkthrough.
+
+The results are summarized in [Homework 08](../../homework/08/README.md) and [the follow-up feedback report](prototype-test-feedback-2026-11-21.md).
+
+## Optional Template for a New Test
+
+| Participant | Actual test date | Device | Independent task completion | Exact timed duration | Specific controls tried | Issues |
+| --- | --- | --- | --- | --- | --- | --- |
+| New test only | — | — | — | — | — | — |
+
+This blank template is for any **future** structured retest, not a claim that T01–T03 are missing test records.
