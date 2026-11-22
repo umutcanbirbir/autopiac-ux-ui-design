@@ -71,7 +71,7 @@ The later interview and follow-up helped me identify missing vehicle details and
 
 ## What Is Still Open
 
-The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. Keyboard, screen-reader and reflow behavior still requires a functional implementation. Final presentation and rehearsal are complete. Individual terminology records would only be added if the course requires them and actual participant data can be obtained. The external Figma and FigJam viewer permissions still need checking in their Share dialogs. The Figma file is a clickable design demonstration, not a functioning listing application.
+The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. Keyboard, screen-reader and reflow behavior still requires a functional implementation. Final presentation and rehearsal are complete. Individual terminology records would only be added if the course requires them and actual participant data can be obtained. The student confirmed that both Figma and FigJam are shared as **Anyone with the link → Can view** (22 November 2026); no separate signed-out viewer test was performed. The Figma file is a clickable design demonstration, not a functioning listing application.
 
 [Final PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) · [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) · [Homework 10](../homework/10/README.md)
 
