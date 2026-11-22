@@ -60,7 +60,7 @@ The later interview and follow-up helped me identify missing vehicle details and
 | --- | --- | --- |
 | 01 | Problem definition | Draft completed |
 | 02 | Interview, persona and journey | First interview documented |
-| 03 | Competitor comparison | 2026 official sources, Reddit/app reviews, heuristic questions and FigJam cards completed; logged-in form audit outstanding |
+| 03 | Competitor comparison | Completed with 2026 official sources, public user reviews, UX implications and FigJam cards; authenticated editor testing not claimed |
 | 04 | Ideation and prioritization | FigJam matrix completed |
 | 05 | Information architecture and flow | Compact visual sitemap integrated next to existing FigJam user flow; individual terminology results outstanding |
 | 06 | Wireframes | Mobile and desktop examples completed |
@@ -69,9 +69,9 @@ The later interview and follow-up helped me identify missing vehicle details and
 | 09 | Revisions and components | Latest Figma revisions, component interactions, handoff and qualitative retest documented |
 | 10 | Final presentation | Editable 9-slide English PowerPoint and speaker notes in GitHub; rehearsal completed (student-reported) |
 
-## What Is Still Open
+## Final Handoff and Optional Extensions
 
-The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. Keyboard, screen-reader and reflow behavior still requires a functional implementation. Final presentation and rehearsal are complete. Individual terminology records would only be added if the course requires them and actual participant data can be obtained. The student confirmed that both Figma and FigJam are shared as **Anyone with the link → Can view** (22 November 2026); no separate signed-out viewer test was performed. The Figma file is a clickable design demonstration, not a functioning listing application.
+The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. The Figma design-level accessibility review is complete; functional keyboard, screen-reader and reflow audits would require a real frontend and are outside the Figma-only coursework scope. Final presentation and rehearsal are complete. Individual terminology records would only be added if the course requires them and actual participant data can be obtained. The student confirmed that both Figma and FigJam are shared as **Anyone with the link → Can view** (22 November 2026); no separate signed-out viewer test was performed. The Figma file is a clickable design demonstration, not a functioning listing application.
 
 [Final PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) · [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) · [Homework 10](../homework/10/README.md)
 
