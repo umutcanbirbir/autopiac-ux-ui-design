@@ -47,7 +47,7 @@ The [Figma file](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) contains t
 
 Three participants tried the initial clickable screen flow. All three reached the final screen, and the general feedback was positive about the interface's simplicity. These were navigation walkthroughs: the Figma inputs were not editable, and individual task times were not recorded.
 
-The later interview and follow-up helped me identify missing vehicle details and expand the equipment sample. After further feedback that the original checkboxes could not be changed, I implemented 16 individual **checked/unchecked interactive component instances**. The new component interactions still need a participant retest; selections are not saved as real listing data.
+The later interview and follow-up helped me identify missing vehicle details and expand the equipment sample. After further feedback that the original checkboxes could not be changed, I implemented 16 individual **checked/unchecked interactive component instances**. The updated interactions received positive follow-up feedback from three testers, all of whom reported no remaining problems and liked the simple, usable design. These are qualitative reports, not individually timed tasks; selections are not saved as real listing data.
 
 - [Initial navigation test](../homework/08/README.md)
 - [Design iterations](../homework/09/README.md)
@@ -64,13 +64,13 @@ The later interview and follow-up helped me identify missing vehicle details and
 | 05 | Information architecture and flow | Compact visual sitemap integrated next to existing FigJam user flow; individual terminology results outstanding |
 | 06 | Wireframes | Mobile and desktop examples completed |
 | 07 | Clickable prototype | Main flow and examples connected |
-| 08 | Usability testing | Initial three-person navigation walkthrough documented |
-| 09 | Revisions and components | Latest Figma revisions and handoff completed; retest outstanding |
+| 08 | Usability testing | Initial walkthrough and positive three-person updated-prototype feedback documented; individual task records not collected |
+| 09 | Revisions and components | Latest Figma revisions, component interactions, handoff and qualitative retest documented |
 | 10 | Final presentation | Not yet completed |
 
 ## What Is Still Open
 
-The next steps are to collect additional feedback on the new equipment/condition screen, document the terminology test, check remaining accessibility details and prepare the final presentation. The current Figma file is a clickable design demonstration, not a functioning listing application.
+The updated equipment/condition screen received positive feedback from three testers. The next steps are to document any individual terminology results if available, check remaining accessibility details and prepare the final presentation. The current Figma file is a clickable design demonstration, not a functioning listing application.
 
 The [AutoPiac GitHub Projects Board](https://github.com/users/umutcanbirbir/projects/1/views/1) now displays all eight repository issues in Todo / In Progress / Done columns. The [repository task overview](KANBAN.md) and [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) provide the detailed work list.
 
