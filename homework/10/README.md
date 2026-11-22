@@ -30,7 +30,7 @@ The slides are written in straightforward English, supported by visual examples 
 
 ## Main Research Message
 
-The starting hypothesis was that complex vehicle-listing forms may cause confusion. An informal interview with one first-time prospective seller revealed that a simple UI also needs accurate equipment and damage/repair disclosure. A further round of feedback exposed scrolling and static-selection issues, which were corrected using interactive Figma components and a vertically scrollable screen. Three testers of the latest design reported no further issues and liked its simplicity and usability; individual timings were not captured.
+The starting hypothesis was that complex vehicle-listing forms may cause confusion. An informal interview with one first-time prospective seller revealed that a simple UI also needs accurate equipment and damage/repair disclosure. A further round of feedback exposed scrolling and static-selection issues, which were corrected using interactive Figma components and a vertically scrollable screen. Participant-level clarification records T01 detecting nonworking controls and an inaccessible Continue action, then finishing after the prototype fix (~4 minutes including the correction/retest process). T02 and T03 independently completed the assigned tasks on the corrected Figma prototype (~1 minute each) without further issues. All three understood the UI terms in Turkish. Times are student-reported estimates, not stopwatch measurements.
 
 ## Evidence and Limitations Checklist
 
