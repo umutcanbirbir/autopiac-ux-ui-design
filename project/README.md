@@ -26,7 +26,7 @@ The design includes mobile screens and a desktop vehicle-details example. Some i
 
 I spoke with my 18-year-old brother, who had not previously posted a car listing. He found the prototype straightforward but noticed the missing equipment and damage sections. After reviewing the first new version, he suggested a more developed equipment list.
 
-I also reviewed published selling guides from Használtautó.hu and mobile.de. Their advice supports presenting equipment, repair history and photos clearly.
+I compared public selling pages and official guides from Használtautó.hu and mobile.de, including Használtautó.hu's 2026 market-price assessment. The comparison supports separate equipment, repair-history and photo guidance, while keeping optional packages distinct. The authenticated competitor editors were not directly tested.
 
 - [Interview, persona and user journey](../homework/02/README.md)
 - [Competitor comparison](../homework/03/README.md)
@@ -59,7 +59,7 @@ The later interview and follow-up helped me identify missing vehicle details and
 | --- | --- | --- |
 | 01 | Problem definition | Draft completed |
 | 02 | Interview, persona and journey | First interview documented |
-| 03 | Competitor comparison | Public-source research completed; live form audit outstanding |
+| 03 | Competitor comparison | 2026 public-source analysis, heuristic review and FigJam cards completed; logged-in form audit outstanding |
 | 04 | Ideation and prioritization | FigJam matrix completed |
 | 05 | Information architecture and flow | Compact visual sitemap integrated next to existing FigJam user flow; individual terminology results outstanding |
 | 06 | Wireframes | Mobile and desktop examples completed |
