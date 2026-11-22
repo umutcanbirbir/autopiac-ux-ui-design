@@ -4,11 +4,11 @@
 **Purpose:** Test the updated listing flow and gather feedback for Homework 05, 08 and 09.  
 **Figma starting screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2  
 **Equipment and condition screen:** https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2  
-The Figma file is a clickable design prototype. All 16 equipment checkboxes on the current screen can be toggled individually. Other text fields and damage states remain visual examples; participants cannot save vehicle details or upload actual photos.
+The Figma file is a clickable design prototype. All 16 equipment checkboxes on the current screen can be toggled individually. The front-left-fender condition is also clickable (Original / Repainted / Replaced / Damaged / Unknown). Other text fields and additional body panels remain examples; participants cannot save vehicle details or upload actual photos.
 
 ## Participants
 
-Aim for **three** additional participants who did not design the project and were not coached. If possible, include someone who has advertised a car before. Keep records anonymous as T01, T02, T03; ask permission before recording notes. Keep names, contact details and vehicle identifiers out of the public results.
+Three different people have now tested the latest prototype. For any further structured test, recruit people who did not design the project and were not coached. If possible, include someone who has advertised a car before. Keep records anonymous as T01, T02, T03; ask permission before recording notes. Keep names, contact details and vehicle identifiers out of the public results.
 
 ## Script to Read or Send (English)
 
@@ -57,6 +57,10 @@ An earlier participant reported that the expanded Equipment & Condition page cou
 **Observed hesitation / errors:**  
 **Participant's feedback:**  
 **My notes on possible design changes:**
+
+## Latest Round — Aggregate Feedback Already Received
+
+The student confirmed **three different testers** of the latest interactive prototype. Group feedback was positive about the design's simplicity and usability, and the equipment, single-panel damage selection and navigation were reported to work. Individual task results and measured times were not recorded, and overlap with the earlier three-person navigation test is unknown. The table below remains a template for collecting individual details; its blank cells do not mean that no tests occurred.
 
 ## Results Table
 
