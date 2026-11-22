@@ -105,7 +105,28 @@ I used [WCAG 2.2](https://www.w3.org/TR/WCAG22/) to identify what a real impleme
 
 **No claim of WCAG failure or compliance is made for Használtautó.hu or mobile.de.** A reliable verdict needs direct accessibility tests on their current live forms.
 
-## 7. Key Design Decisions
+## 7. What People Report Online — Public Review Sample
+
+I added a separate review of publicly posted comments from **Reddit, app stores and Trustpilot**, including positive and negative experiences. This is **secondary user-review research**, not a substitute for directly testing the current authenticated forms.
+
+| Competitor | Publicly reported experience | Example source | AutoPiac design response |
+| --- | --- | --- | --- |
+| Használtautó.hu | Some private sellers object to image visibility becoming paid after an introductory period; other commenters value the marketplace's reach. | [Photo-package discussion, 17 Jan 2026](https://www.reddit.com/r/CartalkHungary/comments/1qfi94t/komolyan_20000_ft_hogy_k%C3%A9peket_rakhassak_fel/) | Explain free and premium photo visibility and duration before publication. |
+| Használtautó.hu | One commenter says a reported ad required a correction in a field that was not editable. | [11 Nov 2026 discussion](https://www.reddit.com/r/CartalkHungary/comments/1xtnten/ennyi_volt_a_hahu/) | Allow corrections and show clear moderation-recovery steps. |
+| Használtautó.hu | A reviewer describes a frustrating robot-verification step when starting an ad. | [2026 user discussion](https://www.reddit.com/r/CartalkHungary/comments/1qxdc70/a_hahu_nem_akar_usereket/) | Explain what failed and provide retry/support guidance. |
+| Használtautó.hu | The app also receives praise for being user-friendly and responsive. | [App Store, 10 Apr 2025](https://apps.apple.com/hu/app/haszn%C3%A1ltaut%C3%B3/id1201640871) | Retain a familiar, uncluttered layout. |
+| mobile.de | One seller reports a locked wrong gearbox option based on the chosen vehicle, while others discuss catalog data gaps. | [Reddit, 7 Aug 2025](https://www.reddit.com/r/automobil/comments/1mjt5rp) | Keep technical auto-fill editable and offer an alternative when missing. |
+| mobile.de | Another seller reports a motorhome-category problem, paid-ad removal and difficulty correcting the category. | [Reddit, 8 Jun 2026](https://www.reddit.com/r/LegaladviceGerman/comments/1u0d2if/agbversto%C3%9F_be_mobilede/) | Validate categorization before paid submission and explain corrections. |
+| mobile.de | A commenter identifying as a dealer describes incomplete equipment data imported from VIN. | [Reddit, 21 Apr 2026](https://www.reddit.com/r/automobil/comments/1srjdlk) | Let sellers inspect and change suggested equipment. |
+| mobile.de | Reviews include criticisms of image limits and optional listing fees, but also praise for search options and comparing prices. | [Trustpilot, 2026 reviews](https://de.trustpilot.com/review/www.mobile.de) | Make limits and upgrades explicit without losing ease of navigation. |
+
+**Evidence standard:** These are selected, self-reported experiences. Their factual details, prevalence and whether they still occur in today's software are **not independently verified**. Buyer-search reviews do not prove problems in the seller form, and none of these comments establishes a WCAG violation.
+
+The review sample strengthens the design rationale for **editable technical information, clear photo/fee conditions, useful failure recovery, and maintaining a simple interface**. It does **not** establish that AutoPiac performs better than either competitor.
+
+[Detailed external review evidence and caveats](../../project/docs/competitor-user-review-evidence-2026.md)
+
+## 8. Key Design Decisions
 
 **P1 — Keep the listing process simple, not empty.** The early AutoPiac walkthrough was liked for its simplicity. A first-time user's missing-equipment and missing-damage feedback showed that simplifying cannot mean excluding important seller information.
 
@@ -117,7 +138,7 @@ I used [WCAG 2.2](https://www.w3.org/TR/WCAG22/) to identify what a real impleme
 
 **P5 — Consider price evaluation later.** Használtautó.hu's 2026 update makes market-price feedback a relevant competitive feature, but it is outside the semester prototype's current scope.
 
-## 8. Evidence and Limitations
+## 9. Evidence and Limitations
 
 | Evidence type | What is available | What remains open |
 | --- | --- | --- |
