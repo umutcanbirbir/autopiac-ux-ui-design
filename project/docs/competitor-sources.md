@@ -60,3 +60,11 @@ These are **future evaluation criteria**, not competitor accessibility findings.
 The highest-confidence design lessons are to retain a clear guided flow, keep equipment separate from condition/history, guide photographs before upload, avoid confusing optional paid promotions with mandatory steps and consider nonblocking market-price guidance later. AutoPiac currently demonstrates clickable equipment and one front-left-fender condition selector, but does not save the listing data.
 
 **Unresolved research:** Live authenticated competitor screenshots, complete keyboard review, real error recovery, real photo upload behaviour, test duration and participant-observed issues. These should be collected only if the course specifically requires a hands-on competitor audit.
+
+## Independent User-Review Sources — Added 22 November 2026
+
+I also reviewed publicly posted Hungarian and German comments about seller costs, photo visibility, vehicle data auto-fill, editing/categorization and authentication issues, plus positive app/site experiences. The dated examples, source URLs and confidence notes are in [Public User-Review Evidence](competitor-user-review-evidence-2026.md).
+
+The review sources include Reddit's [Használtautó.hu photo-package discussion](https://www.reddit.com/r/CartalkHungary/comments/1qfi94t/komolyan_20000_ft_hogy_k%C3%A9peket_rakhassak_fel/), [mobile.de auto-filled gearbox complaints](https://www.reddit.com/r/automobil/comments/1mjt5rp), [mobile.de vehicle-category dispute](https://www.reddit.com/r/LegaladviceGerman/comments/1u0d2if/agbversto%C3%9F_be_mobilede/), [Használtautó.hu App Store feedback](https://apps.apple.com/hu/app/haszn%C3%A1ltaut%C3%B3/id1201640871), and [mobile.de Trustpilot feedback](https://de.trustpilot.com/review/www.mobile.de).
+
+**These are testimonials and public commentary, not a direct live-editor accessibility audit or verified defects.**
