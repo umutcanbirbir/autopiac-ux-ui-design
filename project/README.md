@@ -34,7 +34,7 @@ I also reviewed published selling guides from Használtautó.hu and mobile.de. T
 
 ## From Idea to Prototype
 
-The [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) contains the initial problem, interview themes and impact/feasibility matrix. The [Homework 05 sitemap](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) is integrated beside the existing FigJam user-flow diagram. The updated Equipment & Condition step is documented in Homework 05 and the clickable Figma prototype.
+The [FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) contains the initial problem, interview themes and impact/feasibility matrix. The [Homework 05 sitemap](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) is integrated beside the updated FigJam user-flow diagram, which includes Equipment & Condition. Both match the current Figma prototype.
 
 The [Figma file](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) contains the grayscale wireframes, the yellow-and-white visual direction and the revised prototype. The latest design includes a grouped equipment checklist, condition statuses, photo thumbnails, review/edit links and two example validation states.
 
