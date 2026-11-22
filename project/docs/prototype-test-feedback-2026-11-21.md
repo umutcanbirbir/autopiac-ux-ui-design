@@ -46,29 +46,30 @@ All five variants and their labels were inspected, with 20 valid between-state c
 
 [Interactive condition component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34) · [Current listing screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
 
-## Latest Prototype Test Group — Participant Count Confirmed (22 November 2026)
+## Participant-Level Clarification — 23 November 2026
 
-**Three different people tested the latest AutoPiac Figma prototype.** The student confirmed this count after reporting the final positive feedback.
+The student identified the **three individual testers** as T01, T02 and T03 and provided their task completion, issue observations, independent use, terminology and approximate durations. This supplements earlier group-level reports; it does not change historical notes about information unavailable when they were first written.
 
-Across the reported sessions, the equipment choices and front-left-fender condition controls were said to work in Present mode, the scrolling/navigation blocker was no longer reported, and the interface was described as **simple and practical**. Earlier feedback from the testing process also included understandable equipment categories and the following interpretations: Vehicle Details → araç detayları, Equipment → donanım, Review → incele, Publish → yayınla, Draft → kaydet.
+| ID | Test state | Independent assigned tasks and final-screen navigation | Reported observation | Estimated time |
+| --- | --- | --- | --- | --- |
+| **T01** | Started before the control/scroll fixes, continued after corrections | **Completed**; reached the final screen without navigation coaching after the prototype was fixed | Explicitly found and reported that buttons or selectable controls did not work. The Continue action only became reachable after design correction | **Around 4 min**, including dealing with problems and resuming after changes |
+| **T02** | Corrected prototype | **Completed** independently | Buttons and interactions worked; positive feedback | **Around 1 min** |
+| **T03** | Corrected prototype | **Completed** independently | Buttons and interactions worked; positive feedback | **Around 1 min** |
 
-**Reporting limits:** These are group-level, student-relayed observations. We do not have a per-person checklist, exact timings, prior car-listing experience, independent completion records or confirmation that the three are different from the participants in the earlier navigation walkthrough. Therefore the report does not claim a 3/3 task-completion result for the latest version.
+**Terminology interpretation:** All three were reported to understand the interface terms correctly and give straightforward Turkish translations/interpretations. The recorded shared terms are *Vehicle Details → araç detayları; Equipment → donanım; Review → incele; Publish → yayınla; Draft → kaydet*. There are no verbatim per-user answer transcripts. A "save" interpretation of **Draft** does not conclusively demonstrate understanding of unpublished status.
 
-## Latest Overall Feedback — 22 November 2026
+**Usability finding:** T01 exposed actionable problems in the interactive design. After correcting prototype scroll reachability and control states, T01 could continue, while T02 and T03 independently completed the given tasks on the corrected version without reported failures. This demonstrates a real feedback → fix → retest cycle within a **Figma prototype**, not a full listing application.
 
-The student confirmed that **all three testers of the latest interactive Figma prototype reported no problems and liked the design very much**. They described it as **simple and easy to use**. This complements the earlier follow-up confirmations that the equipment and single-panel condition choices work and the scrolling blocker was resolved.
+**Evidence quality:** Completion and times are based on the student's account, not independent recordings. Approximate durations must **not** be used as exact stopwatch observations; T01's longer session includes problem discovery and recovery. The precise sequence/date of every fix during T01's test, previous listing experience, click-by-click outcomes and any overlap with the initial three-person navigation group remain unknown. We therefore do **not** claim that three users all tested the final corrected version from the beginning, six unique users, precise mean task time or working backend publication.
 
-This is **qualitative feedback for the three-person group**. Individual task sheets, durations, assistance details and a complete item-by-item completion log were not provided; no measured task success percentage is claimed.
+## Final Figma Usability Test Status
 
-## Next Check
+- [x] Three participants identified separately as **T01, T02, T03**.
+- [x] Independent completion of assigned Figma tasks and reaching the final screen reported for all three, subject to T01's prototype fix.
+- [x] Individual approximate durations recorded: **~4 / ~1 / ~1 minutes**.
+- [x] Defect discovery and corrected prototype results differentiated by tester.
+- [x] Correct Turkish terminology comprehension reported for all three, with shared rather than verbatim individual translations.
+- [x] Student confirmed the corrected prototype controls worked during T02 and T03 sessions.
+- [ ] Optional: capture exact timestamped task logs, individual answer transcripts and stopwatch measurements in a new study, if specifically required. These are not necessary to truthfully report the existing sessions.
 
-- [x] Follow-up feedback received: the revised prototype's navigation works and no further issue was reported; individual task details were not recorded.
-- [x] No further scrolling or access problem reported after the fix; specific component visibility was not recorded separately.
-- [ ] Check whether **Save as draft** would be clearer than **Draft**.
-- [x] Add on/off interactions to all 16 equipment options using a Figma component.
-- [x] Follow-up report says the interactive equipment selections work in Present mode; which individual options were exercised was not recorded.
-- [x] Follow-up report confirms that the damage-status choices are working in Present mode; individual states exercised were not recorded.
-- [x] Confirm participant count for the latest prototype: three different testers.
-- [ ] Record individual task outcomes, any measured times and whether these people overlap with the earlier walkthrough before making quantitative claims.
-
-[Homework 05 — Information Architecture](../../homework/05/README.md) · [Homework 08 — Usability Test](../../homework/08/README.md) · [Homework 09 — Design Iterations](../../homework/09/README.md)
+[Homework 05 — Terminology](../../homework/05/README.md) · [Homework 08 — Individual test results](../../homework/08/README.md) · [Homework 09 — Iterations](../../homework/09/README.md)
