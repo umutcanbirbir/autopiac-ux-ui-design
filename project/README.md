@@ -71,8 +71,8 @@ The later interview and follow-up helped me identify missing vehicle details and
 
 ## What Is Still Open
 
-The updated equipment/condition screen received positive feedback from three testers. The next steps are to document any individual terminology results if available, check remaining accessibility details and prepare the final presentation. The current Figma file is a clickable design demonstration, not a functioning listing application.
+The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. Keyboard, screen-reader and reflow behavior still requires a functional implementation. Next steps are any required individual terminology records, the final presentation and submission checks. The Figma file is a clickable design demonstration, not a functioning listing application.
 
 The [AutoPiac GitHub Projects Board](https://github.com/users/umutcanbirbir/projects/1/views/1) now displays all eight repository issues in Todo / In Progress / Done columns. The [repository task overview](KANBAN.md) and [GitHub Issues](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues) provide the detailed work list.
 
-[Design QA notes](docs/design-qa-2026-11-21.md) · [Color guideline](docs/color-guideline.md) · [Design decision log](docs/decision-log.md)
+[Design QA notes](docs/design-qa-2026-11-21.md) · [Accessibility review](docs/accessibility-review-2026-11-22.md) · [Color guideline](docs/color-guideline.md) · [Design decision log](docs/decision-log.md)
