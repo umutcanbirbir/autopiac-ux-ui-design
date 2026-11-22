@@ -73,16 +73,18 @@ The initial flow did not include equipment or body condition as a dedicated step
 
 The project also has a planned limit of one active listing per private seller, including drafts. A future design should explain that limit if someone tries to create a second one.
 
-## Terminology Feedback
+## Terminology Feedback — Individual Confirmation
 
-In a later discussion of the revised prototype, participants gave the following Turkish interpretations: **Vehicle Details → araç detayları, Equipment → donanım, Review → incele, Publish → yayınla, Draft → kaydet**. Most terms matched their intended meanings. **Draft** was associated with saving, but did not clearly express that the listing remains unpublished; “Save as draft” may be easier to understand. The student later confirmed that **three people tested the latest Figma prototype**, but did not identify which participant gave each terminology answer. The term interpretations below are therefore reported as group feedback, not individual scores. It is also unknown whether these testers overlap with the initial navigation group.
+All three participants (T01, T02, T03) independently completed the assigned Figma tasks and correctly understood the screen terms in Turkish, according to the student's **23 November 2026 clarification**. The following Turkish interpretations were recorded across the group: **Vehicle Details → araç detayları; Equipment → donanım; Review → incele; Publish → yayınla; Draft → kaydet**.
 
-[Follow-up feedback and navigation issue](https://github.com/umutcanbirbir/autopiac-ux-ui-design/blob/main/project/docs/prototype-test-feedback-2026-11-21.md). The latest three-person group also reported that the revised interface was easy to use and had no remaining problems. Individual terminology answers are still needed for a participant-by-participant terminology table.
-
-| Participant | Terms understood | Unclear terms | Suggested change |
+| Participant | Understanding | Exact response transcript | Design note |
 | --- | --- | --- | --- |
-| T01 | Participated in latest prototype test; individual term answers not recorded | Not recorded | — |
-| T02 | Participated in latest prototype test; individual term answers not recorded | Not recorded | — |
-| T03 | Participated in latest prototype test; individual term answers not recorded | Not recorded | — |
+| **T01** | Student confirmed all five term meanings were understood correctly in Turkish | Not retained individually | First encountered broken controls/Continue navigation, then finished after the fix |
+| **T02** | Student confirmed all five term meanings were understood correctly in Turkish | Not retained individually | Completed on corrected prototype |
+| **T03** | Student confirmed all five term meanings were understood correctly in Turkish | Not retained individually | Completed on corrected prototype |
 
-[Test questions and recording template](../../project/docs/usability-test-instructions.md)
+These were direct Turkish translations or interpretations. **Draft → kaydet** expresses saving, but may not explicitly convey the meaning *saved without publishing*. “Save as draft” remains a possible clarity improvement, not a demonstrated failure. We cannot quote each participant's exact individual wording because separate verbatim transcripts were not recorded.
+
+All three completed the assigned tasks and reached the final screen independently; the approximate reported times were **T01 ~4 minutes** (included encountering and recovering from the prototype defects), **T02 ~1 minute** and **T03 ~1 minute** on the corrected version. These are student-reported estimates, not stopwatch measurements. The same three participants must not be assumed to be additional unique users beyond the earlier navigation walkthrough.
+
+[Participant-level results in Homework 08](../08/README.md) · [Detailed follow-up feedback](../../project/docs/prototype-test-feedback-2026-11-21.md) · [Task guide](../../project/docs/usability-test-instructions.md)
