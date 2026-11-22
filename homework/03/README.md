@@ -1,69 +1,134 @@
 # Homework 03 — Competitor Analysis
 
 **Project:** AutoPiac | **Student:** Umut Can Birbir (DUJ3ZD)  
-**Research notes:** 21 November 2026  
-**Competitors:** Használtautó.hu and mobile.de
+**Review updated:** 22 November 2026  
+**Competitors:** Használtautó.hu (Hungary) and mobile.de (Germany)  
+**Research question:** What can AutoPiac learn from established vehicle marketplaces while keeping the private-seller listing process easy to understand?
 
-## Research Goal
+## 1. Research Method and Scope
 
-I compared two established vehicle marketplaces to see how they help private sellers describe their cars. I focused on vehicle information, equipment, damage history, photos and listing completion.
+I compared the public seller-facing pages and official guidance provided by both marketplaces. I reviewed how they describe vehicle data, equipment, condition, photographs, prices, paid upgrades and publishing. I also checked their public routes into the listing process.
 
-I used the competitors' published seller guides and examples. I did not test their logged-in advertisement editors directly, so the usability concerns below are **questions for further evaluation**, not defects I personally observed.
+**What I could inspect:** Publicly readable pages, the mobile.de public selling entry form, the competitors' own descriptions of their workflows, and screenshots published in Használtautó.hu's 2025 step-by-step guide.
 
-## Sources
+**What I could not independently test:** The complete authenticated listing editors, real uploads, keyboard navigation across the complete forms, error handling after invalid submissions or real publishing. The mobile.de listing editor route returned no publicly readable form data in this review, and Használtautó.hu states that logging in is required before creating an advertisement. I therefore treat potential usability difficulties as **design questions**, not confirmed competitor defects.
 
-- [Használtautó.hu — Step-by-step advertisement guide](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/)
-- [Használtautó.hu — Advice for a good listing](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-hirdess-a-hasznaltauto-hu-n-a-sikeres-jarmuhirdetes-titka-5-percben/)
-- [Használtautó.hu — Preparing a car for sale](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-keszitsd-fel-eladova-valt-autodat-a-meghirdetesre/)
-- [mobile.de — Writing a good advertisement](https://www.mobile.de/magazin/artikel/richtig-inserieren-35776)
-- [mobile.de — Selling guide](https://www.mobile.de/sicherheit/guide-and-tips/sicher-verkaufen)
-- [WCAG 2.2](https://www.w3.org/TR/WCAG22/) for accessibility review criteria
+**Evidence labels used below:**
+- **Publicly visible:** Present on a public landing page.
+- **Officially documented:** Described in a guide or product page, but not independently exercised in a live editor.
+- **Design interpretation:** My recommendation for AutoPiac; not a measured competitor result.
 
-## What I Learned
+## 2. Competitor A — Használtautó.hu
 
-**Használtautó.hu** explains a structured advertisement process with vehicle details, photo upload and management, and package choices. Its selling advice describes choosing equipment using checkboxes and providing complete information about the car.
+**Market:** Hungary. This is the most relevant local benchmark because AutoPiac is aimed at Hungarian private sellers.
 
-**mobile.de** emphasizes a detailed equipment list, high-quality photographs, service history, previous repairs and known defects. Its advice also separates structured extras from the written description.
+The official listing walkthrough dated **14 April 2025** explains a sequence of sign-in, vehicle information, photographs/documents, photograph ordering and captions, advertising packages, optional promotion and confirmation. It describes required vehicle fields marked with an asterisk. Some fields can be automatically populated and then corrected by the seller. Another official selling guide describes a detailed equipment checklist and a limit of **12 photographs** for the documented process.
 
-These points helped me identify useful content for AutoPiac. They also matched the feedback from my first-time-user interview, particularly the need for a better equipment list and damage disclosure.
+The photograph management step supports reordering by dragging and adding captions. The private-seller package description distinguishes a basic advertisement from paid visibility options. According to the published guide, uploaded pictures in the free package are visible for the **first three days**, while paid picture packages provide longer photo visibility; current purchase prices and eligibility depend on the platform's terms.
 
-## Comparison
+**2026 update:** A Használtautó.hu announcement dated **21 October 2026** describes an asking-price assessment showing whether the listed price is below, around or above comparable asking prices. A November 2026 company recap also describes this price assessment as part of listing creation. This is a useful newer benchmark that was missing from the original analysis. It is not evidence that the system can evaluate a vehicle's unique condition perfectly.
 
-| Area | Használtautó.hu | mobile.de | AutoPiac approach |
+**Strengths supported by official sources:** broad data coverage; required-field guidance; editable automatic suggestions; structured extras; photo management; packages; market price context.
+
+**Points for AutoPiac to consider:** Preserve completeness without overwhelming a first-time seller; make the consequences of optional packages clear; provide a non-dragging photo-order method in an eventual functional implementation.
+
+**Sources:**
+- [Official step-by-step listing guide — 14 Apr 2025](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/hirdetesfeladas-a-hasznaltauto-hu-n-lepesrol-lepesre/)
+- [Official used-car selling guide — 2026](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/utmutato-hasznalt-auto-eladasahoz/)
+- [Official tips for an effective advertisement](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/igy-hirdess-a-hasznaltauto-hu-n-a-sikeres-jarmuhirdetes-titka-5-percben/)
+- [New price assessment — 21 Oct 2026](https://garazs.hasznaltauto.hu/ha-autot-adnal-el/realis-aron-hirdetned-az-autod-igy-segit-az-uj-arertekeles-a-hahu-n/)
+- [2026 platform update — Nov 2026](https://garazs.hasznaltauto.hu/kereskedoknek/uj-felulet-app-arertekeles-ennyi-minden-valtozott-a-hahu-n-2026-ban/)
+
+## 3. Competitor B — mobile.de
+
+**Market:** Germany. I chose mobile.de as a second benchmark for mature listing content and guidance, not as a local Hungarian marketplace.
+
+The [public seller landing page](https://www.mobile.de/verkaufen/auto) distinguishes **selling through a classified advertisement** from **selling directly to a partner dealer**. A publicly readable starting form includes vehicle make, model, first registration and mileage. These are directly visible public elements, but they are not the complete authenticated advertisement editor.
+
+The official article **“Richtig inserieren” (9 Nov 2024)** identifies three parts of a useful listing: representative photos, a completed equipment list and a detailed description. It explicitly recommends describing repairs, paintwork, accidents and defects in the text rather than simply repeating the equipment checklist. The public safety/selling guide also emphasizes service documents, realistic pricing and disclosure of known problems.
+
+The public [private-seller package comparison](https://www.mobile.de/service/pricelistConsumer) offers Basic, Standard and Premium packages, including optional promotional visibility and extra photos. Its official 2026 listing guide describes packages with different durations and features. Prices should be checked at purchase rather than copied into an enduring UX comparison.
+
+**Strengths supported by official sources:** clear distinction between listing and direct sale; structured entry information; emphasis on equipment and history; detailed seller guidance; transparent existence of optional promotions.
+
+**Points for AutoPiac to consider:** Keep vehicle equipment separate from narrative condition/history; make a seller's selected selling route unambiguous; offer optional price guidance without blocking the listing flow.
+
+**Sources:**
+- [Public seller landing page](https://www.mobile.de/verkaufen/auto)
+- [How to describe a vehicle advertisement — 9 Nov 2024](https://www.mobile.de/magazin/artikel/richtig-inserieren-35776)
+- [2026 private listing guide](https://www.mobile.de/magazin/artikel/gebrauchtwagenverkauf-auto-inserieren-13368)
+- [Official private-seller package comparison](https://www.mobile.de/service/pricelistConsumer)
+- [Official selling and safety guidance](https://www.mobile.de/sicherheit/guide-and-tips/sicher-verkaufen)
+
+## 4. Feature Comparison
+
+| UX area | Használtautó.hu | mobile.de | Current AutoPiac design |
 | --- | --- | --- | --- |
-| Vehicle details | Structured vehicle fields, some editable suggestions | Make, model, year and trim information | Keep the essentials clear and add advanced details only where useful |
-| Equipment | Checklist of extras | Emphasis on a complete equipment list | Four groups of selectable-looking features |
-| Damage and history | Advises sellers to disclose known faults | Emphasizes repairs, accidents and condition | Separate panel status and repair notes |
-| Photos | Upload, ordering and captions are described | Clear and informative images | One photo stage with count, previews and cover label |
-| Description | Listing details and condition information | Text supplements equipment list | Encourage service/condition details without repeating checkboxes |
-| Pricing and packages | Offers package/promotion choices | Selling guidance considers vehicle details and extras | Keep optional premium separate from required listing steps |
+| Start / account | Login required for listing (official guide) | Public vehicle-start fields; full editor not tested | Linked Start and Vehicle Details frames |
+| Vehicle data | Required fields and editable suggestions (documented) | Make, model, registration and mileage visible publicly | Guided fields; visual values do not save |
+| Equipment | Broad extras checklist (documented) | Complete equipment list emphasized | **16 individually clickable choices** in 4 groups |
+| Repairs and damage | Complete condition description encouraged; separate panel map not confirmed | Repair history, paintwork, accidents and defects emphasized | **One interactive front-left-fender selector** with five states |
+| Photos | Up to 12 in documented guide; reorder and captions | Detailed photos recommended; extra images in premium packages | Five sample previews, cover guidance and two photo/error examples |
+| Price guidance | Price assessment added in 2026 (company announcement) | Public value estimate route and comparison advice | Price entry mockup; **no live price assessment** |
+| Paid options | Free and paid photo/visibility packages described | Basic / Standard / Premium packages | Optional premium concept; no checkout |
+| Review / confirmation | Successful-listing confirmation described | Complete editor review not tested | Clickable Review → Edit and completion frames |
+| Accessibility | No authenticated keyboard test performed | No authenticated keyboard test performed | Contrast spot checks; keyboard/reader testing still outstanding |
 
-## UX Review — Six Questions to Evaluate
+**Comparison note:** A production website and a clickable Figma course prototype are not at the same functional stage. The AutoPiac column describes what is *demonstrated*, not proof of feature parity.
 
-| # | Design concern | Why it matters | AutoPiac response |
-| --- | --- | --- | --- |
-| 1 | Could auto-filled car details be incorrect? | Sellers need to recognize and correct mistakes | Keep important fields editable |
-| 2 | Can users find an item in a long equipment list? | A flat list may be difficult to scan | Group extras by Safety, Comfort, Infotainment and Exterior |
-| 3 | Is choosing the cover photo obvious? | The first image represents the listing | Show visible thumbnails and a cover label |
-| 4 | Could users mistake optional packages for required fees? | Pricing needs to be clear | Mark premium as optional |
-| 5 | Will important repair information be missed? | Condition affects buyer trust | Provide damage statuses and repair notes |
-| 6 | Are technical labels understandable for beginners? | Sellers may not know every specification | Use examples and simple explanations |
+## 5. Usability Heuristic Review — Six Design Questions
 
-I would verify these questions by watching sellers use the relevant live forms or by testing the proposed AutoPiac improvements. The table does not mean either competitor has been proven to fail these checks.
-
-## Accessibility Review — Two Additional Checks
-
-| Area | What needs checking | Design response |
+| Criterion | Evidence / risk to investigate | AutoPiac response |
 | --- | --- | --- |
-| Forms and errors | Whether labels and validation messages can be understood by keyboard and screen-reader users (WCAG 3.3.1, 3.3.2) | Persistent labels, explanatory error text and visible focus |
-| Photo ordering | Whether rearranging photos can be done without dragging alone (WCAG 2.1.1, 2.5.7, 2.5.8) | Include accessible move-up/move-down controls in a functional version |
+| **1. Visibility of required information** | Használtautó.hu documents asterisks and some automatic suggestions. Their current error feedback has not been tested. | Keep labels and required-field explanations visible; include a missing-field screen. |
+| **2. Recognition instead of recall** | Both sources encourage structured equipment rather than relying only on free text. | Use four equipment categories with 16 interactive options; expand the catalog only if user testing supports it. |
+| **3. Error prevention and recovery** | Missing data, too few photos and submission failures are plausible high-cost tasks; live competitor errors were not exercised. | Show missing-vehicle and insufficient-photo examples with return navigation. |
+| **4. Control over photos** | Használtautó.hu documents drag-and-drop photo ordering and captions. Alternative keyboard handling remains unverified. | Show previews and a cover label; add keyboard-accessible move controls in a real implementation. |
+| **5. Trust and disclosure** | mobile.de explicitly recommends mentioning accidents, repairs, repainting and known defects. | Keep a separate body-panel condition area with an Unknown state instead of forcing a false answer. |
+| **6. Pricing and paid upgrades** | Both offer optional paid visibility. Használtautó.hu now documents a market-price assessment. | Clearly distinguish optional premium from required steps; price feedback is a possible future improvement. |
 
-I used WCAG as a framework for what to test. I did not run a formal accessibility audit on the competitors.
+These are **design opportunities and hypotheses**, not six proven usability violations on competitor sites.
 
-## Design Priorities
+## 6. Accessibility Checks to Carry Forward
 
-The most useful changes for AutoPiac are a clear equipment selector, structured condition reporting, a photo gallery with cover selection and straightforward review/edit navigation. This combination supports complete advertisements without making the main flow unnecessarily complicated.
+I used [WCAG 2.2](https://www.w3.org/TR/WCAG22/) to identify what a real implementation should verify:
 
-I recorded the comparison in [FigJam](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-214) and used it alongside interview feedback when preparing the [Homework 04 priority matrix](../04/README.md).
+| Check | WCAG criterion | Status / AutoPiac implication |
+| --- | --- | --- |
+| Form labels and required hints | 3.3.2 Labels or Instructions | Design guidance exists; implementation untested |
+| Clear validation errors | 3.3.1 Error Identification | Two example states; error handling not executed |
+| Keyboard interaction | 2.1.1 Keyboard | Actual keyboard behavior not tested in a production UI |
+| Visible focus | 2.4.7 Focus Visible | A component focus state exists; no complete keyboard audit |
+| Accessible photo sorting | 2.5.7 Dragging Movements | Offer reorder buttons, not only drag interaction |
+| Target size | 2.5.8 Target Size (Minimum) | Verify click/tap targets on real devices |
+| Color contrast | 1.4.3 Contrast (Minimum) | Selected AutoPiac color pairs checked separately; not full conformance |
 
-A future audit could include screenshots and task observations from the current live listing editors.
+**No claim of WCAG failure or compliance is made for Használtautó.hu or mobile.de.** A reliable verdict needs direct accessibility tests on their current live forms.
+
+## 7. Key Design Decisions
+
+**P1 — Keep the listing process simple, not empty.** The early AutoPiac walkthrough was liked for its simplicity. A first-time user's missing-equipment and missing-damage feedback showed that simplifying cannot mean excluding important seller information.
+
+**P2 — Separate equipment from vehicle history.** Both competitors emphasize these as different information types. The current AutoPiac design now has four equipment groups and a separate condition selector.
+
+**P3 — Explain photo requirements up front.** The AutoPiac five-photo minimum and cover-image preview are visible before Review. Future working software should also offer an accessible photo-order control.
+
+**P4 — Make paid features optional and understandable.** Both competitors offer paid packages; avoid confusing visibility upgrades with required publishing steps.
+
+**P5 — Consider price evaluation later.** Használtautó.hu's 2026 update makes market-price feedback a relevant competitive feature, but it is outside the semester prototype's current scope.
+
+## 8. Evidence and Limitations
+
+| Evidence type | What is available | What remains open |
+| --- | --- | --- |
+| Public entry pages | mobile.de public selling start; Használtautó.hu public sell entry | Full post-login edit screens |
+| Official walkthrough illustrations | Használtautó.hu 2025 step-by-step article with screenshots; mobile.de seller guides and illustrated article | Up-to-date authenticated screenshots of both 2026 editors |
+| Feature / pricing guidance | Both companies' official information; 2026 HAHU price-assessment announcement | Current transaction-specific prices and validation behavior |
+| Task usability | Three people tested the **AutoPiac prototype**, with positive qualitative group feedback | Timed, independent task outcomes on either competitor |
+| Accessibility | WCAG criteria and AutoPiac design spot checks | Actual keyboard/screen-reader audit of live competitor editors |
+
+The competitor research gives AutoPiac design direction. It does **not** prove that competing platforms are confusing or less usable.
+
+## Project Links
+
+[Competitor findings in FigJam](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2003-214) · [Detailed source log](../../project/docs/competitor-sources.md) · [Impact/Feasibility, Homework 04](../04/README.md) · [Current AutoPiac prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2)
