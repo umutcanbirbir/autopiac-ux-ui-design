@@ -53,7 +53,7 @@ A further participant report found that the damage-status choices were still non
 
 ## Latest Prototype — Three Testers Confirmed
 
-The student confirmed that **three different people tested the latest Figma prototype**. Their reported feedback was positive: the revised interface was found simple and practical, the equipment selections worked, the front-left-fender condition choices could be changed, and the earlier scrolling/continuation obstacle was no longer reported.
+The student confirmed that **three different people tested the latest Figma prototype**. The final overall feedback from the three testers was consistently positive: **all three reported no problems and liked the design**, describing it as **simple and easy to use**. Earlier follow-ups also confirmed the equipment selections, front-left-fender choices and scrolling/continuation issue had been addressed.
 
 These observations are reported **for the group**, not as three individual task records. There are no measured completion times, per-person assistance records or full task checklists for this latest round. It is not confirmed whether these people were also involved in the initial three-person navigation walkthrough, so the two groups are not combined into a six-person sample.
 
