@@ -15,11 +15,11 @@
 | | | [x] [#8 — Equipment and condition usability issues resolved](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/8) |
 | [ ] Verify exact lecturer deliverables, deadline and submission URL | [ ] [#2 — Direct hands-on competitor interface/accessibility evidence](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/2) *(official sources and external user reviews complete; live-editor tests unavailable)* | [x] [HW03 — Official guides and public user-review competitor analysis](../homework/03/README.md) |
 | [ ] Optionally improve functional test prototype for equipment/damage choices | [ ] [#3 — Post-change user validation and final accessibility review](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/3) | [x] [HW04 — Prioritization matrix and idea evaluation in FigJam](../homework/04/README.md) |
-| [ ] Package links and presentation delivery | [ ] [#5 — Design system final QA and accessibility verification](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/5) | [x] HW06 — Mobile and desktop wireframes |
+| [ ] Package links and presentation delivery | [ ] [#5 — Functional accessibility QA still open](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/5) *(Figma contrast and target audit completed)* | [x] HW06 — Mobile and desktop wireframes |
 | | [ ] HW05 — Three-person terminology test results to be documented | [x] HW07 — Clickable Figma navigation and authentic first-time-user feedback |
 | | [ ] HW08 — Final independent observations, time and completion evidence | [x] HW09 — Three initial refinements, 15 Figma component variants, developer handoff |
 | | | [x] Expanded Equipment & Condition screen — 16 options, 4 groups |
-| | | [x] [Figma full visual/structural QA](docs/design-qa-2026-11-21.md) |
+| | | [x] [Figma full visual/structural QA](docs/design-qa-2026-11-21.md) · [WCAG design-level accessibility spot check](docs/accessibility-review-2026-11-22.md) |
 
 **How to read the board:** Completed tasks refer to specific work, not the final grade or the completion of every requirement. For example, the competitor research is written, while a live-form audit remains open.
 
