@@ -104,6 +104,12 @@ The [handoff panel](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=
 
 I also reviewed the latest screens and corrected issues with back navigation, photo previews, error-message spacing, desktop balance and button proportions. The details are recorded in the [design QA notes](../../project/docs/design-qa-2026-11-21.md).
 
+## Accessibility and Readability Follow-Up — 22 November 2026
+
+I checked ten Figma screens using a design-level [WCAG 2.2 AA review](../../project/docs/accessibility-review-2026-11-22.md). Nine essential input/textarea borders originally had only **1.54:1** contrast against white; I changed them to **#8A8275**, around **3.80:1**. I increased the shared interactive equipment labels from **10 to 13 px**, the body-condition status labels from **10 to 12 px**, and small photo captions from **9 to 11 px**. A structural spot check found **44 prototype action targets** with a minimum bounding dimension of **36 px**. An approximate comparison of **204 text layers** with nearest solid ancestor backgrounds did not flag text below WCAG AA text-contrast thresholds.
+
+The [Figma handoff](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2004-55) now emphasizes semantic checkboxes/radio groups, keyboard access and announced state changes for implementation. The static mockup cannot establish complete WCAG compliance, since keyboard interaction, screen readers, zoom/reflow and actual browser input errors remain untested.
+
 ## What Remains to Be Tested
 
 The scrolling blocker has been reported resolved. The interactive equipment toggles have received positive reported feedback. The front-left fender interaction has received positive informal follow-up feedback. Error-state comprehension and Review editing still need individual documented results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
