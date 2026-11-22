@@ -33,4 +33,4 @@ The updated prototype received positive qualitative feedback from three people. 
 
 ## Submission / Access
 
-The GitHub repository is public. Both Figma documents are accessible through the connected student account; whether an unrelated reviewer has **anyone-with-link viewing access** has not been independently confirmed. Verify this via **Share → Link access → Anyone with the link → Can view** in each Figma/FigJam file before handing over the links. The course submission format and date have not been announced/verified in this project, so no deadline is asserted.
+The GitHub repository is public. The student confirmed that both Figma and FigJam use **Share → Anyone with the link → Can view** (22 November 2026). These sharing settings were reported by the student rather than read from the connected file API; an independent logged-out access test was not conducted. The course submission format and date have not been announced/verified in this project, so no deadline is asserted.
