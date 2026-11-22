@@ -29,7 +29,7 @@ The [AutoPiac GitHub Projects Board](https://github.com/users/umutcanbirbir/proj
 
 **2. Research and compare.** I discussed the prototype with my 18-year-old brother, who had never posted a car listing before. He liked the simple layout but wanted equipment selection and a dedicated area for damaged or replaced parts. After seeing the first revision, he suggested developing the equipment list further. I also compared publicly available seller guides from Használtautó.hu and mobile.de. See [Homework 02](homework/02/README.md) and [Homework 03](homework/03/README.md).
 
-**3. Plan the flow.** I organized the required information into steps, mapped possible errors and prioritized ideas in FigJam. The [Homework 05 sitemap](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) sits beside the original user-flow diagram on the same FigJam board. See [Homework 04](homework/04/README.md) and [Homework 05](homework/05/README.md).
+**3. Plan the flow.** I organized the required information into steps, mapped possible errors and prioritized ideas in FigJam. The [Homework 05 sitemap](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) sits beside the updated user-flow diagram, including Equipment & Condition, on the same FigJam board. See [Homework 04](homework/04/README.md) and [Homework 05](homework/05/README.md).
 
 **4. Design and prototype.** The Figma file contains the initial grayscale wireframes, a yellow-and-white visual direction and subsequent improved screens. The latest mobile flow goes from vehicle details through equipment/condition, photos, price, review and completion. A desktop vehicle-details example is also included. See [Homework 06](homework/06/README.md) and [Homework 07](homework/07/README.md).
 
