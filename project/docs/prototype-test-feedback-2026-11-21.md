@@ -46,6 +46,14 @@ All five variants and their labels were inspected, with 20 valid between-state c
 
 [Interactive condition component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34) · [Current listing screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
 
+## Latest Prototype Test Group — Participant Count Confirmed (22 November 2026)
+
+**Three different people tested the latest AutoPiac Figma prototype.** The student confirmed this count after reporting the final positive feedback.
+
+Across the reported sessions, the equipment choices and front-left-fender condition controls were said to work in Present mode, the scrolling/navigation blocker was no longer reported, and the interface was described as **simple and practical**. Earlier feedback from the testing process also included understandable equipment categories and the following interpretations: Vehicle Details → araç detayları, Equipment → donanım, Review → incele, Publish → yayınla, Draft → kaydet.
+
+**Reporting limits:** These are group-level, student-relayed observations. We do not have a per-person checklist, exact timings, prior car-listing experience, independent completion records or confirmation that the three are different from the participants in the earlier navigation walkthrough. Therefore the report does not claim a 3/3 task-completion result for the latest version.
+
 ## Next Check
 
 - [x] Follow-up feedback received: the revised prototype's navigation works and no further issue was reported; individual task details were not recorded.
@@ -54,6 +62,7 @@ All five variants and their labels were inspected, with 20 valid between-state c
 - [x] Add on/off interactions to all 16 equipment options using a Figma component.
 - [x] Follow-up report says the interactive equipment selections work in Present mode; which individual options were exercised was not recorded.
 - [x] Follow-up report confirms that the damage-status choices are working in Present mode; individual states exercised were not recorded.
-- [ ] Record the actual number of participants, individual outcomes and any measured times before drawing quantitative conclusions.
+- [x] Confirm participant count for the latest prototype: three different testers.
+- [ ] Record individual task outcomes, any measured times and whether these people overlap with the earlier walkthrough before making quantitative claims.
 
 [Homework 05 — Information Architecture](../../homework/05/README.md) · [Homework 08 — Usability Test](../../homework/08/README.md) · [Homework 09 — Design Iterations](../../homework/09/README.md)
