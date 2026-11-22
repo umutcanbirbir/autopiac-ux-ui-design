@@ -72,7 +72,7 @@ These observations are reported **for the group**, not as three individual task 
 | Layout | Use consistent 8/16/24/32 px spacing |
 | Accessibility | Aim for WCAG 2.2 AA; check contrast, keyboard focus and targets |
 
-Selected text-color pairs were checked during the later [design QA](../../project/docs/design-qa-2026-11-21.md); that is not a full accessibility audit.
+Following that review, I conducted a separate [WCAG 2.2 AA design-level accessibility check](../../project/docs/accessibility-review-2026-11-22.md) on ten Figma frames (22 November 2026). I strengthened nine input outlines, enlarged the equipment and damage labels and adjusted photo captions. The 44 prototype action hit boxes examined were at least 36 px in each dimension, and an approximate check of 204 text layers identified no below-threshold pairs. This does **not** confirm keyboard, screen-reader or responsive reflow conformance.
 
 ## Next Test
 
