@@ -18,6 +18,8 @@ I organized the seller journey around the information needed to create one compl
 
 ## Sitemap
 
+The sitemap is now drawn directly in the existing [AutoPiac FigJam board — Homework 05](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2007-200), alongside the latest seller user flow. The page hierarchy is shown below as a text reference.
+
 ```text
 AutoPiac
 ├── Home
@@ -34,6 +36,8 @@ AutoPiac
 ```
 
 ## Main User Flow
+
+The same [Homework 05 FigJam section](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2007-200) also contains the updated visual flow with **Equipment & Condition** between Vehicle Details and Photos, as well as the missing-field, photo-count and review-edit notes.
 
 ```text
 Start a listing
@@ -53,7 +57,7 @@ Review information
     └── Everything looks correct → Finish
 ```
 
-[FigJam user flow](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB) · [Current Figma prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2)
+[Sitemap and revised user flow — FigJam](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2007-200) · [Current Figma prototype](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2003-2)
 
 ## Error States
 
