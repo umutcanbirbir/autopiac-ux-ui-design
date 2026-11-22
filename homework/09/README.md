@@ -77,13 +77,14 @@ Each variant has clickable alternatives that change the whole control to the sel
 
 [Body panel component](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34) · [Updated equipment & condition screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2).
 
-## Follow-Up Test Summary — Three People
+## Follow-Up Test Summary — Three Participants, Different Prototype States
 
-After the equipment and damage controls were made interactive, the student confirmed that **three different people had tested the latest prototype**. The student's final group feedback was that **all three testers encountered no remaining problems and liked the simple, usable design**. Earlier retests confirmed the clickable equipment and front-left-fender choices worked, and the Continue button issue was no longer reported.
+The student clarified the individual test results on 23 November 2026. **T01** independently worked through the flow but found the controls and Continue button did not work; they completed the assigned tasks and reached the final screen after prototype fixes (**approximately four minutes across the problem and correction/retest process**). **T02** and **T03** independently completed the assigned tasks on the corrected version, **approximately one minute each**, with no remaining control issues reported.
 
-I have not treated this as a measured 3/3 task-completion rate: results were not recorded separately for each person, and it is not known whether they overlap with the original navigation group.
+All three understood the displayed interface terms in Turkish, and the design was generally described as simple and practical. The time estimates were not measured with a stopwatch. We cannot compare T01 directly to T02/T03 because their prototype conditions were different, or infer that all three tested every interactive variant. We also do not know if these three overlap with the earlier navigation test group.
 
-[Latest test feedback](../../project/docs/prototype-test-feedback-2026-11-21.md)
+[Individual outcomes and evidence limitations](../../homework/08/README.md) · [Follow-up details](../../project/docs/prototype-test-feedback-2026-11-21.md)
+
 
 ## Mini Design System
 
@@ -112,6 +113,6 @@ The [Figma handoff](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=
 
 ## What Remains to Be Tested
 
-The scrolling blocker has been reported resolved. The interactive equipment toggles have received positive reported feedback. The front-left fender interaction has received positive informal follow-up feedback. Error-state comprehension and Review editing still need individual documented results. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
+The scrolling blocker has been reported resolved. The interactive equipment toggles have received positive reported feedback. The front-left fender interaction has received positive informal follow-up feedback. The student reported that all three completed the assigned Figma tasks, but detailed action-by-action logs of error-state comprehension and Review editing were not retained. Figma demonstrates how the screens connect but does not save field values or support real photo uploads. A separate interaction demo can be used if a real form-entry test is needed.
 
 [Next testing instructions](../../project/docs/usability-test-instructions.md)
