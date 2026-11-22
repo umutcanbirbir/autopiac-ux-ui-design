@@ -18,7 +18,7 @@ I organized the seller journey around the information needed to create one compl
 
 ## Sitemap
 
-The sitemap is placed directly in the existing [AutoPiac FigJam board — Homework 05](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299), next to the original user-flow diagram. The page hierarchy is also listed below.
+The sitemap is placed directly in the existing [AutoPiac FigJam board — Homework 05](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299), next to the user-flow diagram, which now includes Equipment & Condition. The page hierarchy is also listed below.
 
 ```text
 AutoPiac
@@ -37,7 +37,7 @@ AutoPiac
 
 ## Main User Flow
 
-The [same FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) includes the original linked user-flow diagram and its validation branches. The written flow below includes the later **Equipment & Condition** step, which was added to the clickable Figma prototype after user feedback.
+The [same FigJam board](https://www.figma.com/board/FReaY560jfsj9gfCeta8oB?node-id=2011-299) includes the linked user-flow diagram and its validation branches. I updated the visual flow to add **Equipment & Condition** between vehicle-details validation and photo upload, matching the revised clickable Figma prototype.
 
 ```text
 Start a listing
