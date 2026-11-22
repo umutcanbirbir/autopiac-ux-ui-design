@@ -48,7 +48,7 @@ The [Figma file](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC) contains t
 
 Three participants tried the initial clickable screen flow. All three reached the final screen, and the general feedback was positive about the interface's simplicity. These were navigation walkthroughs: the Figma inputs were not editable, and individual task times were not recorded.
 
-The later interview and follow-up helped me identify missing vehicle details and expand the equipment sample. After further feedback that the original checkboxes could not be changed, I implemented 16 individual **checked/unchecked interactive component instances**. The updated interactions received positive follow-up feedback from three testers, all of whom reported no remaining problems and liked the simple, usable design. These are qualitative reports, not individually timed tasks; selections are not saved as real listing data.
+The later interview and follow-up helped me identify missing vehicle details and expand the equipment sample. After further feedback that the original checkboxes could not be changed, I implemented 16 individual **checked/unchecked interactive component instances**. Participant-level clarification identifies **T01**, who found controls and the Continue action unusable and then completed independently after corrections (**~4 minutes, including the defect/fix/retest process**), and **T02** and **T03**, who independently completed the assigned tasks on the corrected prototype (**~1 minute each**) without remaining control problems. All three interpreted the UI terms correctly in Turkish. The durations are approximate student-reported estimates rather than stopwatch recordings. The three should not be counted as additional distinct people beyond the earlier walkthrough without overlap confirmation. Prototype selections are not saved as real listing data.
 
 - [Initial navigation test](../homework/08/README.md)
 - [Design iterations](../homework/09/README.md)
@@ -62,16 +62,16 @@ The later interview and follow-up helped me identify missing vehicle details and
 | 02 | Interview, persona and journey | First interview documented |
 | 03 | Competitor comparison | Completed with 2026 official sources, public user reviews, UX implications and FigJam cards; authenticated editor testing not claimed |
 | 04 | Ideation and prioritization | FigJam matrix completed |
-| 05 | Information architecture and flow | Compact visual sitemap integrated next to existing FigJam user flow; individual terminology results outstanding |
+| 05 | Information architecture and flow | FigJam sitemap and flow complete; T01–T03 correct Turkish terminology comprehension documented, verbatim wording not retained |
 | 06 | Wireframes | Mobile and desktop examples completed |
 | 07 | Clickable prototype | Main flow and examples connected |
-| 08 | Usability testing | Initial walkthrough and positive three-person updated-prototype feedback documented; individual task records not collected |
+| 08 | Usability testing | Individual T01–T03 task completion, defect reports and approximate durations documented; Figma-only navigation/interaction testing |
 | 09 | Revisions and components | Latest Figma revisions, component interactions, handoff and qualitative retest documented |
 | 10 | Final presentation | Editable 9-slide English PowerPoint and speaker notes in GitHub; rehearsal completed (student-reported) |
 
 ## Final Handoff and Optional Extensions
 
-The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. The Figma design-level accessibility review is complete; functional keyboard, screen-reader and reflow audits would require a real frontend and are outside the Figma-only coursework scope. Final presentation and rehearsal are complete. Individual terminology records would only be added if the course requires them and actual participant data can be obtained. The student confirmed that both Figma and FigJam are shared as **Anyone with the link → Can view** (22 November 2026); no separate signed-out viewer test was performed. The Figma file is a clickable design demonstration, not a functioning listing application.
+The updated equipment/condition screen received positive feedback from three testers. A [WCAG 2.2 design-level review](docs/accessibility-review-2026-11-22.md) also improved input contrast and component readability and checked target sizes. The Figma design-level accessibility review is complete; functional keyboard, screen-reader and reflow audits would require a real frontend and are outside the Figma-only coursework scope. Final presentation and rehearsal are complete. The individual participant test outcomes are recorded; exact per-control logs and measured timings were not collected and are not claimed. The student confirmed that both Figma and FigJam are shared as **Anyone with the link → Can view** (22 November 2026); no separate signed-out viewer test was performed. The Figma file is a clickable design demonstration, not a functioning listing application.
 
 [Final PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) · [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) · [Homework 10](../homework/10/README.md)
 
