@@ -11,7 +11,7 @@
 | TO DO — handoff only | IN PROGRESS / CONDITIONAL | DONE |
 | --- | --- | --- |
 | | | [x] [#6 — Presentation and link-access check completed](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/6) · [HW10 PowerPoint](../presentation/01-01/AutoPiac_UXUI_Final_Presentation.pptx) |
-| | [ ] [#4 — Individual usability task records](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/4) — only if specifically required and actual data available | [x] [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) |
+| | | [x] [#4 — Individual T01–T03 Figma usability results documented](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/4) · [English speaking notes](../presentation/01-01/AutoPiac_Presentation_Speaking_Notes.md) |
 | | | [x] [#2 — Competitor desk research and sourced user reviews completed](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/2) · Presentation rehearsal completed |
 | | | [x] [#5 — Figma design accessibility review completed](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/5) · HW01–HW09 documented |
 | | | [x] [#8 — Equipment and condition issues resolved](https://github.com/umutcanbirbir/autopiac-ux-ui-design/issues/8) |
@@ -28,7 +28,7 @@
 
 **Course timing:** Exact lecturer delivery date, destination and required formats have not been announced or verified. There is **no known immediate action** for this information; it is not treated as an overdue or unfinished project task.
 
-**Evidence boundaries:** Three participants reported positive results on the latest interactive prototype; individual scores and times were not captured. Competitor analysis is based on public pages, official sources and external user reports, not tests of authenticated listing editors. The lecturer requested a Figma prototype, not a deployed web app; functional keyboard/screen-reader tests are therefore outside the current deliverable. The design-level accessibility review is complete.
+**Evidence boundaries:** T01 reported broken controls and an inaccessible Continue button, then completed after prototype correction (**~4 min including defect/fix/retest**). T02 and T03 independently completed the assigned corrected-Figma tasks (**~1 min each**) and reported no remaining blockers. All three understood the UI terminology in Turkish. These are approximate student-reported durations, not stopwatch measurements; per-control click logs and overlap with the initial walkthrough are unavailable. Competitor analysis is based on public pages, official sources and external user reports, not tests of authenticated listing editors. The lecturer requested a Figma prototype, not a deployed web app; functional keyboard/screen-reader tests are therefore outside the current deliverable. The design-level accessibility review is complete.
 
 ## Status Interpretation
 
