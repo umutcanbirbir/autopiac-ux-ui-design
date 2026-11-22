@@ -56,11 +56,14 @@ I will briefly open the live Figma prototype to show these interactions. This is
 
 ## Slide 7: Testing and iteration
 
-**Target time: 95 seconds**
-I started with three navigation walkthroughs. All three people reached the last Figma screen, but this was only a screen navigation test. They did not create real listings.
-Later, three people tested the latest interactive version. They reported no remaining problems and described the interface as simple and easy to use. I do not have individual task times or full task records, and I do not know whether the two test groups overlap.
-The feedback helped me fix three important problems. First, the equipment screen was too long and could not scroll. Second, equipment could not be changed. Third, the damage choice was static.
-I added scrolling and interactive component states, and tested the updated prototype again.
+**Target time: 95 seconds**  
+I started with three navigation walkthroughs. All three people reached the last Figma screen, but this tested screen navigation, not publishing a real vehicle listing.
+
+In the follow-up tests, I received more detailed feedback from three participants. The first participant, T01, found that some choices and the Continue button did not work. T01 could finish after I corrected the prototype. The whole test and correction process took about four minutes.
+
+Then T02 and T03 tried the corrected design. Each person completed the assigned tasks independently in roughly one minute. They could use the controls and reach the final screen without the previous blockers. All three also understood the English screen terms and explained them correctly in Turkish.
+
+These were approximate times, not formal stopwatch measurements, and the first test included fixing the design. The feedback helped me improve scrolling, equipment selection and the body-condition choices. This showed why testing a prototype is useful before building an application.
 
 ## Slide 8: Accessibility and reflection
 
@@ -76,4 +79,4 @@ Next I would build real form inputs, extend the body-panel tool, and test keyboa
 - **FigJam:** https://www.figma.com/board/FReaY560jfsj9gfCeta8oB
 - **GitHub project:** https://github.com/umutcanbirbir/autopiac-ux-ui-design
 
-**Evidence limitation:** Three people gave positive feedback about the latest interactive prototype, but their individual task timings and form-entry outcomes were not recorded. The deck does not claim actual advertisement publication or verified WCAG conformance.
+**Evidence limitation:** T01–T03 individual outcomes and approximate student-reported durations (~4, ~1, ~1 minutes) were clarified after the deck was prepared. T01 encountered defects before correction; T02/T03 used the corrected Figma flow. This speaker-note clarification supersedes any earlier broad claim that all three initially encountered no issues. The durations are not stopwatch measurements, the first includes defect discovery/retest, and no live advertisement creation or complete WCAG conformance is claimed.
