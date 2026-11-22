@@ -51,6 +51,14 @@ A further participant report found that the damage-status choices were still non
 
 [Current screen](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2007-2) · [Component variants](https://www.figma.com/design/Po5hpum1mNJ7VnfVc0FTmC?node-id=2044-34).
 
+## Latest Prototype — Three Testers Confirmed
+
+The student confirmed that **three different people tested the latest Figma prototype**. Their reported feedback was positive: the revised interface was found simple and practical, the equipment selections worked, the front-left-fender condition choices could be changed, and the earlier scrolling/continuation obstacle was no longer reported.
+
+These observations are reported **for the group**, not as three individual task records. There are no measured completion times, per-person assistance records or full task checklists for this latest round. It is not confirmed whether these people were also involved in the initial three-person navigation walkthrough, so the two groups are not combined into a six-person sample.
+
+[Follow-up report](../../project/docs/prototype-test-feedback-2026-11-21.md)
+
 ## Mini UI Guideline
 
 | Element | Guideline |
@@ -72,4 +80,4 @@ The corrected Equipment & Condition navigation has now received positive follow-
 
 [Participant instructions and results template](../../project/docs/usability-test-instructions.md) · [Design changes](../09/README.md)
 
-The **scrolling/navigation blocker is reported resolved** after retesting. A structured independent sample with individual results and a real form-completion test remain separate.
+The **scrolling/navigation blocker is reported resolved** after retesting. Individual test sheets and a real form-completion test remain separate.
